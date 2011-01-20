@@ -1,0 +1,5 @@
+Two main benchmarks were used in this work.
+-The "Alpha Benchmark" data can be found in the "training-test" directory
+-The "Beta Benchmark" data can be found in the "genomes" directory
+-All the additional scripts written for the benchmarks can be found in the "scripts" directory.
+
