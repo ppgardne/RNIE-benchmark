@@ -1,0 +1,970 @@
+>X60293.1/246-293 slurp/ecgetrf.pl?CH03783 DE:[Terminator cysB]
+tttcggcaccttttatgtagcgaaggtgccggaatatattctcttttg
+>X60293.1/3915-3951 slurp/ecgetrf.pl?CH03784 DE:[acn/ribA terminator 1]
+atttgcttgccggttattttgcttccggcaagcaaat
+>X60293.1/3970-4002 slurp/ecgetrf.pl?CH03785 DE:[acn/ribA terminator 2]
+gggttatttgttcagcaaatggcccattttctc
+>M59033.1/1116-1140 slurp/ecgetrf.pl?CH03786 DE:[add terminator]
+atggtgcaaatgcacaccatttttc
+>X15237.1/1846-1870 slurp/ecgetrf.pl?CH03787 DE:[pot. stem-loop structure]
+gccctcaccctgtacgggtgagggc
+>M55170.1/1827-1862 slurp/ecgetrf.pl?CH03788 DE:[amtA terminator]
+gatggcagaaacagtgtatttcctgattctgccatc
+>X06091.1/1417-1440 slurp/ecgetrf.pl?CH03791 DE:[pot. stem-loop structure; pot. transcription terminator]
+atttaccgaagttaccgacgtggt
+>X06091.1/4126-4149 slurp/ecgetrf.pl?CH03792 DE:[pot. stem-loop structure; pot. transcription terminator]
+agccaaccgccataacggttggct
+>X17333.1/1415-1439 slurp/ecgetrf.pl?CH03793 DE:[put. bidirectional transcriptional terminator]
+gccctcacccgtacagggtgagggc
+>X68192.1/1504-1542 slurp/ecgetrf.pl?CH03794 DE:[terminator I]
+aagagccagcgcccgctggctctttttttatcttttctg
+>X68192.1/1637-1678 slurp/ecgetrf.pl?CH03795 DE:[terminator II]
+aaaaactaatccgcattcttattgcggattagttttttctta
+>X04066.1/2032-2067 slurp/ecgetrf.pl?CH03796 DE:[stem-loop structure; pot. transcripion terminator]
+aaaaaaggcacgtcagatgacgtgccttttttcttg
+>M87625.1/2270-2297 slurp/ecgetrf.pl?CH03800 DE:[termination sequence]
+accgggtggtaataccacccggtctttt
+>Y00538.1/1704-1739 slurp/ecgetrf.pl?CH03801 DE:[pot. stem-loop structure; pot. transcription terminator]
+aaataaaaacggcgctaaaaagcgccgttttttttg
+>X61919.1/257-295 slurp/ecgetrf.pl?CH03803 DE:[crp divergent RNA transcription terminator]
+gatggcggcgggtggttgcagtgccatcgatgtggtttc
+>X61919.1/544-577 slurp/ecgetrf.pl?CH03804 DE:[crp divergent ORF transcription terminator]
+actatcccgttgtgaagccggatagtattttatc
+>X01653.1/3207-3232 slurp/ecgetrf.pl?CH03805 DE:[pot. stem-loop structure]
+tgccggaaagcgaggcttatccggca
+>M23219.1/2458-2491 slurp/ecgetrf.pl?CH03806 DE:[potential terminator for the cyn operon.]
+ggcatgatgcgacgcttgttcctgcgctttgttc
+>M23219.1/2530-2564 slurp/ecgetrf.pl?CH03807 DE:[potential terminator for the cyn operon.]
+gcctgataagcgcagcgtatcaggcaatttttata
+>X05629.1/80-111 slurp/ecgetrf.pl?CH03808 DE:[Terminator deoT]
+aagccggagcgggagactgctccggcttttta
+>X07465.1/751-783 slurp/ecgetrf.pl?CH03809 DE:[Pot. stem-loop structure]
+taaaagataacatcatcaatgagttatctttta
+>X00547.1/224-259 slurp/ecgetrf.pl?CH03810 DE:[Pot. transcription terminator]
+aaggggttagctaaatgctaacccctttttcttttg
+>X00547.1/1104-1134 slurp/ecgetrf.pl?CH03811 DE:[Pot. transcription terminator]
+agcctcgctttatgcggggctttgttttttg
+>M19035.1/1708-1736 slurp/ecgetrf.pl?CH03812 DE:[Potential transcription terminator]
+atagctgaaattttgccgctattttttta
+>X52031.1/1120-1155 slurp/ecgetrf.pl?CH03813 DE:[Stem-loop; put. transcription terminator]
+acactgtccggcaatcgtttttgccggacagtgctg
+>M84991.1/1269-1309 slurp/ecgetrf.pl?CH03814 DE:[Terminatorfor fatty acid biosynthesis operon]
+ctccaggcggtcgttcgaccgccttgagttttatctttttg
+>M83198.1/2647-2677 slurp/ecgetrf.pl?CH03815 DE:[Terminator fabG]
+aaaaggccggattttccggccttttttatta
+>X08087.1/907-941 slurp/ecgetrf.pl?CH03816 DE:[Pot. stem-loop structure; pot. transcription terminator]
+aaacccctcaaacgaggggttttttgttgttttta
+>M58504.1/2350-2396 slurp/ecgetrf.pl?CH03817 DE:[Potential terminator]
+tgccggacagatctgcctgtccggcatactattcatgaggttttttc
+>X63666.1/1540-1567 slurp/ecgetrf.pl?CH03819 DE:[Putative termination signal]
+aagcccggtcttgccgggcgtttttata
+>X06036.1/945-966 slurp/ecgetrf.pl?CH03820 DE:[Stem loop structure]
+gccggatggcataccatccggc
+>X04065.1/26-51 slurp/ecgetrf.pl?CH03821 DE:[Stem-loop structure; pot. transcription terminator]
+agagcgccttcggggcgtttttttac
+>X04065.1/1578-1619 slurp/ecgetrf.pl?CH03822 DE:[Stem-loop structure; pot. transcription terminator]
+caggtgcagccgtggaatgatcaaacgaagcggctgcgcctg
+>M28722.1/1888-1917 slurp/ecgetrf.pl?CH03825 DE:[Terminator ggt]
+gccctcttcgtgggaagagggctattttgt
+>X16931.1/2527-2558 slurp/ecgetrf.pl?CH03826 DE:[pot. stem loop structure; pot. transcription terminator]
+aatagaacggggccaaagggtcccgttttttt
+>X07850.1/2144-2181 slurp/ecgetrf.pl?CH03828 DE:[Put. transcription terminator]
+aaacccccgggcagaaatgtctgggggtttttcttttg
+>X06744.1/2831-2858 slurp/ecgetrf.pl?CH03831 DE:[Put. stem loop structure]
+aagggagctatctcccttgtttgaattg
+>X04341.1/3727-3763 slurp/ecgetrf.pl?CH03833 DE:[Pot. stem-loop structure]
+aaaagggcggagatcatctccgccctttttatttctg
+>X04864.1/40-68 slurp/ecgetrf.pl?CH03834 DE:[Put. transcription terminator]
+cttcgggatttttattccgaagtttgttg
+>X04864.1/495-528 slurp/ecgetrf.pl?CH03835 DE:[Put. transcription terminator]
+cgagagaaaagcacctgtcgggtgcttttttcat
+>X13462.1/7351-7391 slurp/ecgetrf.pl?CH03836 DE:[Pot. stem-loop structure]
+aaaaacgggcaaggtgtcaccaccctgccctttttcttta
+>X07688.1/1305-1329 slurp/ecgetrf.pl?CH03837 DE:[Pot. transcription terminator]
+ccgccagcggcggattttttattgt
+>X06545.1/3697-3718 slurp/ecgetrf.pl?CH03838 DE:[Pot. stem-loop structure; pot. transcription terminator]
+cttccaccgtcgcggcgggaag
+>X06545.1/3790-3832 slurp/ecgetrf.pl?CH03839 DE:[Pot. stem-loop structure; pot. transcription terminator]
+gagctggcctgacacgtatacacttcatccttcaggctgcctc
+>X67700.1/988-1010 slurp/ecgetrf.pl?CH03840 DE:[ORF1 terminator]
+tccccccgagcggggggatctca
+>X16540.1/411-442 slurp/ecgetrf.pl?CH03843 DE:[Transcriptional terminator]
+ggcgcatctactgatgtgccttttttatttgt
+>Y00373.1/296-327 slurp/ecgetrf.pl?CH03845 DE:[Pot. stem loop structure]
+aaaaggtcggtttaaccggcctttttatttta
+>L12044.1/438-472 slurp/ecgetrf.pl?CH03847 DE:[Putative termination signal]
+taagggcacggtttttgcaaccgtgttcttgtttg
+>L12044.1/1999-2037 slurp/ecgetrf.pl?CH03848 DE:[Terminator kch]
+tattgggcaccgcaatggtgcccagtacatttagatatt
+>Z19104.1/990-1016 slurp/ecgetrf.pl?CH03853 DE:[McrA terminator]
+taccctacagggtaaaaattttctctg
+>M58752.1/2573-2598 slurp/ecgetrf.pl?CH03854 DE:[Terminator mcrC]
+gcggtaagttttatagaaaataccgc
+>M58752.1/2595-2621 slurp/ecgetrf.pl?CH03855 DE:[Terminator mcrC]
+ccgctcccgacaccacatcgggagcgg
+>X55791.1/1233-1270 slurp/ecgetrf.pl?CH03857 DE:[MetG attenuator terminator]
+ggcctgggattgttcgttcatcccgactccttttttgt
+>X55791.1/3428-3458 slurp/ecgetrf.pl?CH03858 DE:[MetG transcription terminator]
+aaggcgctgcatcgacagccttttgctttat
+>X14135.1/195-222 slurp/ecgetrf.pl?CH03860 DE:[Pot. stem loop structure]
+cggggccattctctcccccggttttatc
+>M83655.1/1677-1708 slurp/ecgetrf.pl?CH03863 DE:[NhaB Terminator]
+accgggcatataaatgcccggtttgccttttc
+>X57402.1/1077-1106 slurp/ecgetrf.pl?CH03864 DE:[Terminator dapA, nlpB]
+agggctggaatcatccggcccttttttctg
+>X06174.1/1416-1462 slurp/ecgetrf.pl?CH03865 DE:[Put.transcription terminator]
+aagaaaaacgggtcgccagaaggtgacccgttttttttattctttta
+>X05123.1/672-711 slurp/ecgetrf.pl?CH03867 DE:[pot. stem-loop structure; pot. transcription terminator]
+cagtaacttcagacatcaactattgagtctgtcgttactg
+>X08035.1/2423-2452 slurp/ecgetrf.pl?CH03870 DE:[pot.stem-loop structure]
+aaaggctccacgaaagtggggcctttttta
+>X08035.1/3325-3361 slurp/ecgetrf.pl?CH03871 DE:[pot.stem-loop structure]
+aaagcggcaactttattgagttgccgcttttttattc
+>M58000.1/2054-2091 slurp/ecgetrf.pl?CH03872 DE:[pheP terminator]
+aaaccgctctcatccattcgatgagagcggttttttta
+>D90227.1/10944-10985 slurp/ecgetrf.pl?CH03874 DE:[pot. terminator 1]
+cccctcaccctaaccctctccccagaggggcgaggggaccga
+>X04586.1/1699-1742 slurp/ecgetrf.pl?CH03876 DE:[stem-loop structure]
+aaccgcgcccggcagtgaattttcgctgccgggtggtttttttg
+>M94104.1/1639-1668 slurp/ecgetrf.pl?CH03879 DE:[putative termination signal]
+gccccgccattctggtggggctttttttgt
+>X51950.1/3192-3229 slurp/ecgetrf.pl?CH03881 DE:[terminator region]
+gacgggcggcttcggttttgttgccgcccgttttctcc
+>X04469.1/1953-1977 slurp/ecgetrf.pl?CH03882 DE:[pot. transcription terminator]
+ggttattttacctgtataaataacc
+>X14235.1/1004-1039 slurp/ecgetrf.pl?CH03884 DE:[pot. stem-loop structure; pot. transcription terminator]
+aaatgccgccactcaaacagagcggcatttttcttc
+>X04382.1/567-588 slurp/ecgetrf.pl?CH03886 DE:[pot. stem-loop structure]
+cccgcgcaagcgggttttttta
+>X52363.1/127-157 slurp/ecgetrf.pl?CH03887 DE:[rrfG transcription terminator]
+gaaaggccatcctgacggatggcctttttgc
+>X56780.1/349-385 slurp/ecgetrf.pl?CH03888 DE:[Terminator]
+attatgcgaaaggccatcctgacggatggcctttttg
+>M37337.1/4703-4733 slurp/ecgetrf.pl?CH03890 DE:[rrnC terminator]
+atccttagctttcgctaaggatgatttctgg
+>X07091.1/2084-2111 slurp/ecgetrf.pl?CH03891 DE:[pot. stem loop structure; pot. transription terminator]
+cagcgatagattagctggcctgcttttt
+>X05017.1/1650-1675 slurp/ecgetrf.pl?CH03892 DE:[pot. stem-loops structure]
+aaaaacgcctgcgggcgctttttttg
+>X51523.1/767-826 slurp/ecgetrf.pl?CH03894 DE:[put. transcriptional terminator]
+tcctgtcagttcgttttacgcacttcttccgggctatatacccttctcggcagtttttta
+>X68872.1/257-294 slurp/ecgetrf.pl?CH03895 DE:[terminator or attenuator region]
+aaaaaagcccgcacctgacagtgcgggctttttttttc
+>L10328.1/5220-5193 slurp/ecgetrf.pl?CH03902 DE:[putative termination signal]
+aaggcgactgatgagtcgcctttttttt
+>L10328.1/35151-35126 slurp/ecgetrf.pl?CH03903 DE:[putative termination signal]
+gcccggcatgacgccgggcttttttt
+>L10328.1/43056-43083 slurp/ecgetrf.pl?CH03904 DE:[putative termination signal]
+aaaggggagcgggaaaccgctccccttt
+>L10328.1/43151-43173 slurp/ecgetrf.pl?CH03905 DE:[putative termination signal]
+cggcaacatttattgccgctttt
+>L10328.1/55847-55820 slurp/ecgetrf.pl?CH03906 DE:[putative termination signal]
+gccccgccattctggtggggcttttttt
+>L10328.1/66946-66970 slurp/ecgetrf.pl?CH03907 DE:[putative termination signal]
+gggcggagatgatctccgccctttt
+>L10328.1/76146-76169 slurp/ecgetrf.pl?CH03908 DE:[putative termination signal]
+ggcggtcagttgaccgcctttttt
+>L10328.1/96203-96235 slurp/ecgetrf.pl?CH03909 DE:[putative termination signal]
+acaaatcccaataattaagttattgggatttgt
+>L10328.1/126639-126661 slurp/ecgetrf.pl?CH03910 DE:[putative termination signal]
+gcgccaccctaacacggtggcgc
+>M87049.1/177-208 slurp/ecgetrf.pl?CH03911 DE:[terminator-like sequence]
+atccttagcgaaacgtaaggattttttttatc
+>M87049.1/1562-1589 slurp/ecgetrf.pl?CH03912 DE:[terminator-like sequence]
+aaaaagggcgaaatgccctttttttatg
+>M87049.1/10043-10012 slurp/ecgetrf.pl?CH03913 DE:[terminator-like sequence]
+gcctgataagcgaagcgctatcaggcattttt
+>M87049.1/12659-12626 slurp/ecgetrf.pl?CH03914 DE:[terminator-like sequence]
+caaggccttctccaggagaaggcttgagtgtttt
+>M87049.1/13395-13431 slurp/ecgetrf.pl?CH03915 DE:[terminator-like sequence]
+taatggaacgacgatgcatgcgttgccattaattttt
+>M87049.1/20841-20817 slurp/ecgetrf.pl?CH03916 DE:[terminator-like sequence]
+cgccacgtaaacacgtggcgttttt
+>M87049.1/20818-20851 slurp/ecgetrf.pl?CH03917 DE:[terminator-like sequence]
+aaaacgccacgtgtttacgtggcgttttgctttt
+>M87049.1/33826-33862 slurp/ecgetrf.pl?CH03918 DE:[terminator-like sequence]
+gcgacggaggtggtcactccgtcgcctgtctgctttt
+>M87049.1/35929-35952 slurp/ecgetrf.pl?CH03919 DE:[terminator-like sequence]
+aaccccgcttcggcggggtttttt
+>M87049.1/39715-39749 slurp/ecgetrf.pl?CH03920 DE:[terminator-like sequence]
+aacgcctgctccgtaataagagcaggcgttttttt
+>M87049.1/55518-55481 slurp/ecgetrf.pl?CH03921 DE:[terminator-like sequence]
+ggtggcttagccagactaagccaccgctctcgtttttt
+>M87049.1/58920-58946 slurp/ecgetrf.pl?CH03922 DE:[terminator-like sequence]
+caggcgctgaaaatagcgcctgttttt
+>M87049.1/68404-68432 slurp/ecgetrf.pl?CH03923 DE:[terminator-like sequence]
+accgggtggtaataccaccccggtctttt
+>M87049.1/70279-70299 slurp/ecgetrf.pl?CH03924 DE:[terminator-like sequence]
+ggccgacgcgttcggcctttt
+>M87049.1/80319-80294 slurp/ecgetrf.pl?CH03925 DE:[terminator-like sequence]
+cccgcctgtcaggggcgggttttttt
+>X13002.1/1005-1031 slurp/ecgetrf.pl?CH03927 DE:[pot. stem-loop structure; pot. transcription terminator]
+tctcctggctcaaactgggtcaggaga
+>X04691.1/1558-1582 slurp/ecgetrf.pl?CH03928 DE:[pot. transcription terminator]
+gcccggttatcggtagcgataccgg
+>X04387.1/308-339 slurp/ecgetrf.pl?CH03929 DE:[pot. stem-loop structure]
+ccgacatagaaattgcgcacaggtctggtttc
+>Z23096.1/446-494 slurp/ecgetrf.pl?CH03930 DE:[Terminator Similar to gene dicF of E.coli dicABC]
+ggcggcatcagtttttttcttgaagttcggctgatgtccgcccttttta
+>L19201.1/2282-2328 slurp/ecgetrf.pl?CH03931 DE:[putative termination signal]
+aaaacgaaaggctcagtcggaagactgggcctttcgttttatctgtt
+>L19201.1/2459-2489 slurp/ecgetrf.pl?CH03932 DE:[putative termination signal]
+ggccatcctgacggatggcctttttgcattg
+>L19201.1/5703-5741 slurp/ecgetrf.pl?CH03933 DE:[putative termination signal]
+aaagcccgtgagtattcacgggcttttttattatttaat
+>L19201.1/11616-11655 slurp/ecgetrf.pl?CH03934 DE:[putative termination signal]
+gccccagtcagtaatgactggggcgttttttattgggcga
+>L19201.1/12884-12927 slurp/ecgetrf.pl?CH03935 DE:[putative termination signal]
+aaaaaaggcgacagagtaatctgtcgccttttttctttgcttgc
+>L19201.1/21887-21922 slurp/ecgetrf.pl?CH03936 DE:[putative termination signal]
+aaaaaacctgccagcgatggcaggtttttttttgcc
+>L19201.1/54751-54722 slurp/ecgetrf.pl?CH03937 DE:[putative termination signal]
+gtgccagagatgcctccggcacaatatttt
+>L19201.1/63111-63151 slurp/ecgetrf.pl?CH03938 DE:[putative termination signal]
+aaaaaatgaaccatcgccaacggcggtggtttttttgtgat
+>L19201.1/67994-68020 slurp/ecgetrf.pl?CH03939 DE:[putative termination signal]
+cccccacatgctgtgggggtttttttt
+>L19201.1/70333-70354 slurp/ecgetrf.pl?CH03940 DE:[putative termination signal]
+ggcggatttcttccgccttttt
+>L19201.1/71476-71507 slurp/ecgetrf.pl?CH03941 DE:[putative termination signal]
+aaacccggtggtttctcgcgaccgggtttttt
+>L19201.1/76181-76153 slurp/ecgetrf.pl?CH03942 DE:[putative termination signal]
+ttccagtccttcgggactggaattttttt
+>L19201.1/82018-81996 slurp/ecgetrf.pl?CH03944 DE:[putative termination signal]
+tggggctgaaaggccccattttt
+>X62680.1/8312-8340 slurp/ecgetrf.pl?CH04850 DE:[Terminator]
+caaaagggaaagatgcatttccctttttt
+>X62680.1/7254-7284 slurp/ecgetrf.pl?CH04851 DE:[Terminator]
+taaaccgcaacgctgatacaggttgcggttt
+>U15049.1/2508-2530 slurp/ecgetrf.pl?CH04883 DE:[putative terminator distal of bglX]
+aagggcgcgacgtttgcgccctt
+>Z38064.1/2188-2222 slurp/ecgetrf.pl?CH04889 DE:[putative Terminator of fyua Operon]
+tgtaaaagggataccgaaaaggtatcccttttaca
+>U14003.1/28964-28938 slurp/ecgetrf.pl?CH05080 
+gcgcggccccaccccgcgctttttttt
+>seq10161 slurp/ecgetrf.pl?CH05080.1 
+gcgcggccccaccccgcgctttttttt
+>U14003.1/47284-47257 slurp/ecgetrf.pl?CH05081 
+gggaagtggcttgccacttccctttttt
+>U14003.1/53366-53342 slurp/ecgetrf.pl?CH05082 
+cggacctccacggaggtccgttttt
+>U14003.1/57667-57698 slurp/ecgetrf.pl?CH05083 
+aaaaaaggcacgtcatctgacgtgcctttttt
+>U14003.1/63529-63562 slurp/ecgetrf.pl?CH05084 
+cccccgggcagaaatgtctgggggtttttctttt
+>U14003.1/68628-68607 slurp/ecgetrf.pl?CH05085 
+ggtccgaattttcggacctttt
+>U14003.1/69815-69791 slurp/ecgetrf.pl?CH05086 
+cggcccgcctatggcgggccgtttt
+>U14003.1/100855-100881 slurp/ecgetrf.pl?CH05087 
+ccatccagatttggatggttttttttt
+>U14003.1/115307-115282 slurp/ecgetrf.pl?CH05088 
+gcccccttcgcagggggctttttttt
+>U14003.1/117410-117437 slurp/ecgetrf.pl?CH05089 
+aaaaacgccgaccattggtcggcgtttt
+>U14003.1/122121-122149 slurp/ecgetrf.pl?CH05090 
+gctggatggcgcaatgccatccagctttt
+>U14003.1/161794-161766 slurp/ecgetrf.pl?CH05091 
+ctggctccctataatgagccagacttttt
+>U14003.1/183407-183386 slurp/ecgetrf.pl?CH05093 
+gcagcgcgaaagcgctgctttt
+>U14003.1/197249-197277 slurp/ecgetrf.pl?CH05094 
+gcctcttgatttaattcaggaggcctttt
+>U14003.1/201161-201186 slurp/ecgetrf.pl?CH05095 
+cgctctggcacagagcgaaatttttt
+>U14003.1/267695-267728 slurp/ecgetrf.pl?CH05097 
+gccgctcccgatgtggtgtcgggagcggtatttt
+>U14003.1/303152-303174 slurp/ecgetrf.pl?CH05098 
+gccagtccagcggactggctttt
+>U14003.1/312468-312496 slurp/ecgetrf.pl?CH05099 
+gccggagcgggagactgctccggcttttt
+>U14003.1/330369-330405 slurp/ecgetrf.pl?CH05100 
+aaaaataaaaacggcgctaaaaagcgccgtttttttt
+>U14003.1/332765-332795 slurp/ecgetrf.pl?CH05101 
+gcccgcacctgacagtgcgggcttttttttt
+>J01636.1/1170-1210 slurp/ecgetrf.pl?CH05936 DE:[terminator overlapping CAP site]
+caattaatgtgagttagctcactcattaggcaccccaggct
+>Z54355.1/2010-2033 slurp/ecgetrf.pl?CH06409 
+ccgggcaattgcccggtttttttt
+>dnaA,dnaN	Northern blotting (2.9 kb transcript); transcriptional experiments	11395445 (Ogura et al., J. Bacteriol. 183(13):3833-3841, 2001); 2846289 (Moriya et al., EMBO J. 7(9):2911-2917, 1988); 2987847 (Moriya et al., Nucleic Acids Res. 1985, 13(7):2251-2265); BSORF
+ACACUGCUGCCGACCCGUCGGCAGCUUUUCUAUUCGGUAU
+>gyrA	S1 nuclease experiments; Northern blotting	2987847 (Moriya et al., Nucleic Acids Res. 1985, 13(7):2251-2265); BSORF
+AAAAAGCGCAGCUGAAAUAGCUGCGCUUUUUUGUGUCAUAA
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S	agrees with ribosomal RNA 5' sequence	6312418 (Ogasawara et al., Nucleic Acids Res. 1983, 11(18):6301-6318); 179998 (Sogin & Pace, J. Biol. Chem. 1976, 251(11):3480-3488)
+UUAAACCCAGCUCAAUGAGCUGGGUUUUUUGUUUGUUAA
+>guaB	Northern blotting	BSORF
+CAUUUGACAGGGUCUCUGACUCUGUCUAUUUUUUUUAUACUGA
+>yaaD,yaaE	Northern blotting	BSORF
+CGCGAGAGCUCUCGUCCCUUUAUGGGGAUGAGGGCUCUUUUUAUUUUCGAUA
+>yaaH	Northern blotting (1.5 kb transcript)	10419957 (Kodama et al., J. Bacteriol. 1999, 181(15):4584-4591); BSORF
+AAAAAGACGUUUCGAUAAUUUGGAAACGUCUUUUUUUCAUGGGGG
+>csfB	Northern blotting	BSORF
+UCAUAGACCUGAAAAGGUCUUUUUUUGUACUCUU
+>metS	Northern blotting	BSORF
+CAAAAGGUGUUUCACGUGUAACAAUUCGUCGAACACCUUUUGUGUUUCGACA
+>yabE	Northern blotting	BSORF; SubtiList
+GUAUUCAGAGGGUUUUGCGCCCUCUGUUUUUUUCGUUAUAA
+>yabG	Northern blotting (1.0 kb transcript)	10714992 (Takamatsu et al., J. Bacteriol. 2000, 182(7):1883-1888); BSORF
+GAAAACCUGCAUAGGAGAGCUAUGCGGGUUUUUUAUUUUACAU
+>veg	Northern blotting (0.3 kb transcript)	12761295 (Fukushima et al., J. Biochem. (Tokyo) 2003, 133(4):475-483); BSORF
+AACGGGCAGUGAACCUUUUGUUUACUGCUUUUUGUUUUGCCCU
+>sspF	Northern blotting (0.3 kb transcript)	6205155 (Stephens et al., J. Mol. Biol. 1984, 176(3):333-348); 6790516 (Ollington & Losick, J. Bacteriol. 1981, 147(2):443-451)
+GUGACCCGGGGGACGUGCUGUUCCCUGGUUUUUUUAUUUUGGA
+>spoVG	Northern blotting (0.4 kb transcript)	408013 (Segall & Losick, Cell 1977, 11(4):751-761); BSORF
+AGCAAGGACUGCUGAAAGGGCUGACAUAAGCCUUUUGCCGGCGGUCCUUUUUUAAUUCUGAU
+>spoVT	insertional mutant	8755877 (Bagyan et al., J. Bacteriol. 1996, 178(15):4500-4507)
+GUAAAGAACAGCUCUCCUUGGGACGCUGUUCUUUUUCAUGCGUGCC
+>yabM,yabN,yabO,yabP,yabQ,divIC,yabR	Northern blotting (5.3 kb transcript)	11283287 (Asai et al., Microbiology 2001, 147(pt.4):919-927); SubtiList
+AUGAAGCAUCCGUUCAUCCCGACGGAUGCUUUUUUAUUAUCCUC
+>ftsH	Northern blotting (2.1 kb transcript)	7608085 (Deuerling et al., J. Bacteriol. 1995, 177(14):4105-4112)
+AAAAACUGCCGGCUGACGCUGGCAGUUUUUUUAUGUAAAU
+>cysK	Northern blotting	BSORF
+CAAAACUCCCGGUUCGCCGGGAGUUUUUUUAUAUUUCG
+>pabB,pabA,pabC,sul,folB,folK,yazB,yacF,lysS	Northern blotting (7.5 kb transcript)	9084182 (De Sazieu et al., Microbiology 1997, 143(Pt.3):979-989); BSORF
+AAAAAGAGCGGUAUCCUCCAUAGGGAAAGGAUGCCGCUCUUUUUAAAUCCCUUA
+>ybaK,cwlD	Northern blotting (1.2 kb transcript)	7559346 (Sekiguchi et al., J. Bacteriol. 1995, 177(19):5582-5589)
+GGAGACCCUCCGGAGUAAUGGAGGGUUUUCUUGUGGUUCU
+>sigW,ybbM	Northern blotting (1.2 kb transcript)	12207695 (Cao et al., Mol. Microbiol. 2002, 45(5):1267-1276); SubtiList
+GAGAAGAGUAAAGCGCGUUAGCCGCUUUGCUCUUUUUUUGCGGGCUG
+>adaA,adaB	Northern blotting (1.6 kb transcript)	2120677 (Morohoshi et al., Nucleic Acids Res. 18(18) 5473-5480, 1990); BSORF
+GUGAAGCCGACAAUUUUCAGGAUUCAAUGAUCUAACAUAAUCAUUGAAAUUUUGAAGUUGUCGGCUUUUUUGUUGGAAAA
+>ybcL	Northern blotting (1.2 kb transcript)	BSORF; SubtiList
+UCUAACAUCCGCUCGUUAUACAAGCGGGUGUUUUUUUUAGCGUAG
+>ybdO	Northern blotting (1.2 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); BSORF
+UUAGGUAAGCUGUUCAUGUAGGACAGCUUAUUUUUUAUGAGAAUC
+>csgA,ybxH	Northern blotting (0.6 kb transcript)	9016963 (Shcheptov et al., Gene 1997, 184(1):133-140)
+AUUUAGAGCCCUGCCGUGCAGGGCUCUUUUAUUUAGGAUGU
+>glpT,glpQ	Northern blotting (2.4 kb transcript)	8012593 (Nilsson et al., Microbiology 1994, 14(Pt.4):723-730); 10913081 (Antelmann et al, J. Bacteriol. 2000, 182(16):4478-4490)
+AAAAACCUUGCGACAACUAUCGCAAGGUUUUCUUCUAUAUUU
+>pssA,ybfM,psd	Northern blotting (1.9 kb transcript)	14762009 (Cao & Helmann, J. Bacteriol. 2004, 186(4):1136-1146)
+AAAAAGAGGAGCUUGCAUAAACGCAGCGCCUCUUUUUUUGAAGAAAG
+>ybgE	Northern blotting (1.2 kb transcript)	15060025 (Mader et al., J. Bacteriol. 2004, 186(8):2240-2252)
+AAAAAGAACCUGCCCGGAGGCAGGUUCUUUUUAUUUUGAAUG
+>ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ	Northern blotting (8.3 kb transcript)	12044674 (Hosoya et al., FEMS Microbiol. Lett. 2002, 210(2):193-199); SubtiList
+CGAGACCCUCGUCCUUUGCAUAGGACGGGGGUUUUUUGUGUUUCUU
+>cwlJ	Northern blotting (0.47 kb)	9515903 (Ishikawa et al., J. Bacteriol. 1998, 180(6):1375-1380); BSORF
+CAGGACACCGUUCAAAUUGAACGGUGUUUUUCUUUGAAAAG
+>lmrA,lmrB	Northern blotting (2.1 kb transcript)	15317768 (Yoshida et al., J. Bacteriol. 2004, 186(17):5640-5648); 12718394 (Murata et al., Can. J. Microbiol. 2003, 49(2):71-77)
+GAAAAGCCCCUGACUAGUGUUCAGGGGCUUUUUCAUGUUUACU
+>natA,natB	Northern blotting (2.0 kb transcript)	9106203 (Cheng et al., Mol. Microbiol. 1997, 23(6):1107-1120)
+CGAAAGGAGAAAUACACUUUCUCCUUUUUGUAUAUCCUG
+>amyE	Northern blotting (2.0 kb transcript)	11320136 (Pereira et al., Microbiology 147(5), 1331-1341, 2001); BSORF; SubtiList
+CGAAAGAAACCAUCAAUGAUGGUUUCUUUUUUGUUCAUAAA
+>ldh,lctP	Northern blotting (2.7 kb transcript)	10809684 (Cruz Ramos et al., J. Bacteriol. 2000, 182(11):3072-3080)
+AAAAAGCAGUACAUGCCCAGCAUGUACUGCUUUUUUUAUGUUAAU
+>mdr	Northern blotting (1.6 kb transcript)	9023234 (Ohki & Murata, J. Bacteriol. 1997, 179(4):1423-1427); BSORF; Genbank D50098
+AAAAAGCAGUACAUGCUGGGCAUGUACUGCUUUUUUCUAUUACAC
+>cah	Northern blotting (1.0 kb transcript)	7793942 (Mitsushima et al., Appl. Environ. Microbiol. 1995, 61(6):2224-2229); BSORF
+AAAAGCCGCCGCAUAUCAUCAGGCGGUUUUUUUCUGCAAAC
+>ycgT	Northern blotting (1.4 kb transcript)	BSORF
+AAGGGCUGCUUGCCAUCAGGUGUGAAGGAGUUUUUUCUCUGCAUG
+>nasB,nasC,nasD,nasE,nasF	Northern blotting (9.2 kb transcript)	7836289 (Nakano et al., J. Bacteriol. 1995, 177(3):573-579); 9765565 (Nakano et al., J. Bacteriol. 1998, 180(20):5344-5350); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+GCAAGCAGCCCUUUUCCUCAAGGGCUGUUUUAUUUAUGCACC
+>yckC	Northern blotting (0.5 kb transcript)	BSORF
+AGAAAGAGCGAAUAAUGGUUCGCUCUUUUUAUUUUUAUGC
+>yckE	Northern blotting (1.5 kb transcript)	BSORF; SubtiList
+AAGAGUCCCUGAGAGUUAUUCUCUCAGGGGUUUUUCAUUACACAG
+>hxlR	Northern blotting (0.3 kb transcript)	BSORF; SubtiList
+UGUAAGACGCUCUUCGCAAGGGUGUCUUUUUUUGCCUUUUU
+>srfAA,srfAB,comS,srfAC,srfAD	lacZ insertions	8355609 (Cosmina et al., Mol. Microbiol. 1993, 8(5):821-831); 1715856 (Nakano et al., J. Bacteriol. 1991, 173(5):1770-1778)
+CAAAAGCGGACAGCUUCGGCUGUUCCGCUUUUUUUGUGUUGAA
+>ycxA	Northern blotting (1.3 kb transcript)	BSORF; SubtiList
+UAAAAGGAUCAGCACUGUCAAUGCUGAUCCUUUUUAAAUUUGAGU
+>ycxC,ycxB	Northern blotting (1.6 kb transcript)	BSORF
+AAAAAGGAUCAGCAUUGACAGUGCUGAUCCUUUUAUAUUGAAUGG
+>yczE	Northern blotting (0.65 kb transcript)	BSORF
+UAAAACAAAGCCGCCUUGGCUUUGUUUUUUUAUUUUCUC
+>yckK,yckJ,yckI	Northern blotting (2.3 kb transcript)	15262924 (Burguiere et al., J. Bacteriol. 2004, 186(15):4875-4884); BSORF
+CAAAAUCCUAAAACGAUAUUCGUUUUAGGAUUUUGUGAUUUUCAG
+>yclE	Northern blotting (0.8 kb transcript)	BSORF
+AAAAACAGCCCGCAGAUCAACAUCCGCGGGCUGUUUCUGAUUAUAAGA
+>rapC,phrC	transcriptional fusions; downstream gene is in the opposite direction	1702397 (Carter et al., Gene 1990, 96:101-105); 10464187 (Lazazzera et al., J. Bacteriol. 1999, 181(17):5193-5200)
+ACAAGCCCCUUCUCAUUAGCGAGAAGGGGUUUUUCUUUUCAAAA
+>ycnC,ycnB	Northern blotting (2.4 kb)	BSORF
+AAAAAGAGCCCCGCUAUUUAGCGGAGGCUCUUUUUGGUUUUACUU
+>ycnE,ycnD	Northern blotting (1.1 kb transcript)	BSORF
+UAUUCGGCCUGUCGGAUUUUCCGGCAGGCCUUUCAUUUACCCGGU
+>yczG	Northern blotting	BSORF
+AUCAAUCCCCUGUAACGGGGAUUUUUUUAUGUCCGU
+>ycnL	Northern blotting (0.35 kb transcript)	BSORF
+GAAAAGGCUCCUGAAACCAGGAGCCUUUUUAUUUUUAAAA
+>mtlA,mtlD	Northern blotting (3.0 kb transcript)	12897001 (Watanabe et al., J. Bacteriol. 2003, 185(16):4816-4824); BSORF; SubtiList
+GACCACCCGUGACACAAUGUCACGGGCUUUUUUUACUAUCUC
+>ycsA	Northern blotting (0.9 kb transcript)	BSORF
+UCUGAUGAAUCAGGCCGGUGGCAGAUGGCUGCCCCGGUCUGUCCAUUUCCUUACGAAAAU
+>ycsD	Northern blotting (0.5 kb transcript)	BSORF
+AAAAAAACCCUUCACAACAUUUUGUGAGGGGUUCUAUUUUGUGUCGUAAUC
+>ycsE	Northern blotting (0.8 kb transcript)	BSORF; SubtiList
+AAAAAGAGAGUCCUAAGAUGGACUCUCUUUUUAGUUUGGCAG
+>yczJ	Northern blotting (0.3 kb transcript)	BSORF
+CAAAAACGGCGGUAUAAAUAUUAAAAGCGCCUGAGCCGUCAUUUUCUUUUUUGCGC
+>mtlR	Northern blotting (2.1 kb transcript)	12897001 (Watanabe et al., J. Bacteriol. 2003, 185(16):4816-4824)
+CAUGGCACACGUCAAAAAUUUGGCGUGUGUUUUUCUGUGGAUGG
+>ydaP	Northern blotting (1.8 kb transcript)	10220166 (Petersohn et al., Microbiology 1999, 145(Pt.4):869-880)
+AAAAAACAGGGGCCCUAAGAGCCCUUGUUUUUUUUUUUUUUUU
+>ydbA	primer extension of downstream gsiB gene	1378051 (Mueller et al., J. Bacteriol. 1992, 174(13):4361-4373)
+AGAAAGCAGACGGACACCGCGAUCCGCCUGCUUUUUUUAGUGGAAA
+>gsiB	hybrid formation with RNA probes	1378051 (Mueller et al., J. Bacteriol. 1992, 174(13):4361-4373)
+AAAAAGCGAUCCGGCACAUCAGCUGGAUCGCUUUUUUUUGGAAUCU
+>dctB,ydbD	Northern blotting (2.0 kb transcript)	10708364 (Asai et al., Microbiology 2000, 146(Pt.2):263-271); Genbank AB001488
+GACAAGCCCAAAACAUGAUGUUUUGGGCUUUGAUUAUGCCUUC
+>dctS,dctR,dctP	Northern blotting (3.8 kb transcript)	10708364 (Asai et al., Microbiology 2000, 146(Pt.2):263-271); Genbank AB001488
+AAGAACGGCCCAUCCAUGGGCCGUUUUUUUAAUUGUUU
+>phoB,ydhF	Northern blotting (2.2 kb transcript)	 10913081 (Antelmann et al, J. Bacteriol. 2000, 182(16):4478-4490)
+AUCAAGAACUCCCGUACAAGGUACGGGAGUUCUUUUUCUUAUUUGUU
+>groES,groEL	Northern blotting (2.1 kb transcript)	1350776 (Li & Wong, J. Bacteriol. 1992, 174(12):3981-3992)
+GAGAAGGUCUUUCAUCAGUUUACUAAACUGUUGGGAGACCUUUUCUCCAUAUUAG
+>ydiO,ydiP	Northern blotting (3.0 kb transcript)	11751814 (Ohshima et al., J. Bacteriol. 2002, 184(2):381-389); Genbank AB007637
+AGUAUCGGAGCUGGAUAAAACCAGCUCCGUUUUUUAUCUUUAAU
+>pspA,ydjG,ydjH,ydjI	Northern blotting (3.6 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); 11454200 (Wiegert et al., Mol. Microbiol. 2001, 41(1):59-71); 9455482 (Kasahara et al., DNA Res. 1997, 4(5):335-339)
+GAAAAGUCCGGAGUGAUCAGCACUCGGGACUUUUUUAUUUAGGAG
+>ydjK	Northern blotting (1.7 kb transcript)	11807058 (Yoshida et al., J. Bacteriol. 2002, 184(4):983-991); Genbank AB007638
+AAGAAUCCGCACCCGAGUGCGGAUUCUUUUUGGUUUCA
+>opuE	Northern blotting (1.6 kb transcript)	9701821 (Spiegelhalter & Bremer, Mol. Microbiol. 1998, 29(1):285-296); 11902719 (Von Blohn et al., Mol. Microbiol. 1997, 25(1):175-187); 9043134 (Whalen & Piggot, Microbiology 1997, 143(Pt.2):577-583)
+AAUAAGCCAUCAAGCGCAGCUUGGUGGCUUUUGUGCUCUUGUU
+>yfnI	Northern blotting	BSORF; Genbank D86418
+AAAAAGAGCCUUGAGCGGGCGCAUUGCCUUCGCUCAAGGCUCUUUUUUUGGUUAUAC
+>yfnH,yfnG,yfnF,yfnE,yfnD	Northern blotting	BSORF; Genbank D86418
+AAAACCCCCUGCCGCCUGGCAGGGGUUUUUUCAGCUAUGC
+>yfnC	Northern blotting	BSORF; Genbank D86418
+AAAAACCCCUGCCAGGCGGCAGGGGGUUUUUUAAUCCAGCU
+>yfnB	Northern blotting	BSORF; Genbank D86418
+GAAAAUACCGUCAGCUGCUAAUCAGGCUGACGGUAUUUCUUUCAUAAGAA
+>yfnA	Northern blotting	BSORF
+UUUCAGCCGGCGGUGCCUCACCCGCCGGCUUUUUCCUUUUUUUA
+>yfmT,yfmS	Northern blotting (2.4 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); 9141694 (Yamamoto et al., Microbiology 1997, 143(Pt.4):1317-1320); BSORF
+UAAGAGACCGGGGACAAACAUCCCCGGUCUUUUUCUUAUCCUGC
+>yfmR	Northern blotting	BSORF; Genbank D86418
+AAAAAGCGUGGCCGCAGCAGGCCGCGCUUUUUUUCACAUAAU
+>yfmQ	Northern blotting	BSORF; SubtiList
+UGAAAGACGGGUGCUGUAUGCUGCUCGUCUUUUUUAUUGUUUUU
+>yfmM	Northern blotting	BSORF; Genbank D86417
+AAAAACCCGCCUGCUAAAGGGCGGGUUUUUUACUGCCAUU
+>yfmL	Northern blotting	BSORF; Genbank D86417
+AAGAAGGGCGAAGAGCCCUUUUUUUGUUGUAAA
+>yfmK	Northern blotting	BSORF; Genbank D86417
+CAAAAGGAGGGCAAAAAGCCCUCCCGUUUUCAUCUUCAUUC
+>yfmI,yfmJ	Northern blotting	BSORF
+AAACGGGAGGGCUUUUUGCCCUCCUUUUGUGUUUCGAUG
+>yfmG	Northern blotting	BSORF; Genbank D86417
+UUCAGCUUGUAGAAAAAACAAUGUUUUUUCUACAAGAUUUUAUUUUAAAUGC
+>yflT	Northern blotting	BSORF; Genbank D86417
+CAAAAGGCCAAUGUCGGCCUUUUGGUUUUUUUGC
+>pel	Northern blotting (1.3 kb transcript)	8262178 (Nasser et al., FEBS Lett. 1993, 335(3):319-326); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); SubtiList
+AAAAACACAAAGGGUGCUAACCUUUGUGUUUUUUAAUUAAUUA
+>yflS	Northern blotting (1.45 kb transcript)	12949159 (Tanaka et al., Microbiology 2003, 149(Pt.9):2317-2329); Genbank D86417
+AAAAAGGCAGACGCGGUCUGCCUUUUUUUAUUUUCAC
+>citS,citT,yflP	Northern blotting	BSORF
+UAAAAUCCCGACAUCCCGGGAUUUUUUUCAUGCCGA
+>citM,yflN	Northern blotting (2.4 kb transcript)	10972810 (Yamamoto et al., Mol. Microbiol. 2000, 37(4):898-912)
+UUUGACACCCGCACCACGCGGGUGUUUUUUAUUGUUUUC
+>nagP	Northern blotting	10627040 (Reizer et al., Microbiology 1999, 145(Pt.12):3419-3429); BSORF; Genbank D86417
+AAAAAGCGGAGAGGGCAACCUCUCCGCUUUUUCUUAUUUAUC
+>treP,treA,treR	Northern blotting	8755887 (Schock et al., J. Bacteriol. 1996, 178(15):4576-4581); 8917076 (Schock & Dahl, Gene 1996, 175(1-2):59-63); BSORF
+GAGAGGCGCCUGCCUGCGGCAGCGCGCUUUUUUGUUUGGUAU
+>yfkO	Northern blotting	BSORF
+AAGAAAGCUGCUCGCAUAGCGAGCAGCUCUUUUUUAUGCCUGAU
+>yfkJ,yfkI,yfkH	Northern blotting	BSORF
+UAAAAGCCUCCUGACAUGAUGUCGGGAGGCUUUUUGAUUAAGAAG
+>yfkF	Northern blotting	BSORF; SubtiList
+AAAAAGCCUCCCGACAUCAUGUCAGGAGGCUUUUAUGCUAAUGGU
+>yfkE,yfkD	Northern blotting	BSORF; Genbank D83967
+AAAAACUGAUUCCAACUCGGAAUCAGUUUUUUUGUUUAUUG
+>yfkA,yfkB,yfkC	Northern blotting	BSORF; Genbank D83967
+AAAAACUGAUUCCGAGUUGGAAUCAGUUUUUUAUUUAUCUU
+>yfjT	Northern blotting	BSORF; Genbank 83967
+UAAAACCGCGUGCCCGCCGCGGUUUUUUUAUUGGCAU
+>yfjS	Northern blotting (0.8 kb transcript)	12374835 (Fukushima et al., J. Bacteriol. 2002, 184(21):6007-6015); BSORF; Genbank D83967
+AAAGACCUCUCCUUAAACGGAGAGGCUUUUCUUUAUUUUAU
+>yfjR	Northern blotting	BSORF; Genbank D78509
+GAAAAGCCUCUCCGUUUAAGGAGAGGUCUUUCUCUUUUACAAA
+>yfjQ	Northern blotting	BSORF; SubtiList
+AAUGAGGACAGCGAGCAGCUGUUCUUUUUUGUUGUAAGC
+>yfjP,yfjO	Northern blotting	BSORF
+AAUAAGACCUGGAUUUCGGUAAAAUAAACAAUUCCGAUUUCCGGGUCUUUUUCGUGCGCAGC
+>yfjN	Northern blotting	BSORF; SubtiList
+AAUAAACCUGGAUUUUCGGUAAAUCCGGGUCUUUUUUGUACGCAGC
+>yfjM,yfjL	Northern blotting	BSORF; Genbank D78509
+UCAAAGGCCGGGUGAUAUCCGGUCUUUUUUUUGCAUGCU
+>acoA,acoB,acoC,acoL	Northern blotting; transcriptional fusions	11274109 (Ali et al., J. Bacteriol. 2001, 183(8):2497-2504)
+AAAAAGCAGGCGCAUGGAUAUAAGGCGCCUGCUUUUUUAUUGUUGAA
+>yfjA,yfjB,yfjC,yfjD,yfjE,yfjF	Northern blotting	BSORF; SubtiList
+CAAAAUGGCCUGCUUAUGAAGCGGGCCAUUUUUGUUUAAUCCU
+>malA,yfiA,malP	Northern blotting (3.8 kb transcript)	11489864 (Yamamoto et al., J. Bacteriol. 2001, 183(17):5110-5121); Genbank D50543
+GACUGCCCUCCUUUUCGGGAGGGUUUUCGUUUGCCGUC
+>yfiB,yfiC	Northern blotting	BSORF
+AAAUAGACCUUUGUCCUGCACAGAGGUCUUUUUUUGUUACAGU
+>yfiD,yfiE	Northern blotting	BSORF; Genbank D50543
+UGCAAUCCCCUUGCCGAAAUAACGGCAGGGGGAUUUUUUAUUUUUGUC
+>yfiG,yfiH,yfiI	Northern blotting	BSORF; SubtiList
+AUGCGCCGCAUAUGACAUAAAGUUCAUAUGCGGUUUUUAUUUUCCAGA
+>yfiJ,yfiK	Northern blotting	8973323 (Yamamoto et al., Gene 1996, 181(1-2):147-151); BSORF; Genbank D78508
+GAAAAGGCCUUUUACAGGCCUUUUUUUCAUGCCCU
+>lipB	Northern blotting	BSORF; Genbank D78508
+AACAACCUGCUGUCUCCGUUACAGUGGGUUUUUUCGUCUGAGA
+>yfiQ	Northern blotting	BSORF; Genbank D85082
+AACAAGCGGCAGGAGGGCUCCUGCCGCGUUUCUUUACUUCUCA
+>yfiS,yfiR	Northern blotting	BSORF; Genbank D85082
+GAAACGCGGCAGGAGCCCUCCUGCCGCUUGUUUUUCACCCUG
+>yfiW,yfiX	Northern blotting	BSORF; Genbank D85082
+AAAAAGACUCCGUCUAAUAAGACGGAGUCUUUUUUUAUUUCGUU
+>yfiZ,yfhA	Northern blotting	12354229 (Baichoo et al., Mol. Microbiol. 2002, 45(6):1613-1629); BSORF; Genbank D85082
+UUACACCCAUUUUCUUAAAAAAGAAAAUGGGUUUUUUUGAUAAUGA
+>yfhF,yfhE,yfhD	Northern blotting	BSORF; Genbank D85082
+AAAAACCCCUUGUCUCCGUUUGAGACAAGGGGUUUUUUACAUUUCAG
+>yfhG,yfhH	Northern blotting	BSORF; Genbank D85082
+AACAGGAGGCUGAUGAUCAGCCUCUUUUUGUUUGCAGCA
+>yfhI	Northern blotting	BSORF; Genbank D85082
+AAAAACAGCUGCAGUGUAUGCAGCUGUUCUUCUUUACCGUU
+>yfhK,yfhL,yfhM	Northern blotting (1.8 kb transcript)	 10913081 (Antelmann et al, J. Bacteriol. 2000, 182(16):4478-4490)
+CAUCCGUCUGUCAUAAUGGCAGACUUUUUCUGUGCGUUU
+>yfhP	Northern blotting (1.1 kb transcript)	10463184 (Yamamoto et al., Microbiology 1999, 145(Pt.8):2171-2180); BSORF
+UUAAAGCUCGGCUCUAUAUAGAGCCGGGCUUUUUACGUCUUAUA
+>yfhQ,fabL,sspE	Northern blotting (2.6 kb transcript)	3106326 (Hackett & Setlow, J. Bacteriol. 1987, 169(5):1985-1992); 10463184 (Yamamoto et al., Microbiology 1999, 145(Pt.8):2171-2180); BSORF
+AAAAAGCACUUCAUCUUCGGGUGGAAGUGCUUUUUUCUGUUUGAA
+>yfhS	Northern blotting (0.3 kb transcript)	10463184 (Yamamoto et al., Microbiology 1999, 145(Pt.8):2171-2180); BSORF
+AGCAAUGAGCUGUUCACGCUCAGUUUUGAUCCCUUUUU
+>rrnD-16S,rrnD-23S,rrnD-5S,trnD-Asn,trnD-Ser,trnD-Glu,trnD-Val,trnD-Met,trnD-Asp,trnD-Phe,trnD-Thr,trnD-Tyr,trnD-Trp,trnD-His,trnD-Gln,trnD-Gly,trnD-Cys,trnD-Leu1,trnD-Leu2	Northern blotting; S1 nuclease mapping	6323435 (Wawrousek et al., J. Biol. Chem. 1984, 259(6):3694-3702); 3139657 (Vold et al., J. Biol. Chem. 1988, 263(28):14485-14490)
+GAAAACCCGUUUCUUAACAGAAACGGGUUUUUAUUUUUUAUU
+>yhxA,glpP	Northern blotting (1.8-2.1 kb transcript)	2127799  (Holmberg et al., J. Gen. Microbiol. 136:2367-2375, 1990); 8436953 (Beijer et al., J. Gen. Microbiol. 139(Pt.2):349-359, 1993); 1479885 (Holmberg & Rutberg, Mol. Microbiol. 1992, 6(20):2931-2938)
+CGGAGACCACAGCAGCTCTTTACGGCAAATGTTTATGCACCCGTAAAGCGGTTTGTTGTGGTTTTTTTATTCTCTTCTTCTCTATCATGCTTTTTAATCGTGA
+>lytF	Northern blotting (1.5 kb transcript)	10322020 (Ohnishi et al., J. Bacteriol. 1999, 181(10):3178-3184); 10206711 (Margot et al., Microbiology 1999, 145(Pt.1):57-65)
+AGAAACUGUGCGGCCUUAACGGCUGUACAGUUUUUAUUAGAGCCU
+>lytE	transcriptional fusion; Northern blotting (1.1 kb transcript)	9573210 (Ishikawa et al., J. Bacteriol. 1998, 180(9):2549-2555); Genbank Y14082
+GAAAACCCGUUCAUUGGAACGGGUUUUUUUCAUUAGAC
+>yhdG	Northern blotting (1.5 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); Genbank Y14082
+AUAAAGAGAGCGGCCAUACAGGCCGCCUCUUUUCUGUUCUUGGC
+>sigM,yhdL,yhdK	Northern blotting (1.9 kb transcript)	10216858 (Horsburgh & Moir, Mol. Microbiol. 1999, 32(1):41-50); Genbank Y14082
+AAAAAGACGCCUUUUCAGGCGUCUUUUUUCGUUAUACC
+>yhdN,yhdO	Northern blotting (1.8 kb transcript)	10220166 (Petersohn et al., Microbiology 1999, 145(Pt.4):869-880); Genbank Y14082
+GAAAAGCACCCUAUACAAGGUGCUUUUCUUAUUAUGCU
+>sspB	Northern blotting (0.35 kb transcript)	3009398 (Connors et al., J. Bacteriol. 1986, 166(2):417-425)
+CUAUAGAGGGCGCGGUUUCCGCGCUCUCUUUAUUUUGUCACCC
+>hemZ	Northern blotting (1.6 kb transcript)	10498703 (Homuth et al., J. Bacteriol. 1999, 181(19):5922-5929)
+ACAAAGCAGCACUGAUUACAGUGCUGCUUUUUUUAUCCCUGU
+>pbpF	Northern blotting of downstream hemEHY operon	1459957 (Hansson & Hederstedt, J. Bacteriol. 1992, 174(24):8081-8093)
+CAAAAUUGUUUUCCUCUUAAUGGAAUUCGGCGAUUUUUUGAACUUUGA
+>hemE,hemH,hemY	Northern blotting (3.7 kb transcript)	1459957 (Hansson & Hederstedt, J. Bacteriol. 1992, 174(24):8081-8093)
+UAAAACCUCCGCUUUAUCGCGGAGGUUUUUUUGAUGUGCA
+>hemAT	Northern blotting (1.3 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); Genbank Y14084
+AAAAACCGGUCUGCCAUACGGCCGGUUUUUUUGCGUUCAU
+>asnO	Northern blotting (2.0 kb transcript)	10498721 (Yoshida et al., J. Bacteriol. 1999, 181(19):6081-6091); Genbank Z93940
+AAGAAGGAUAGAUGAGCAGGGAAAUAUAUGCUCUAUCUAUCCUUUUUUGUACAACAG
+>med,comZ	Northern blotting (1.25 kb transcript)	9335269 (Ogura et al., J. Bacteriol. 1997, 179(20):6244-6253)
+AAGAAGCCACUUUUUUGAAAGUGGCUUUUCACAUGAUUUU
+>oppA,oppB,oppC,oppD,oppF	Northern blotting (6.0 kb transcript)	1901616 (Perego et al., Mol. Microbiol. 1991, 5(1):173-185); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AUCAAUCCUUCAAGAGAUUUCUCUUGAAGGAUUUUUUUGCGUCUUC
+>yjbC,yjbD	Northern blotting (1.2 kb transcript)	 10913081 (Antelmann et al, J. Bacteriol. 2000, 182(16):4478-4490); SubtiList
+CAAAAGAAGGCUGAGUCAUCAGCCUUCUUUUAUUUUUCAACC
+>cotY,cotZ	Northern blotting (1.4 kb transcript)	7519271 (Zhang et al., J. Mol. Biol. 1994, 240(5):405-415); 8509331 (Zhang et al., J. Bacteriol. 1993, 175(12):3757-3766)
+GAAAAGCUUGCAGGCCUGCAGGCUUUUCUCUAUGUAAA
+>cotV,cotW,cotX	Northern blotting (1.6 kb transcript)	7519271 (Zhang et al., J. Mol. Biol. 1994, 240(5):405-415); 8509331 (Zhang et al., J. Bacteriol. 1993, 175(12):3757-3766)
+UAAAAGCAGAGCUAAAAACGCUCUGCUUUUUCUUAUUUUCC
+>yjcI,yjcJ	Northern blotting (2.5 kb transcript)	11832514 (Auger et al., Microbiology 2002, 148(Pt.2):507-518)
+AAAAAGAAGCCGGGGAUAGUCCGGCUUCUUUUAUUAUUGUUCG
+>yjcP,yjcQ	Northern blotting (0.8 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136)
+UAAGAGCAUCCUGCGGGGUGCUUUUUUUGUUCCCUG
+>yjfB	Northern blotting (0.2 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); 9579062 (Rivolta et al., Microbiology 1998, 144(Pt.4):877-884)
+CCAGAGGCGGCCAAGAACUCCAUCCUCCCGGCCGCCUUUAUUGUUCACAAA
+>yjoB	primer extension of downstream rapA gene	1378051 (Mueller et al., J. Bacteriol. 1992, 174(13):4361-4373)
+AGAAAGCACGGGUGUUUGAAAAACCCGUGCUUUUUUGUUGCGGUU
+>rapA,phrA	hybrid formation with RNA probes; nuclease protection experiments	1378051 (Mueller et al., J. Bacteriol. 1992, 174(13):4361-4373); Genbank AF034138
+AAAAAGACCCUUAGGGGUCUUUUUUAUUUCUUCA
+>dppA,dppB,dppC,dppD,dppE	Northern blotting (5.9 kb transcript)	1766370 (Mathiopoulos et al., Mol. Microbiol. 5(8):1903-1913, 1991); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+GGAAAUACUGCUUCUUUAUGCGAAGGAGCGGUAUUUUUCCUCUUUCUU
+>ykzA	Northern blotting (0.5 kb transcript)	9696771 (Volker et al., J. Bacteriol. 1998, 180(16):4212-4218)
+ACCGGCAUCCUGAGGAUUCUCAGGAUGUUUUUUGGUGUCGGA
+>ykzB,ykoL	primer extension experiments for both genes	10671441 (Robichon et al., J. Bacteriol. 2000, 182(5):1226-1231)
+AAUUAUCCUUAUACAAGAUAAUGUAUAAGGAUUUUUUUGCUUUUAG
+>sspD	downstream gene is transcribed in the opposite direction	3009398 (Connors et al., J. Bacteriol. 1986, 166(2):417-425)
+UCUUUAUUCGCCGGGGGCACUCGGCGAAUCUUCAUUUUUAGCUGA
+>motA,motB	Northern blotting (1.6 kb transcript)	6313226 (Gilman & Chamberlin, Cell 1983, 35(1):285-293); 1624413 (Mirel et al., J. Bacteriol. 1992, 174(13):4197-4204)
+AAAAAGGAAGCCUUGUGACAUAUCAGGCUUCCUUUUUUUACUUAUUA
+>ykvU,ykvV	Northern blotting (2.0 kb transcript)	15292147 (Imamura et al., J. Bacteriol. 2004, 186(16):5450-5459)
+GAAUAGCUGAGAGCAUAGACUCUCAGCUUUUUUCAUAUAGAG
+>ptsG,ptsH,ptsI	Northern blotting (4.6 kb transcript)	7686067 (Reizer et al., Protein Sci. 1993, 2(4):506-521); 2497294 (Gonzy-Treboul et al., Mol. Microbiol. 1989, 3(1):103-112); 11902727 (Stulke et al., Mol. Microbiol. 1997, 25(1):65-78); 11489127 (Ludwig et al., Mol. Microbiol. 2001, 41(2):409-422)
+AAAAACCAGACGGCCUCCGGCCUGUCUGGUUUUUUUCAUAAGUA
+>splA,splB	5' primer extension of splB	10629212 (Fajardo-Cavazos & Nicholson, J. Bacteriol. 2000, 182(2):555-560); 8021181 (Pedraza-Reyes et al., J. Bacteriol. 1994, 176(13):3983-3991)
+UUAAACGGGCUGUUGUGAUCAACAGCUCGCUUUUUUAUAAAAAAC
+>kinA	linearized/supercoiled templates; downstream gene is transcribed in the opposite direction	1569009 (Predich et al., J. Bacteriol. 1992, 174(9):2771-2778); 2509430 (Perego et al., J. Bacteriol. 1989, 171(11):6187-6196)
+AAUAAAAACAACGGCUUAAACGCCGUUGUUUAUCGUCUGCAUU
+>ykuD	Northern blotting (0.9 kb transcript)	11011148 (Kodama et al., J. Biochem. (Tokyo) 2000, 128(4):655-663)
+UCACGAUUAACCGGUAAUGUUUUCUUAUUUGUUU
+>sipT	Northern blotting	9694797 (Tjalsma et al., Genes Dev. 1998, 12(15):2318-2331); Genbank AF012285
+AAAAACGCCUUGCUGGCCUAGGACAGCAGGCGUUUUUAUUUUGAAAA
+>pdhA,pdhB,pdhC,pdhD	Northern blotting (5.2 kb transcript)	1697575 (Hemila et al., J. Bacteriol. 1990, 172(9):5052-5063); 11976308 (Gao et al., J. Bacteriol. 2002, 184(10):2780-2788)
+AAAAACAGCCCCGCUUUGAGCGAGGGCUGUUUUUUUAUUUUGAC
+>ctaA	RNase protection hybridization	2549007 (Mueller & Taber, J. Bacteriol. 171(9): 4979-4986, 1989)
+CAUAAGGACUCAAGACCAAAGCCUUAGGCGGCUUUGGUCUUUUUUAUGUCUUGU
+>ctaB	RNAse protection mapping of the 3' terminus of the transcript	9829923 (Liu & Taber, J. Bacteriol. 1998, 180(23):6154-6163)
+CCUUGACCUCUUGUUUAAUCAGGCGGCUUUACUUUUAU
+>ftsA,ftsZ	Northern blotting (2.5 kb transcript)	1624452 (Gholamhoseinian et al., J. Bacteriol. 1992, 174(14):4647-4656); 1569582 (Gonzy-Treboul et al., J. Mol. Biol. 224:967-979, 1992); 2108961 (Wu et al., J. Biol. Chem. 1990, 265(12):6845-6850)
+CUAAUGUAAAGGACAAAAUCGUUUUCGAUUUUGUCUUUUUUGUUUUUCUCU
+>spoIIGA,sigE,sigG	promoter probe vectors; integrational plasmids; lacZ transcriptional fusions	2459711 (Masuda et al., Proc. Natl Acad. Sci. USA 1988, 85(20):7637-7641); 1902213 (Sun et al., J. Bacteriol. 1991, 173(9):2977-2984); 2439490 (Kenney & Moran, J. Bacteriol. 1987, 169(7):3329-3339)
+GAAAAGCCUUUAAAACGAUGUUGUUUUAAAGGCUUUUCUAUUGAUUAU
+>pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE	Northern blotting (12 kb transcript)	8206849 (Turner et al., J. Bacteriol. 1994, 176(12):3708-3722); Genbank AJ000974; Genbank M59757
+UAAAGAGGCUUCAAAGCCUUGCUGUACUUGAAAACAGGCUGUGAGGCCUGUUUUUUUAUUAAUCC
+>cysH,cysP,sat,cysC,ylnD,ylnE,ylnF	Northern blotting (6.1 kb transcript)	11004190 (Mansilla et al., J. Bacteriol. 2000, 182(20):5885-5892); Genbank AJ000974
+AAUAAGCCAGAGCAUACAAAUGCUCUGGCUUUUCUUUAUGCGGC
+>spoVM	downstream gene is in opposite direction	8231808 (Levin et al., Mol. Microbiol. 1993, 9(4):761-771); Genbank Y13937
+AUAAAAACGCCUGCCACAUAUCGGGGCAGGCGUUCAUUUUGUUAUACACGC
+>rnc,smc,ftsY	Northern blotting (5.5 kb transcript)	7584053 (Oguro et al., DNA Res. 1995, 2(2):95-100); 11021934 (Kakeshita et al., Microbiology 2000, 146(Pt.10):2595-2603)
+AAAAAGGCCCCAACAUCUUGGGGCCUUUUUCUUUUUUAUC
+>ylqB	Northern blotting (0.5 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136)
+AAAAAGGCCCCAAGAUGUUGGGGCCUUUUUCUUAAUCGUC
+>spoVS	Northern blotting (0.4 kb transcript)	7559352 (Resnekov et al., J. Bacteriol. 1995, 177(19):5628-5635)
+AUUCUCAACCUGUUUGCGUAAUGCAAACAGGUUGUUUUUCAUUUAUUGU
+>yneA,yneB,ynzC	Northern blotting (1.3 kb transcript)	12581363 (Kawai et al., Mol. Microbiol. 2003, 47(4):1113-1122)
+UAUAAGAGGAAUACGGCAAUAUCGUAUUCCUCUUUUGCAUAUACUAU
+>ccdA,yneI,yneJ	Northern blotting (1.8 kb transcript)	9068642 (Schiott et al., J. Bacteriol. 1997, 179(6):1962-1973); 10781554 (Schiott et al., J. Bacteriol. 2000, 182(10):2845-2854)
+AAAAACCUUUCCUCUUGUCAGGAAAGGUUUUUUAUUUGAGAA
+>alsT	Northern blotting (1.5 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); SubtiList
+ACAAAGCUGCAUUCAAUAGUUGAAUGCAGCUUUUUCAUUAUUGGA
+>yoxA,dacC	lacZ plasmids	9733705 (Pedersen et al., J. Bacteriol. 1998, 180(18):4967-4973)
+GGAGACCUGUUUUCCAAGAGAAAACAGGUUUUUUUAUGUCUGU
+>gltA,gltB	Northern blotting (6.1 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AGAAACCGGUCUGGCUGCCAGCCGGUUUCUUUUUUUAUUC
+>yoaH	Northern blotting (1.6 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); Genbank AF027868
+CUUACGUGCAACCCCCAUCUUAUUCGGUGGGGGUUGGCUACUUUUACUGUGGUUGU
+>yoaN	Northern blotting (1.2 kb transcript)	14973022 (Costa et al., J. Bacteriol. 2004, 186(5):1462-1474); Genbank AF027868
+UAAAUCCCUAUAUAUACGUUAUGUAGGGUUUUUCUGCUUGAAU
+>yoaW	downstream gene is in the opposite direction	Genbank AF027868
+GCCAAGCUAAUGUCUACAUGCAGACAUUAGCUUUUUUCAUUGUUUA
+>xynA	Northern blotting (1.0 kb transcript)	8628241 (Allmansberger, Mol. Gen. Genet. 1996, 251(1):108-112)
+UAAUAGAAUGGUAUUUAAAUGAGAAUGCUAUCAAUUUUUUGUAGUCAGC
+>phrK	downstream yobH gene is transcribed in the opposite direction	11466295 (McQuade et al., J. Bacteriol. 2001, 183(16):4905-4909)
+AUUUAGCCCUACUCAAACAUUUGAGUGGGCUUUUAUUUUAUGAUU
+>des	Northern blotting (1.1 kb transcript)	10559169 (Aguilar et al., J. Bacteriol. 1999, 181(22):7028-7-33)
+AUAAAGGAGGUCUUCUAAUAUACUAGAAGGCUUCCUUUUUAUUGUUGGAG
+>yocF,yocG	Northern blotting (1.9 kb)	11285232 (Aguilar et al., EMBO J. 2001, 20(7):1681-1691); Genbank AF027868
+AAAAAGGAUCUUGGCAUCUGCCAGGAUCCUUUUUGUUAACCUGA
+>yocK	Northern blotting (0.5 kb transcript)	10220166 (Petersohn et al., Microbiology 1999, 145(Pt.4):869-880); Genbank AF027868
+GCCAAGCAAGUACACCGAUAUUAGAUGUACUUGCUUUUUUUUGAAAAAA
+>cgeC,cgeD,cgeE	Northern blotting (2.7 kb transcript)	7592393 (Roels & Losick, J. Bacteriol. 1995, 177(21):6263-6275); SubtiList
+AAAUUUCAAAAGAGCCUUCCUUAUUAGGAAGGCUCUUUUUAUGUGAAAAA
+>cgeA,cgeB	Northern blotting (1.4 kb transcript)	7592393 (Roels & Losick, J. Bacteriol. 1995, 177(21):6263-6275)
+AAAAAUCGUUCAUUGCUAUGAACGAUUUUUUUAUUCAUAG
+>sspC	Northern blotting (0.29 kb transcript)	2981806 (Connors & Setlow, J. Bacteriol. 1985, 161(1):333-339)
+UUUAUGAGGGGGAUAAUUCCCCUCUCUUUUUUAAGUCUUCU
+>ilvA,ypmP	Northern blotting (1.6 kb transcript)	15060025 (Mader et al., J. Bacteriol. 2004, 186(8):2240-2252)
+UUUUACCUGCAUGCCCUCCUUUGUAAUCGUUAAUGGGGAGGCAUGCAGGAUUUUUUUUGCUCAGU
+>ilvD	Northern blotting (1.8 kb transcript)	15060025 (Mader et al., J. Bacteriol. 2004, 186(8):2240-2252); SubtiList
+GUGAACAUUUGAAAUCCGGCCCUCUCUAUAGUAUCCUUUACUUCAGAUGAAGGAUACUAGAGGGGGCUUUUUUUAUGUCAAU
+>xpt,pbuX	Northern blotting (2.1 kb transcript)	9098051 (Christiansen et al., J. Bacteriol. 1997, 179(8):2540-2550)
+UCUAACUCCGCCGCGGCGGAGUUUUUUUUGCAUAUA
+>kdgR,kdgK,kdgA,kdgT	Northern blotting (3.7 kb transcript)	9846747 (Pujic et al., Microbiology 1998, 144(Pt.11):3111-3118)
+AAAAAGGCUGCCACAAAACAUACCGGCAGCCUUUUAUACAAACAAU
+>cotD	experimental	Genbank L47383
+ACAAAUGGGGCCCACGGGAGCCCCAUUUUUUAAAGCAGGU
+>recU,ponA	lacZ transcriptional fusions	7814321 (Popham & Setlow, J. Bacteriol 1995, 177(2):326-335); Genbank L47838
+AAAAAGCCGUCACCUUUGGGGUGAUGGCUUUUUUGGUACACAA
+>ypjB	downstream gene in in the opposite direction	8760912 (Sorokin et al., Microbiology 1996, 1442(Pt.8):2005-2016)
+UGAGGGGCGGCGGUCAGCCGCCUUUUUUCUAUUACAU
+>qcrA,qcrB,qcrC	Northern blotting (2.0 kb transcript)	7592464 (Yu et al., J. Bacteriol. 1995, 177(23):6751-6760)
+CAAAAGCUGACCCGGCGUCAGCUUUUUUAUAUGGACA
+>trpE,trpD,trpC,trpF,trpB,trpA,hisC,tyrA,aroE	integrative plasmids to interrupt transcription	3106153 (Henner et al., Gene 1986, 49(1):147-152); 3924737 (Henner et al., Gene 1985, 34(2-3):169-177); 11566976 (Babitzke & Gollnick, J. Bacteriol. 2001, 183(20):5795-5802)
+AAAAAUCCUGAAGUUUUACUUCAGGAUUUUUUAUGCAGAUC
+>mtrA,mtrB	plasmid-mediated homologous integration of overlapping DNA fragments of the mtr region	2123343 (Gollnick et al., Proc. Natl Acad. Sci. USA 1990, 87(22):8726-8730)
+CAAACAGCGGGAGGAUACAGCCAAUUCUUUUUUUUAUGCUAUAA
+>spoIVA	Northern blotting (1.6 kb transcript)	1729246 (Roels et al., J. Bacteriol. 1992, 174(2):575-585); 1729247 (Stevens et al., J. Bacteriol. 1992, 174(2):586-594)
+CGGUAGACCUCUUUAUAGAAUGGGAGGUCUUUUUUCUUUGCUCU
+>sleB,ypeB	Northern blotting (2.2 kb transcript)	10197998 (Moriyama, J. Bacteriol. 1999, 181(8):2373-2378); 8760912 (Sorokin et al., Microbiology 1996, 142(Pt.8):2005-2016)
+GGAAAGGACUAAAUGUCUUUUCCUUUUUUUCAU
+>sigX,rsiX	Northern blotting (1.8 kb transcript)	7934830 (Azevedo et al., Mol. Microbiol. 1993, 10(2):397-405); Genbank L09228
+AAAAAGAGCCCUUUAAGGCUCUUUUUUAGUUGCUAU
+>resA,resB,resC,resD,resE	Northern blotting	8631715 (Sun et al., J. Bacteriol. 1996, 178(5):1374-1385); 7934829 (Sorokin et al., Mol. Microbiol. 1993, 10(2):385-395); 7934830 (Azevedo et al., Mol. Microbiol. 1993, 10(2):397-405)
+AGAAACACCCGCUGACUGAGCGGGUGUUUUUUUAAUAGCCA
+>dacB,spmA,spmB	lacZ transcriptional fusions	7642500 (Popham et al., J. Bacteriol. 1995, 177(16):4721-4729); 7934829 (Sorokin et al., Mol. Microbiol. 1993, 10(2):385-395); SubtiList
+GUUACGUUAUUAUUUGGGAGCGCCUGAAAACGGCGUUUUUUUUAGAUUUG
+>ypuG,ypuH,ypuI	Northern blotting (2.0 kb transcript)	7934830 (Azevedo et al., Mol. Microbiol. 1993, 10(2):397-405); 1548223 (Buchanan & Ling, J. Bacteriol. 1992, 174(6):1717-1725)
+GUUUACUCUCCCUUUUUCAGGGAGAGUUUUUUUAUGUUUGC
+>ypuD	Northern blotting (0.6 kb transcript)	7934830 (Azevedo et al., Mol. Microbiol. 1993, 10(2):397-405); Genbank L09228
+AAAAACAUCACCUUUCGGAUCGAAGGGUGAUGUUUUGUUUUUCUCAA
+>spoVAA,spoVAB,spoVAC,spoVAD,spoVAE,spoVAF,lysA	integrational plasmids; Northern blotting; downstream gene is in the opposite direction	3926949 (Fort & Errington, J. Gen. Microbiol. 1985, 131(Pt.5):1091-1105); 7934830 (Azevedo et al., Mol. Microbiol. 1993, 10(2):397-405); BSORF, Genbank L09228
+AGAAACGCCGAUUUUUCGGCGCUUUUCUUAUUUGAAU
+>dacF,spoIIAA,spoIIAB,sigF	Northern blotting (2.9 kb transcript)	2492512 (Wu et al., J. Bacteriol. 1989, 171(2):692-698); 1629150 (Wu et al., J. Bacteriol. 1992, 174(15):4885-4892); BSORF
+GGAUGGCUAGUCUGCAGUGCAGGCUAGCUUUUUUGUGCAAAAG
+>drm,punA	Northern blotting (2.1 kb transcript); transcriptional fusions	10537218 (Schuch et al., Microbiology 1999, 145(Pt.10):2957-2966)
+CAAAAGACAGCUGUGUCUGAUAUCACACAGCUGUCUUUUUUUAUGCCCAA
+>yqjY,yqjZ,yqkA,yqkB,yqkC	Northern blotting	BSORF
+AAAAAGCGAAAGAGCCGAAGAGGCCUUUCGCUUUUUUAUUCUGUUG
+>yqjP,yqjQ,dsdA,coaA,yqjT	Northern blotting	BSORF
+GUUUGCGGGAGAGAUUCAUUCUCUUCCGUUUUUUAUUUAAAGC
+>yqjM	Northern blotting	BSORF; SubtiList
+CAUAAGAGAUAUCCUGUAGAGGAUAUCUCUUUUUUUAUUUUUAG
+>yqjH,yqjI	Northern blotting	BSORF; SubtiList
+AGAAACCCCCGAAGCUCUUAAGCUUUGGGGGUUUUGUUAUUAAGGA
+>yqjG	Northern blotting	BSORF; SubtiList
+AAAAGCAACCCCGUGCAAAAAGCCGGGGUUGUUUUUUGUUACUUGC
+>yqiW	Northern blotting	BSORF; SubtiList
+AACAACCCGGAUGCUCAAAGCAGCCCGGGUUUUUUUGUGCAUAA
+>bmrU,bmr,bmrR	Northern blotting (3.8 kb transcript)	10220166 (Petersohn et al., Microbiology 1999, 145(Pt.4):869-880); 7961792 (Ahmed et al., J. Biol. Chem. 1994, 269(15):28506-28513); BSORF
+AAAAAGAGCAUUUUUUGAAACAAAACUUCAAAAAAUGCUCUUUUUGCUUAUUUAG
+>ptb,bcd,buk,lpdV,bkdAA,bkdAB,bkdB	Northern blotting (7.9 kb transcript)	15241682 (Nickel et al., Mol. Genet. Genomics 2004, 272(1):98-107); 8504804 (Wang et al., Eur. J. Biochem. 1993, 213(3):1091-1099)
+CAAAAAGAGCAUUUUUUGAAGUUUUGUUUCAAAAAAUGCUCUUUUUCUAUGCUUUAUU
+>mmgA,mmgB,mmgC,mmgD,mmgE,yqiQ	lacZ transcriptional fusion; Northern blotting	8759838 (Bryan et al., J. Bacteriol. 1996, 178(16):4778-4786); BSORF; SubtiList
+AAAAAGCCGGAGCAUUCUCCGGCUUUUUUUCAGCUAUC
+>spo0A	S1 nuclease mapping; Northern blotting	3157992 (Ferrari et al., Proc. Natl Acad. Sci. USA 1985, 82(9):2647-2651); BSORF
+GUCAUUAAAUCAAACGUCUUUUAUUUAUUAGUUUGCGCUGAUAAAUAGGAGGCGUUUUGUUUUGGGGAC
+>spoIVB	Northern blotting	2106508 (Van Hoy & Hoch, J. Bacteriol. 1990, 172(3):1306-1311); BSORF
+GCUGACUGCCGGAGUUUCCGGCAGUUUUUUUAUUUUGAU
+>accB,accC,yqhY	Northern blotting (2.9 kb transcript)	7592499 (Marini et al., J. Bacteriol. 1995, 177(23):7003-7006); BSORF
+CCAAGGGGAGGGCGGCCCUUUGGUUUUUUUACA
+>yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH	transcriptional fusions & Northern blotting (5.9 kb transcript)	1766372 (Illing & Errington, Mol. Microbiol. 1991, 5(8):1927-1940); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); Genbank U35252
+AAAAAGCCCGCUAAACAAGCGGGCUUUUUGCGUUGCUGU
+>gcvT,gcvPA,gcvPB	Northern blotting (4.2 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AAAAACAGCUGUCUACCAGACAGCUGUUUGCUUUAUUUCUU
+>comGA,comGB,comGC,comGD,comGE,comGF,comGG,yqzE	S1 nuclease mapping; Northern blotting (5.0 kb transcript)	2507524 (Albano et al., J. Bacteriol. 171(10): 5386-5404, 1989); 2551886 (Albano et al., J. Bacteriol. 171(10): 5376-5385, 1989)
+GAACAGUACCUGUGCGAGCGGGUACCUUUUUUUUGCUUCUU
+>pstS,pstC,pstA,pstBA,pstBB	Northern blotting (4.4 kb transcript)	15289558 (Allenby et al., Microbiology 2004, 150(Pt.8):2619-2628)
+AAAAACAGGCUGAGUCAGCCUGUUUUUUUAUCGUGUU
+>yqfS,yqfU	Northern blotting (2.3 kb transcript)	12486072 (Urtiz-Estrada et al., J. Bacteriol. 2003, 185(1):340-348)
+GAAAAUGGCUUGCUGGACAGACAGCUGCCAUUUUCUUUUUCAUAC
+>yqxD,dnaG,sigA	subcloning into a terminator-probe plasmid	3086839 (Wang & Doi, Nucleic Acids Res. 1986, 14(10):4293-4307); 3298998 (Wang & Doi, Mol. Gen. Genet. 1987, 207(1):114-119)
+AAGAUGGAACGGGUCUUGAAGAUCCGUUCUUCUUUUUUUAAAAAGAU
+>antE	transcription terminator probe vector	9864351 (Wang et al., J. Bacteriol. 1999, 181(1):353-356)
+CUUUAGUGCAAAAUCCCUUCAUCGUUCGACAGGAUUUUUUGCAGCAGUG
+>comER	S1 nuclease mapping	7968523 (Hahn et al., Mol. Microbiol. 10(1): 99-111, 1993)
+AAAAACCAUCGUUUUAGGAAACGAUGGUUUUUGAUUUCUGCG
+>cwlH	Northern blotting (0.8 kb transcript)	10515909 (Nugroho et al., J. Bacteriol. 1999, 181(20):6230-6237)
+ACGGAUAACCUGUUUCCAGUGCGGAUUCAGGUUAUUUUCUUUUCUUUGG
+>arsR,yqcK,arsB,arsC	Northern blotting (2.4 kb transcript)	9537360 (Sato & Kobayashi, J. Bacteriol. 1998, 180(7):1655-1661)
+UUAAAGGAUGCAUAUUUAUAUGUGUCCUUUUUUUAUUAAUGU
+>azlB,azlC,azlD,brnQ,yrdK	lacZ transcriptional fusions; Northern blotting (3.5 kb transcript)	9287000 (Belitsky et al., J. Bacteriol. 1997, 179(17):5448-5457)
+AAAAAGCAAACUACAUACCGAAGUUUGCUUUUUUGCUCUAUAC
+>levD,levE,levF,levG,sacC	5' primer extension mapping of the sacC gene	2495266 (Martin et al., J. Bacteriol. 1989, 171(4):1885-1892); 3112519 (Martin et al., Mol. Gen. Genet. 1987, 208(1-2):177-184)
+AAAAAGGCACAGACCCGAACAGUCUGUGCCUUCUUGUUAUUUUAA
+>glnQ,glnH,glnM,glnP	Northern blotting (3.0 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); Genbank Z69371
+GAAAAGGAUACUCUUUGGAGAGUAUCCUUUUUGCAUUAAAAC
+>yrvE,apt	Northern blotting (3.0 kb transcript)	15241682 (Nickel et al., Mol. Genet. Genomics 2004, 272(1):98-107)
+AAAAAGCACUCCAUGUCAGGGUGCUUUUUUCCUAUUGUU
+>yrbD	Northern blotting (1.5 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); SubtiList
+UAAAACCGGCCCGAUAUGACCUCGUGCCGGUUUUUUAUGAACGAU
+>safA,coxA	Northern blotting (2.0 kb transcript)	10438771 (Takamatsu et al., J. Bacteriol. 1999, 181(16):4986-4994)
+GGAAGGGCUGCCGGAAGUGAUAUUCGGCAGCCUUUUUCUUUGCAUCA
+>pheB,pheA	S1 protection	2537815 (Trach & Hoch, J. Bacteriol. 1989, 171(3):1362-1371); 8444804 (Sun & Setlow, J. Bacteriol. 1993, 175(5):1423-1432)
+AAAAAGCCCACUAGAGGGCUUUUUUUAGUCUUUA
+>spoIVFA,spoIVFB	transcriptional fusions	1942049 (Cutting et al., J. Mol. Biol. 1991, 221(4):1237-1256)
+CUAAAACUGAUUGACAAACGCCUUGUAUUUUGGUAUAUUUUUUAAUGUUAUG
+>mreB,mreC,mreD,minC,minD	integrative plasmids	1400225 (Varley & Stewart, J. Bacteriol. 1992, 174(21):6729-6742); 8459776 (Lee & Price, Mol. Microbiol. 1993, 7(4):601-610); 1942049 (Cutting et al., J. Mol. Biol. 1991, 221(4):1237-1256)
+AAGAAUCUGACAAAGCAUAUGCUGUGUCAGGUUUUUUUUUGUUUUU
+>comC	S1 nuclease mapping; Northern blotting (0.8 kb transcript)	1694528 (Mohan & Dubnau, J. Bacteriol. 1990, 172(7): 4064-4071); 2553669 (Mohan et al., J. Bacteriol. 1989, 171(11):6043-6051)
+UUUUUGGACAAGGCGACAAAAGUCUUGUUCUUUUUUUCUUUGCCU
+>valS,folC	Northern blotting (4.4 kb transcript)	9098041 (Luo et al., J. Bacteriol. 1997, 179(8):2472-2478); Genbank L04520
+GGCUCCGGCAGAAUCAAAAAAAGAUUCUGCCGUUUUUUUCAUGUGUA
+>spoVID,ysxE	transcriptional fusion of ysxE with lacZ; Northern blotting of the downstream valS gene	8449878 (Beall et al., J. Bacteriol. 1993, 175(6):1705-1716); 8969504 (Wipat et al., Microbiology 1996, 142(Pt.11):3067-3078); 9098041 (Luo et al., J. Bacteriol. 1997, 179(8):2472-2478)
+CGAAAGAGCUUUUCGUCCUUUUACAGGGAUGAAGAGCUCUUUUUUCGUUCUCAG
+>hemA,hemX,hemC,hemD,hemB,hemL	genetic modification of hemL	1672867 (Hansson et al., J. Bacteriol. 1991, 173(8):2590-2599)
+GAAAACCGGUAUCAAGGACUCCUUGUGCCGGUUUUUUCGUGCUCUC
+>lonB	Northern blotting (1.7 kb transcript)	11325926 (Serrano et al., J. Bacteriol. 2001, 183(10):2995-3003); 7961402 (Riethdorf et al., J. Bacteriol. 1994, 176(21):6518-6527)
+UUAAACCCUAUUUUGAUAAUAGGGUUUUUUUCAUGAAGG
+>clpX	Northern blotting (1.4 kb transcript)	8973311 (Gerth et al., Gene 1996, 181(1-2):77-83); 11325926 (Serrano et al., J. Bacteriol. 2001, 183(10):2995-3003); 10411757 (Liu et al., Mol. Microbiol. 1999, 33(2):415-428)
+ACAAACCUCCUGAGUGGUAACACUCAGGAGGUUUUUUUGCAUGCAA
+>ilvB,ilvH,ilvC,leuA,leuB,leuC,leuD	Northern blotting (8.5 kb transcript)	15060025 (Mader et al., J. Bacteriol. 2004, 186(8):2240-2252)
+AAAAAGCGGCCGGUAUUUGUCCGGCGGCUUUUUUUGCCUGGUG
+>trxA	Northern blot (0.6 kb transcript for the SigB promoter, 0.38 kb transcript for the SigA promoter)	9537387 (Scharf et al., J. Bacteriol. 1998, 180(7):1869-1877); 2559145 (Chen et al., J. Gen. Microbiol. 1989, 135(Pt.11):2931-2940)
+CCAGAGCGAUUCCGAUUGAGGGAUCGCUUUUUUUAUUCGCCA
+>xsa	Northern blotting (1.6 kb transcript)	9537387 (Scharf et al., J. Bacteriol. 1998, 180(7):1869-1877); 14973026 (Raposo et al., J. Bacteriol. 2004, 186(5):1287-1296)
+CGCAAGAGCGCCGGAGCUUCAUGCCGGCGCUCUUUUUCAGGUUUUAA
+>araA,araB,araD,araL,araM,araN,araP,araQ,abfA	Northern blotting (11.0 kb transcript)	9084180 (Sa-Nogueira et al., Microbiology 1997, 143(Pt.3):957-969); Genbank X89810
+GCAAAGCCGGAGAUUUCUCUCCGGCUUGUCUUUCAACUGC
+>abnA	Northern blotting (0.9 kb transcript)	14973026 (Raposo et al., J. Bacteriol. 2004, 186(5):1287-1296); SubtiList
+UGAAUAAAAAGCCGGGCUCUGCCCCCGGCUUUUUUUAAAAGAAA
+>yscB	Northern blotting (0.6 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136)
+AAAAAGCCAAGGCAUUCAGCCUUGGCUUAUCCUCCGAUCAG
+>gapB,speD	Northern blotting (1.8 kb transcript)	10844697 (Sekowska et al., Mol. Microbiol. 2000, 36(5):1135-1147)
+CAAAGGGAGCUGAAGCUAGAAAGCCAUUAUGCGCUUUUUAGCUUAUGCUCCUUUUAUUUUUAUAAA
+>phoP,phoR	Northern blotting (2.7 kb transcript)	3142862 (Seki et al., J. Bacteriol. 1988, 170(12):5935-5938); 14762014 (Pragai et al., J. Bacteriol. 2004, 186(4):1182-1190)
+UUGACGGCGGGAACCUAUUUGUGUUCCCGUCCUUUUUUGUGUCUUCU
+>pfkA,pyk,ytzA	Northern blotting (3.5 kb transcript)	11489127 (Ludwig et al., Mol. Microbiol. 2001, 41(2):409-422); Genbank AF008220; SubtiList
+AAAAACGGCAGCCAUGAAAAAACGGCUGCCGUUUUAUUUUUGCUGA
+>sspA	Northern blotting (295 bp transcript)	3009398 (Connors et al., J. Bacteriol. 1986, 166(2):417-425)
+CUUAGGAGUGGGGGUAUCCCCACUCUUUUUCAUUUUUUAC
+>ytxG,ytxH,ytxJ	plasmid integration	8733232 (Varon et al., Mol. Microbiol. 1996, 20(2):339-350)
+AAAAAGCGUCCAGAUAUCAUCUGGCGCUUUUUUUUGUAAAAA
+>yteV	downstream genes are in the opposite direction	8990290 (Henriques et al., J. Bacteriol. 1997, 179(2):389-398)
+AAAAAGAUCUUUCCGCAGGCGCGGAAAGAUCUUUUUUGUUAAUAUG
+>bioW,bioA,bioF,bioD,bioB,bioI,ytbQ	insertional mutagenesis; Northern blotting (7.0 kb transcript)	8763940 (Bower et al., J. Bacteriol. 1996, 178(14):4122-4130); Genbank AF008220
+GAACGGAGCAUAAUCAUUUUCUAAGAUUAUGCUCUUUUUCUUUUGUUAU
+>ytrA,ytrB,ytrC,ytrD,ytrE,ytrF	Northern blotting (5.5 kb transcript)	10986249 (Yoshida et al., J. Bacteriol. 2000, 182(19):5454-5461); 9387221 (Lapidus et al., Microbiology 1997, 143(Pt.11):3431-3441); Genbank AF008220
+AACGAGCCGGCUGAGACAGCCGGCUUUUUCUAUAGCGCA
+>asnB,ytnA	Northern blotting (3.8 kb transcript)	10498721 (Yoshida et al., J. Bacteriol. 1999, 181(19):6081-6091); Genbank AF008220
+AAAAAGAGCUCCCAGUGGGCUCUUUUUGUGUGUGCUC
+>dps	Northern blotting (0.5 kb transcript)	9393687 (Antelmann et al., J. Bacteriol. 1997, 179(23):7251-7256); 9387221 (Lapidus et al., Microbiology 1997, 143(11):3431-3441); SubtiList
+GAACGGCCGGAUGUCUUAAAAAAGACGUCCGGCUUUUCUUUUUGUAUC
+>luxS	roposed	9387221 (Lapidus et al., Microbiology 1997, 143(Pt.11):3431-3441); Genbank AF008220
+GAAAGGACCUUUUUGCGCUUAAGCAAAAAGGUCUUUUUUGUGACGUCU
+>mntA,mntB,mntC,mntD	Northern blotting (4.0 kb transcript)	10760146 (Que & Helmann, Mol. Microbiol. 2000, 35(6):1454-1468); 15241682 (Nickel et al., Mol. Genet. Genomics 2004, 272(1):98-107)
+AGAAAGAGCUGGCUGAUGCAGCUCUUUCUUUUAAUUAUA
+>cotSA,cotS,ytxO	Northern blotting (2.7 kb transcript)	9603889 (Takamatsu et al., J. Bacteriol. 1998, 180(11):2968-2974); 9387221 (Lapidus et al., Microbiology 1997, 143(Pt.11):3431-3441); Genbank AF008220
+CGCAAGGCAUAAAGUCACAUUUAUGCCUUUUUUUAAGUUCUC
+>pgi,yugM,yugN	Northern blotting (2.4 kb transcript)	11489127 (Ludwig et al., Mol. Microbiol. 2001, 41(2):409-422); Genbank Z93936
+UAAGAGGAGGGGAAAGCAUCGGCCCCUCCUUUUUUUGUAUGCCU
+>yufN	Northern blotting (1.4 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); SubtiList
+AUCGCAGGGAUAAGGAGGUCGAGCCCUUAUCCCUUGUUUUUCUUUUAUUUU
+>comA,yuxO	S1 nuclease mapping	2507522 (Guillen et al., J. Bacteriol. 171(10), 5354-5361, 1989); 2507523 (Weinrauch et al., J. Bacteriol. 1989, 171(10):5362-5375)
+AAAAACAGCCGGAACUCUGCCUGUCCGGCUGCUUAUUUUUAUAAAUA
+>comQ,comX	S1 nuclease mapping	1715859 (Weinrauch et al., J. Bacteriol. 173(18): 5686-5693, 1991)
+AAUAACCCGUCAAUGGGGUGAUUAAUAGGUGGAUUA
+>yuxH	S1 nuclease mapping	2507522 (Guillen et al., J. Bacteriol. 171(10), 5354-5361, 1989); 2507523 (Weinrauch et al., J. Bacteriol. 171(10): 5362-5375, 1989)
+GAAAAGGCCACAACUUUAGCGUUGCGGUCUUUUUCGGUGUUUGU
+>ald	integrational mapping	8226620 (Siranosian et al., J. Bacteriol. 175(21) 6789-6796, 1993)
+AUAAGCUUGCAGAAAGAUUUCUGCAGGACUUUUUUAUUUUUUAA
+>yunB	downstream gene is in the opposite direction	12662922 (Eichenberger et al., J. Mol. Biol. 2003, 327(5):945-972)
+AAUAAGCCGCCUGUUGAAGAGGCGGCUUUUUGUUACUUCUU
+>pucR,pucJ,pucK,pucL,pucM	Northern blotting (6.2 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AGGAAGCCCGCCUCACCGGCGGGCUUCUUUUUGCACUUC
+>pucA,pucB,pucC,pucD,pucE	Northern blotting (5.3 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+CGGGAGUCCGGCUUUUAAAAGCCGGACUUUUUUAGCCUCAGU
+>yurR,yurQ,yurP,yurO,yurN,yurM,yurL	Northern blotting (7.5 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AAAAACGAGAAUACUAUAAGCAGUGUCUCGUUUUUUAUGCCUGUU
+>yvgR,yvgQ	reverse transcription PCR	12169591 (Guillouard et al., J. Bacteriol. 2002, 184(17):4681-4689); SubtiList
+GACGAGAGACAGGGAGUAGCUUCCUGUCUCUUUUUUCUAUAAUUU
+>cggR,gapA,pgk,tpiA,pgm,eno	Northern blotting (7.4 kb transcript)	11489127 (Ludwig et al., Mol. Microbiol. 2001, 41(2):409-422); Genbank L29475; SubtiList
+AAAGACCGCCGGGAUUUUCUCUCGGCGGCUUUUUUAUGCUUUCA
+>araE	Northern blotting (1.7 kb transcript)	9401028 (Sa-Nogueira & Ramos, J. Bacteriol. 1997, 179(24):7705-7711); Genbank Y12105
+UGAAACAGCCCUUUCUACGGGAAGGGCUGUUUAUAUUGGGAUGC
+>araR	Northern blotting (1.4 kb transcript)	9045819 (Sa-Nogueira & Mota, J. Bacteriol. 1997, 179(5):1598-1608); Genbank X98354
+AAAAAGCAAUGUAUGGGUCUCCCCGCUACAUUGCUUUUUUUAUAGCUGU
+>yvfG	Northern blotting (0.24 kb transcript)	15241682 (Nickel et al., Mol. Genet. Genomics 2004, 272(1):98-107); Genbank Z71928
+AUAAACCUUCCGCUCACAUGUGAGCAGGAAGGUUUUCCUUCUUUGAG
+>pbpE,racX	mutational analysis	8491712 (Popham & Setlow, J. Bacteriol. 1993, 175(10):2917-2925)
+UCAGACAAGGACUGUCUUCAAACAGUCCUUGUUUUUUUAUGUUCCU
+>sacB,yveB,yveA	Northern blotting (4.9 kb transcript)	11739774 (Pereira et al., Microbiology 2001, 147(Pt.12):3413-3419)
+AUAAAGAAGCAAGAGGUUUUCUUGCUUCUUUAUUCUUUACAAA
+>clpP	Northern blotting (0.8 kb transcript)	8973311 (Gerth et al., Gene 1996, 181(1-2):77-83); 9643546 (Gerth et al., Mol. Microbiol. 1998, 28(4):787-802)
+CACAACCUGCAAGAGCUGCGUCUCUUGCAGGUUUUUUUCAUUUCAA
+>yvzB	Northern blotting (approximately 1.0 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136)
+UUACAGCUUGCCGACAGAGUCCAUUAACUGGAUGUGCCGGCAGGCUUUUUUUGUUACAAU
+>csbA	terminator-probe plasmids	1744042 (Boylan et al., J. Bacteriol. 1991, 173(24):7856-7866)
+GAAUACCUGCUUUUACGUUUUAAAAGCAGGUUUUUUAUACACAAA
+>yvyD	Northern blotting (0.6 kb transcript)	9852014 (Drzewiecki et al., J. Bacteriol. 1998, 180(24):6674-6680); 8195064 (Chen & Helmann, J. Bacteriol. 1994, 176(11):3093-3101)
+AGAAGCCUUCCGUGAUGUCCGCGGAAGGUUUUUGUUUUUCUUA
+>hag	Northern blotting (1.0 kb transcript)	2498284 (Mirel & Chamberlin, J. Bacteriol. 1989, 171(6):3095-3101)
+AAAAAGACCUUGGCGUUGCCAGGGUCUUUUAAUUUAAAUUU
+>degS,degU	lacZ fusions	1688843 (Msadek et al., J. Bacteriol. 172(2): 824-834, 1990); 8969505 (Soldo et al., Microbiology 1996, 142(Pt.11):3079-3088); Genbank U56901
+UAGGAGACUUGCCUUUUACUAGGCAGGUCUUUUUUUAGGCUGCC
+>lytA,lytB,lytC	Northern blotting (4.1 kb transcript)	1357079 (Lazarevic et al., J. Gen. Microbiol. 1992, 138(Pt.9):1949-1961); 8093697 (Kuroda & Sekiguchi, J. Bacteriol. 1993, 175(3):795-801)
+CGAAAGAGACAAAUCUAAUCACAGAUUUGUCUCUUUUUUAUAUGAAAU
+>ywsC,ywtA,ywtB,ywtC	Northern blotting (3.0 kb transcript)	11751809 (Urushibata et al., J. Bacteriol. 2002, 184(2):337-343); Genbank Z92954
+AAAAAGAGAGUGUCUGAUGAGACACUCUCUUUUUAUUUGCCCAG
+>mbl,flhO,flhP	Northern blotting (2.8 kb transcript)	15033535 (Serizawa et al., Gene 2004, 329:125-136); 7836311 (Abhayawardhane & Stewart, J. Bacteriol. 1995, 177(3):765-773)
+AAAAUGGGCGUUUUUCAAUCAGCCGCGCAUGAUAAAAAAAGCGGCUUUUUCGAAAUCGUCCUUUUUUUUGUAGUAU
+>usd,spoIIID,mbl	transcriptional fusions; Northern blotting (1.34 kb transcript)	1469717 (Halberg & Kroos, J. Mol. Biol. 1992, 228(3):840-849); 9023218 (Decatur et al., J. Bacteriol. 1997, 179(4):1324-1328); 7836311 (Abhayawardhane & Stewart, J. Bacteriol. 1995, 177(3):765-773)
+ACAAACCUCAUUCUGAAAAAGAAUGAGGUUUUUUUAUGAAAAA
+>ureA,ureB,ureC	Northern blotting (2.6 kb transcript)	9150240 (Cruz-Ramos et al., J. Bacteriol. 1997, 179(10):3371-3373); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AGACGCGGCCGGAGUGCAUCCGGCCGUUCUAUUGACUAAAA
+>spoIID	integrational plasmids	3011962 (Lopez-Diaz et al., J. Gen. Microbiol. 1986, 132(Pt.2):341-354)
+AAAAAGACGCUCAUUGGGCGUCUUUUUCUGUUCCUGA
+>ywlF,ywlG	Northern blotting (1.1 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); 9353933 (Presecan et al., Microbiology 1997, 143(Pt.10):3313-3328); Genbank Z38002
+GAAAGGACUGCAUAGCCAGUCUUUUCUUUUAUUUUA
+>fbaA,ywjH	Northern blotting (1.7 kb transcript)	2457578 (Trach et al., J. Bacteriol. 1988, 170(9):4194-4208); 11489127 (Ludwig et al., Mol. Microbiol. 2001, 41(2):409-422)
+AUGAAAGGGGCGGCAAACAGCUUUAUGCCUGUUUGCCGCGGCCUUUGUAUUUCACCGAC
+>narK,fnr	Northern blotting (2.0 kb transcript)	8846791 (Cruz-Ramos et al., EMBO J. 1995, 14(23):5984-5994)
+AAAAACAAGGACAGCGGUGUCCUUGUUUUUUUACCUUGUG
+>yweA	Northern blotting (0.6 kb transcript)	10468601 (Belitsky & Sonenshein, Proc. Natl Acad. Sci. USA 1999, 96(18):10290-10295); 12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165)
+AGUCAGAGACUGAGAUGUUUUCAGUCUCUUUUUUUGUGGAUUC
+>ywbI,thiM,thiE	Northern blotting (2.4 kb transcript)	9139923 (Zhang et al., J. Bacteriol. 1997, 179(9):3030-3035)
+AAAGGGCUGUUCUGUAAAAGGACAGCUUUUUUGCUGUCCAU
+>sacX,sacY	lacZ gene fusion	 1400159 (Crutz & Steinmetz, J. Bacteriol. 1992, 174(19):6087-6095); 2116367 (Zukowski et al., Gene 1990, 90(1):153-155)
+AAAAACGCUUUUGAUCAUCUCAAAAGCGUUUUUUUAUCUGAUU
+>gspA	Northern blotting (0.95 kb transcript)	7768864 (Antelmann et al., J. Bacteriol. 1995, 177(12):3540-3545)
+AAAAACGCUUUUGAGAUGAUCAAAAGCGUUUUUUGUUUGUCUC
+>licB,licC,licA,licH	Northern blotting (3.4 kb transcript)	8990303 (Tobisch et al., J. Bacteriol. 1997, 179(2):496-506); Genbank Z49992
+AAAAAGCCGGCCUGUAAUGGGCCGGCUUUUUUCUUACUUGC
+>yxlJ,yxzF	Northern blotting (0.9 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); 8990303 (Tobisch et al., J. Bacteriol. 1997, 179(2):496-506)
+UAGAACAGCCGGCUGAUCCCGGCUGUUUUUUUAUAGGUCA
+>katX	Northern blotting (1.8 kb transcript)	10503549 (Petersohn et al., Mol. Gen. Genetic. 1999, 262(1):173-179); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+GCGAACAGGGCUUUUUUAGAAGCCCUGUUUUUUUAUUUUUCU
+>sigY,yxlC,yxlD,yxlE,yxlF,yxlG	Northern blotting (4.3 kb transcript)	14769884 (Tojo et al., J. Biochem. 2003, 134(6):935-946); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AAAAACGGCGTGATCTAAAGCGCCGATTGTTTTTTTCTGAG
+>cydA,cydB,cydC,cydD	Northern blotting (6.0 kb transcript)	9852001 (Winstedt et al., J. Bacteriol. 1998, 180(24):6571-6580); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+UAAAAGACAGCCCUAAAAGGCUGUCUUUUUUGUUUGAAAA
+>yxkJ	Northern blotting (1.5 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); BSORF
+CGCAAGCAAGUUCUUCGUCAAACGAAAGAGCUUGCUUUUUUGCAUGUCCA
+>yxkF,msmX	Northern blotting (2.3 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); BSORF; SubtiList
+AAAAACCGGACAUGGAGACAUGUCCGGUUUUUUGCUAUUGAA
+>pepT	Northern blotting (1.4 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); BSORF; SubtiList
+CAAAAGCCAGUCCAAAAAAGGACUGGCUUUUUUGUGUGAAAA
+>yxjC,scoA,scoB,yxjF	Northern blotting (3.8 kb transcript)	12662922 (Eichenberger et al., J. Mol. Biol. 2003, 327(5):945-972); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); BSORF; SubtiList
+AAAAACACACUUGCUCCGCUAGGGAAUCAAGUGUGUUUUUUUCUUUGCUU
+>yxjB	Northern blotting (1.0 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); SubtiList
+GGAAAGCUCCGAAAAAAGGAGCUUUCCUUUUUUAAUC
+>yxjA	Northern blotting (1.3 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579);BSORF; SubtiList
+ACAUUGAGCCAUAUCCCUUUUCGGAUAUGGCUCUUUUCAUUAUUGAUA
+>yxiT	Northern blotting (0.8 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+CAAUAAUGAAAAGAGCCAUAUCCGAAAAGGGAUAUGGCUCAAUGUUUCUACCACACA
+>katE,yxiS	Northern blotting (2.5 kb transcript measured by Yoshida; 2.4 kb transcript measured by Engelmann)	7559348 (Engelmann et al., J. Bacteriol. 1995, 177(19):5598-5605); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AAAAAGAGACAUCCUGUGUCUCUUUUUUUAUUGGAAA
+>licT,bglS	Northern blotting (2.4 kb transcript)	8606172 (Schnetz et al., J. Bacteriol. 178(7), 1971-1979, 1996)
+UGAAAGAGCCUGCUGCAAUAUAGCAGGCUCUUAUGAUUGUAAUGA
+>wapA,yxxG	Northern blotting (8.0 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AUAAAGCUUGUAUCGAUAAGCGAUACAAGCUUUUUUAGAACAAAU
+>yxxF	Northern blotting (1.0 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); SubtiList
+UAAAAAGGCCUAUGCGGCCUUUUUUUGUUUUAGGU
+>bglP,bglH,yxiE	Northern blotting (4.0 kb transcript)	 10913081 (Antelmann et al, J. Bacteriol. 2000, 182(16):4478-4490); 7883710 (Le Coq et al., J. Bacteriol. 1995, 177(6):1527-1535); 8626332 (Kruger et al., J. Bacteriol. 1996, 178(9):2637-2644); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AAAAAGCGCCCUUGGGCGCUUUUUUUUAUUUAGA
+>yxiA	Northern blotting (1.5 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579);BSORF; SubtiList
+GAAGCGCCUUCGAGGGAAGGUGUUUUUUUAUGAGCUU
+>deoR,dra,nupC,pdp	Northern blotting (4.5 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); 7704263 (Yoshida et al., Microbiology 1995, 141(Pt.2):337-343); 8550462 (Saxild et al., J. Bacteriol. 1996, 178(2):424-434)
+AUAAAGCACAUCCCAUGCUGAGCGGGGUGUGCUUUUUUAAUUAUAGG
+>yxeF,yxeG,yxeH	Northern blotting (2.5 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); SubtiList; BSORF
+AAAAAAUCCAGCCUUCUAAAGGCUGGAUCUUUUCGUUUUAUUUG
+>yxeE	Northern blotting (0.4 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+UGUAGUUCCUCUUUGACGGAAUUUCUUUUCAUUCAA
+>yxdJ,yxdK	Northern blotting (1.7 kb transcript)	7952181 (Yoshida et al., Microbiology 140(Pt.9):2289-2298); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+UUGUUUCCCCUUGAUAACAUGGAUUUAUGUCAAGGGGAUUUUUAUGUUGAACG
+>yxcE,yxcD	Northern blotting (1.2 kb transcript)	10376822 (Akbar et al., Microbiology, 1999, 145(Pt.5):1069-1078); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+UCAAACCUUACUCCGCGCGGGUAAGGUUUUUUUAAUGGUUU
+>csbC	Northern blotting (1.5 kb transcript)	10376822 (Akbar et al., Microbiology, 1999, 145(Pt.5):1069-1078); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); BSORF
+AAAAAGGAAUCGUCUCCUUAUGAGACGAUUCCUUUUUCUGUUUACAC
+>htpG	Northern blotting (1.9 kb transcript)	9150201 (Schulz et al., J. Bacteriol. 1997, 179(10):3103-3109)
+AAAAAGGAAUCGUCUCAUAAGGAGACGAUUCCUUUUUUUAUAAUGUA
+>yxbB,yxbA,yxnB,asnH,yxaM	Northern blotting (5.5 kb transcript)	10498721 (Yoshida et al., J. Bacteriol. 1999, 181(19):6081-6091); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AUCACAGUAAGAAGACCUUCUUAUUAAAAGAAGGUCUUCUGCUAUUCUAUUCAGUUAUU
+>yxaG,yxaH	Northern blotting (2.5 kb transcript)	15317768 (Yoshida et al., J. Bacteriol. 2004, 186(17):5640-5648); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+CAAAAGUCUAGAUGCCUAUUGGCGUCUAGACUUUUUUCUAUUAUUU
+>yxaA,yxaB	Northern blotting (2.4 kb transcript)	10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579); SubtiList
+AAAAAGACUGCCCUCCCCCGGGGCAGUCUUUCUUUGUUAAAUA
+>gntR,gntK,gntP,gntZ	S1 nuclease mapping; Northern blotting (5.5 kb transcript)	3020045 (Fujita et al., J. Biol. Chem. 1986, 261(29):13744-13753); 10746760 (Yoshida et al., Microbiology 2000, 146(Pt.3):573-579)
+AAAAACACGGUCAGUUUCAACUGAACCGUGUUUUUUUCUUCUAUC
+>ahpC,ahpF	Northern blotting (2.4 kb transcript)	8932314 (Antelmann et al., J. Bacteriol. 1996, 178(22):6571-6578); BSORF; SubtiList
+AGAAAUCCGCUAUAUUGCCAGAUUGGCAGGAUAGCGGAUUUUUCUUUUUCUAC
+>yyzE,bglA	Northern blotting	BSORF; SubtiList
+UGGUGAGGAACUAUAAGAAGCGCUCGAAUCGAGCACUUUUACCGUAGUGCCUGGUUCGGUUUUUUUCUGUAGAA
+>yydF,yydG,yydH,yydI,yydJ	Northern blotting	BSORF; SubtiList
+AGGGAGCUACUUCACAAUGAAGUAGCUUUUUAUGUGCACCU
+>yycR	Northern blotting	BSORF
+AAAAAGCCGGACGUUCUCAGAACGCCGGCUUUAUUGCUGGUAAU
+>yycO,yycP,yycQ	Northern blotting	BSORF
+AUGAAGAGACUGGUGUGAAGUCUCUUUUUUUGUUGAACC
+>yycN	Northern blotting	BSORF
+AAAAGGGCCUGAUAAAGGCCUUUUUCUGUAAACGA
+>rapG,phrG	Northern blotting	11466295 (McQuade et al., J. Bacteriol. 2001, 183(16):4905-4909); BSORF
+AAGAAUCCUAAAACGGUUUGUAGUUUUAGGAUUCUUUCAUCUUUUC
+>rocD,rocE,rocF	translational fusion with lacZ; Northern blotting	7540694 (Gardan et al., J. Mol. Biol. 1995, 249(5):843-856); BSORF
+AAACCCCCGCACCCGCGGGUUUUCAGCGUGUCGA
+>yycF,yycG,yycH,yycI,yycJ,yyxA	Northern blotting (7.4 kb transcript); transcriptional fusions	9829949 (Fabret & Hoch, J. Bacteriol. 1998, 180(23):6375-6383); 10878122 (Fukuchi et al., Microbiology 2000, 146(Pt.7):1573-1583); BSORF
+AAAAGCAGUCUGGCAUCGUUGCCAGGCUGUUUUGAUAUGCAAAA
+>purA	Northern blotting (1.40 kb transcript)	1312531 (Mantsala & Zalkin, J. Bacteriol. 1992, 174(6):1883-1890); 15241682 (Nickel et al., Mol. Genet. Genomics 2004, 272(1):98-107)
+GUCUGCAAGCCCCUAUUUAAGGGGCUUGUUUUUUGUUUGAAAG
+>dnaC	Northern blotting	BSORF
+AUAAGCCCCAAGAGCUGCUCUUGGGGUUUUUUUCAUUCGAA
+>yycC,yycB	Northern blotting (1.4 kb transcript)	12823818 (Yoshida et al., Mol. Microbiol. 2003, 49(1):157-165); SubtiList
+AUAAAGCGGGGAAGAUAUCUCCGCUUUUUUCUUUGAAUA
+>yybS,yybT,rplI	Northern blotting	BSORF
+GAAAAGAGGCUUGGAUUCAUCCAAGCCUCUUUUUUUAUUCCACG
+>yybH,yybI	Northern blotting	BSORF
+AAAAAGAGUGCUUUUCAGCAAGCACUCUUUAUUCCAGUUUAA
+>yybE,yybD,yybC	Northern blotting	BSORF; SubtiList
+UCUGCGGCAGGCAGCUGCCAUUUUUUCUUUUUGGG
+>tetL,tetB	Northern blotting	BSORF
+UGAAAGGAUCAAUCUUGUGAAAGUAAUUCAAGGUUGAUCCUUUUUUGUAAAAUGA
+>yyaO	Northern blotting	BSORF; SubtiList
+UAAAACCUGUAAUCCGUAACCACGCGGUAGCAGGUUUUUUUAUUUGCUU
+>soj,spo0J	Northern blotting	BSORF; SubtiList
+AAAAACCAUCUUUCAAACGAAGAUGGUUUUUAUUUUAUAUG
+>thdF,gidA,gidB,yyaA	Northern blotting	11807071 (Sievers et al., J. Bacteriol. 2002, 184(4):1102-1111); BSORF; SubtiList
+UAGAAGCUCUCCUGAAAAGCAGGAGAGCUUUUUAUAUUUUUAA
+>spoIIIJ,jag	Northern blotting	1487728 (Errington et al., J. Gen. Microbiol. 1992, 138(Pt.12):2609-2618); BSORF; SubtiList
+UAAAACCGAAGUCCGAUAAAAAUUGGAUUUCGGUUUUUUUGUAUCCGA

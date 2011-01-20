@@ -1,0 +1,6 @@
+U00096;	RNIE	terminator	1339589	1339631	22.62	+	.	ID=terminator10000;E_value=2.75e-01;Bits=22.62;sumBits=22.62;Note=Predicted Rho independent terminator using cmsearch,seed-a-14=22.62
+U00096;	RNIE	terminator	4436361	4436401	17.44	-	.	ID=terminator10001;E_value=1.98e+00;Bits=17.44;sumBits=17.44;Note=Predicted Rho independent terminator using cmsearch,seed-a-14=17.44
+U00096;	RNIE	terminator	4448831	4448874	17.12	-	.	ID=terminator10002;E_value=2.24e+00;Bits=17.12;sumBits=17.12;Note=Predicted Rho independent terminator using cmsearch,seed-a-14=17.12
+U00096;	RNIE	terminator	1226286	1226332	19.90	-	.	ID=terminator10003;E_value=1.74e-01;Bits=19.90;sumBits=19.90;Note=Predicted Rho independent terminator using cmsearch,seed-b-14=19.90
+U00096;	RNIE	terminator	4518549	4518591	18.39	-	.	ID=terminator10004;E_value=4.31e-01;Bits=18.39;sumBits=18.39;Note=Predicted Rho independent terminator using cmsearch,seed-b-14=18.39
+U00096;	RNIE	terminator	4098085	4098122	16.26	-	.	ID=terminator10005;E_value=1.54e+00;Bits=16.26;sumBits=16.26;Note=Predicted Rho independent terminator using cmsearch,seed-b-14=16.26

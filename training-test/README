@@ -1,0 +1,185 @@
+######DELME:
+
+setenv RNIE $HOME/path/to/rnie-0.01/
+setenv TRANSTERM $HOME/path/to/transterm_hp_v2.06/
+setenv RNAMOTIF $HOME/path/to/rnamotif-3.0.5
+setenv PARADIR  $HOME/path/to/results/directory
+
+######################################################################
+#ALGORITHM NOTES
+######################################################################
+
+#1. TransTermHP (v2.06):
+#usage: transterm [options] *.fasta *.coords
+# *.coords file format:
+# gene_name  start  end  chrom_id
+
+#Fails to predict on RNA sequences and can't handle long sequence names:
+cd $RNIE/benchmark/training-test/
+sreformat -d fasta trueEmbedded.fa | perl -lane 'if(/^>(\S+)\s+(\d+)-(\d+)/){$place++; @alphabet = ("A" .. "Z"); $alphasize = scalar(@alphabet); $l = $place % $alphasize; $k = int($place/$alphasize) % $alphasize; $j = int($place/$alphasize/$alphasize) % $alphasize; $i = int($place/$alphasize/$alphasize/$alphasize) % $alphasize; $id = $alphabet[$i] . $alphabet[$j] . $alphabet[$k] . $alphabet[$l]; print ">$id\t$2-$3\t$1"}else{print $F[0]}' > trueEmbedded.fa-DNA 
+sreformat -d fasta falseEmbedded.fa | perl -lane 'if(/^>(\S+)\s+(\d+)-(\d+)/){$place++; @alphabet = ("A" .. "Z"); $alphasize = scalar(@alphabet); $l = $place % $alphasize; $k = int($place/$alphasize) % $alphasize; $j = int($place/$alphasize/$alphasize) % $alphasize; $i = int($place/$alphasize/$alphasize/$alphasize) % $alphasize; $id = $alphabet[$i] . $alphabet[$j] . $alphabet[$k] . $alphabet[$l]; print ">$id\t$2-$3\t$1"}else{print $F[0]}' > falseEmbedded.fa-DNA 
+
+#Generate coords files (true):
+grep ^">" trueEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=200; $i<1000; $i+=400){$p3=$i+300; printf "g%d\t%d\t%d\t$1\n", $i, $i, $p3 if $p3<950;}}' > trueEmbedded-2features.coords
+grep ^">" trueEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)/){print "g1\t10\t100\t$1\ng3\t150\t250\t$1\ng4\t387\t490\t$1\ng5\t600\t790\t$1"}'                                 > trueEmbedded-4features.coords
+grep ^">" trueEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=50;  $i<950;  $i+=100){printf "g%d\t%d\t%d\t$1\n", $i, $i, $i+50;}}'                      > trueEmbedded-9features.coords
+grep ^">" trueEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=1;  $i<1000; $i+=90){$p3=$i+50; printf "g%d\t%d\t%d\t$1\n", $i, $i, $p3 if $p3<950;}}'    > trueEmbedded-10features.coords
+
+#Generate coords files (false):
+grep ^">" falseEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=200; $i<1000; $i+=400){$p3=$i+300; printf "g%d\t%d\t%d\t$1\n", $i, $i, $p3 if $p3<950;}}' > falseEmbedded-2features.coords
+grep ^">" falseEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)/){print "g1\t10\t100\t$1\ng3\t150\t250\t$1\ng4\t387\t490\t$1\ng5\t600\t790\t$1"}'                                 > falseEmbedded-4features.coords
+grep ^">" falseEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=50;  $i<950;  $i+=100){printf "g%d\t%d\t%d\t$1\n", $i, $i, $i+50;}}'                      > falseEmbedded-9features.coords
+grep ^">" falseEmbedded.fa-DNA | perl -lane 'if(/^>(\S+)\s+(\d+)\-(\d+)/){for($i=1;  $i<1000; $i+=90){$p3=$i+50; printf "g%d\t%d\t%d\t$1\n", $i, $i, $p3 if $p3<950;}}'    > falseEmbedded-10features.coords
+
+cd $TRANSTERM
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/trueEmbedded.fa-DNA $RNIE/benchmark/training-test/trueEmbedded-2features.coords > trueEmbedded-2features.transterm
+#Wall clock time = 3 seconds.
+#3.22user 0.01system 0:16.67elapsed 19%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (1major+1527minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/trueEmbedded.fa-DNA $RNIE/benchmark/training-test/trueEmbedded-4features.coords > trueEmbedded-4features.transterm
+#Wall clock time = 5 seconds.
+#3.22user 0.02system 0:04.97elapsed 65%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+1554minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/trueEmbedded.fa-DNA $RNIE/benchmark/training-test/trueEmbedded-9features.coords > trueEmbedded-9features.transterm
+#Wall clock time = 5 seconds.
+#3.25user 0.02system 0:04.72elapsed 69%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+1621minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/trueEmbedded.fa-DNA $RNIE/benchmark/training-test/trueEmbedded-10features.coords > trueEmbedded-10features.transterm
+#Wall clock time = 4 seconds.
+#3.29user 0.02system 0:03.69elapsed 89%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+1632minor)pagefaults 0swaps
+
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/falseEmbedded.fa-DNA $RNIE/benchmark/training-test/falseEmbedded-2features.coords > falseEmbedded-2features.transterm
+#Wall clock time = 673 seconds.
+#545.15user 1.98system 11:13.20elapsed 81%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+83117minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/falseEmbedded.fa-DNA $RNIE/benchmark/training-test/falseEmbedded-4features.coords > falseEmbedded-4features.transterm
+#Wall clock time = 885 seconds.
+#792.20user 2.39system 14:45.73elapsed 89%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+85430minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/falseEmbedded.fa-DNA $RNIE/benchmark/training-test/falseEmbedded-9features.coords > falseEmbedded-9features.transterm
+#Wall clock time = 1302 seconds.
+#1267.27user 2.68system 21:43.48elapsed 97%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+92414minor)pagefaults 0swaps
+/usr/bin/time transterm --min-conf=1 -p expterm.dat $RNIE/benchmark/training-test/falseEmbedded.fa-DNA $RNIE/benchmark/training-test/falseEmbedded-10features.coords > falseEmbedded-10features.transterm
+#Wall clock time = 1761 seconds.
+#1369.52user 2.60system 29:21.45elapsed 77%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+93506minor)pagefaults 0swaps
+
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/trueEmbedded-2features.transterm  -f $RNIE/benchmark/training-test/trueEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/trueEmbedded-4features.transterm  -f $RNIE/benchmark/training-test/trueEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/trueEmbedded-9features.transterm  -f $RNIE/benchmark/training-test/trueEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/trueEmbedded-10features.transterm -f $RNIE/benchmark/training-test/trueEmbedded.fa-DNA
+
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/falseEmbedded-2features.transterm  -f $RNIE/benchmark/training-test/falseEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/falseEmbedded-4features.transterm  -f $RNIE/benchmark/training-test/falseEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/falseEmbedded-9features.transterm  -f $RNIE/benchmark/training-test/falseEmbedded.fa-DNA
+$RNIE/benchmark/scripts/transtermHP2gff.pl -t $TRANSTERM/falseEmbedded-10features.transterm -f $RNIE/benchmark/training-test/falseEmbedded.fa-DNA
+
+cp $TRANSTERM/*Embedded-*features.transterm.gff  $RNIE/benchmark/training-test/
+
+######################################################################
+
+#2. Lesnik et al. RNAmotif terminator descriptor (obtained via email from Dave Ecker at ibisbio, Feb. 2010):
+# Installed RNAmotif (v3.0.5)
+cd $RNAMOTIF
+setenv EFNDATA $RNAMOTIF/efndata
+#Run RNAMotif:
+/usr/bin/time src/rnamotif -descr terminator-lesnik.desc $RNIE/benchmark/training-test/trueEmbedded.fa  | src/rmfmt -l | src/rmprune > trueEmbedded.terminator-lesnik.out 
+#1.93user 0.02system 0:02.13elapsed 91%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+2313minor)pagefaults 0swaps
+/usr/bin/time src/rnamotif -descr terminator-lesnik.desc $RNIE/benchmark/training-test/falseEmbedded.fa | src/rmfmt -l | src/rmprune > falseEmbedded.terminator-lesnik.out 
+#169.72user 0.28system 3:33.95elapsed 79%CPU (0avgtext+0avgdata 0maxresident)k
+#0inputs+0outputs (0major+3733minor)pagefaults 0swaps
+
+$RNIE/benchmark/scripts/terminator-lesnik2gff.pl -t trueEmbedded.terminator-lesnik.out
+$RNIE/benchmark/scripts/terminator-lesnik2gff.pl -t falseEmbedded.terminator-lesnik.out
+cp *Embedded.terminator-lesnik.out.*.gff $RNIE/benchmark/training-test/
+
+######################################################################
+
+#3. rnall -- ask Zasha Weinberg nicely to run it on their lab's decaying Mac.
+#   Method authors were unresponsive to email.
+
+######################################################################
+
+#4. RNIE
+/usr/bin/time $RNIE/rnie.pl -th 10 -f $RNIE/benchmark/training-test/trueEmbedded.fa
+#43.49user 0.10system 0:58.40elapsed 74%CPU (0avgtext+0avgdata 0maxresident)k
+/usr/bin/time $RNIE/rnie.pl -th 10 -f $RNIE/benchmark/training-test/falseEmbedded.fa
+#2388.94user 0.57system 40:59.58elapsed 97%CPU (0avgtext+0avgdata 0maxresident)k
+
+/usr/bin/time $RNIE/rnie.pl --gene -f $RNIE/benchmark/training-test/trueEmbedded.fa
+#1066.15user 0.14system 19:47.63elapsed 89%CPU (0avgtext+0avgdata 0maxresident)k
+/usr/bin/time $RNIE/rnie.pl --gene -f $RNIE/benchmark/training-test/falseEmbedded.fa
+#104545.83user 7.66system 29:05:39elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+
+
+#For more speed (parallelise):
+# cd $PARADIR
+# ls *Embedded.fa.*  | egrep -v 'err$|cmsearch$|tabfile$|gff$' | awk '{print "bsub -q long -n1 -R \42span[hosts=1] && select[type==X86_64]\42 -J\42"$1"\42 -o $PARADIR/"$1".err \47$RNIE/rnie.pl -th 10 -f $PARADIR/"$1" -p $PARADIR/"$1" -f $PARADIR/"$1" \47"}' | sh
+# ls *Embedded.fa.*  | egrep -v 'err$|cmsearch$|tabfile$|gff$' | awk '{print "bsub -q long -n1 -R \42span[hosts=1] && select[type==X86_64]\42 -J\42"$1"\42 -o $PARADIR/"$1".err \47$RNIE/rnie.pl -th 10 -f $PARADIR/"$1" -p $PARADIR/"$1" -f $PARADIR/"$1" --slow \47"}' | sh
+
+# cat $PARADIR/trueEmbedded.fa.*-fast.cm-rnie.gff  | sort -k4n > $PARADIR/trueEmbedded-fast-rnie.gff
+# cat $PARADIR/falseEmbedded.fa.*-fast.cm-rnie.gff | sort -k4n > $PARADIR/falseEmbedded-fast-rnie.gff
+# cat $PARADIR/trueEmbedded.fa.*-slow.cm-rnie.gff  | sort -k4n > $PARADIR/trueEmbedded-slow-rnie.gff
+# cat $PARADIR/falseEmbedded.fa.*-slow.cm-rnie.gff | sort -k4n > $PARADIR/falseEmbedded-slow-rnie.gff
+    
+$RNIE/benchmark/scripts/rnie2gff.pl -r $RNIE/benchmark/training-test/trueEmbedded-genomeMode-rnie.gff
+$RNIE/benchmark/scripts/rnie2gff.pl -r $RNIE/benchmark/training-test/falseEmbedded-genomeMode-rnie.gff
+$RNIE/benchmark/scripts/rnie2gff.pl -r $RNIE/benchmark/training-test/trueEmbedded-geneMode-rnie.gff
+$RNIE/benchmark/scripts/rnie2gff.pl -r $RNIE/benchmark/training-test/falseEmbedded-geneMode-rnie.gff
+
+#cp $PARADIR/*Embedded-*-rnie*gff $RNIE/benchmark/training-test/
+
+######################################################################
+#Build data files and plot figures:
+cd $RNIE/benchmark/training-test
+$RNIE/benchmark/scripts/computeROC.pl 
+
+#######
+# max(MCC) = [0.748511] max(MCCNucs) = [0.742423] [trueEmbedded-genomeMode-rnie.bits.gff falseEmbedded-genomeMode-rnie.bits.gff]
+# max(MCC) = [0.742193] max(MCCNucs) = [0.740591] [trueEmbedded-geneMode-rnie.bits.gff falseEmbedded-geneMode-rnie.bits.gff]
+# max(MCC) = [0.725122] max(MCCNucs) = [0.713853] [trueEmbedded-fast-rnie.bits.gff falseEmbedded-fast-rnie.bits.gff]
+# max(MCC) = [0.698371] max(MCCNucs) = [0.692204] [trueEmbedded-slow-rnie.bits.gff falseEmbedded-slow-rnie.bits.gff]
+
+# max(MCC) = [0.498111] max(MCCNucs) = [0.484661] [trueEmbedded-2features.transterm.gff falseEmbedded-2features.transterm.gff]
+# max(MCC) = [0.439033] max(MCCNucs) = [0.436713] [trueEmbedded-4features.transterm.gff falseEmbedded-4features.transterm.gff]
+# max(MCC) = [0.486345] max(MCCNucs) = [0.409563] [trueEmbedded-9features.transterm.gff falseEmbedded-9features.transterm.gff]
+# max(MCC) = [0.502510] max(MCCNucs) = [0.401814] [trueEmbedded-10features.transterm.gff falseEmbedded-10features.transterm.gff]
+
+# max(MCC) = [0.409219] max(MCCNucs) = [0.333399] [trueEmbedded.rnall-barrick.dG.gff falseEmbedded.rnall-barrick.dG.gff]
+# max(MCC) = [0.166909] max(MCCNucs) = [0.114526] [trueEmbedded.rnall-barrick.hbG.gff falseEmbedded.rnall-barrick.hbG.gff]
+# max(MCC) = [0.296410] max(MCCNucs) = [0.229956] [trueEmbedded.rnall-wan.dG.gff falseEmbedded.rnall-wan.dG.gff]
+# max(MCC) = [0.148808] max(MCCNucs) = [0.125993] [trueEmbedded.rnall-wan.hbG.gff falseEmbedded.rnall-wan.hbG.gff]
+# max(MCC) = [0.492902] max(MCCNucs) = [0.478196] [trueEmbedded.terminator-lesnik.out.dG_score.gff falseEmbedded.terminator-lesnik.out.dG_score.gff]
+# max(MCC) = [0.121692] max(MCCNucs) = [0.114535] [trueEmbedded.terminator-lesnik.out.struct_score.gff falseEmbedded.terminator-lesnik.out.struct_score.gff]
+######################################################################
+
+#Thresholding RNIE:
+
+#genome mode:
+#max(MCC) = [0.748511] max(MCCNucs) = [0.742423] [trueEmbedded-genomeMode-rnie.bits.gff falseEmbedded-genomeMode-rnie.bits.gff]
+#sens       	 ppv             mcc             fpr/KB          score
+#0.642512        0.831250        0.730811        0.001239        17.010000
+#0.676329        0.828402        0.748511        0.001331        16.450000
+#0.698068        0.789617        0.742430        0.001767        16.000000  <-----
+#0.736715        0.715962        0.726262        0.002777        15.010000
+cat trueEmbedded-genomeMode-rnie.bits.gff falseEmbedded-genomeMode-rnie.gff  | sort -k6nr | perl -lane '$tf="T"; $tf="F" if $_=~/shuffled/; printf "%0.2f   $tf\t$_\n", $F[5];' > Embedded-genomeMode-rnie.bits.sorted
+more Embedded-genomeMode-rnie.bits.sorted
+
+#gene mode:
+#max(MCC) = [0.742193] max(MCCNucs) = [0.740591] [trueEmbedded-geneMode-rnie.bits.gff falseEmbedded-geneMode-rnie.bits.gff]
+#sens       	 ppv             mcc             fpr/KB          score
+#0.632850        0.870432        0.742193        0.000895        19.090000
+#0.676329        0.793201        0.732435        0.001675        18.020000
+#0.729469        0.734793        0.732124        0.002501        17.000000
+#0.772947        0.643863        0.705456        0.004062        16.000000
+#0.804348        0.546798        0.663182        0.006334        15.010000
+#0.830918        0.452037        0.612862        0.009569        14.000000  <-----
+#0.864734        0.342584        0.544277        0.015765        13.000000
+#0.869565        0.240000        0.456824        0.026161        12.000000
+#0.891304        0.160995        0.378797        0.044129        11.000000
+#0.898551        0.099732        0.299342        0.077060        10.010000
+
+

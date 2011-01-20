@@ -1,0 +1,225 @@
+#cd $RNIE/benchmark/genomes
+#R CMD BATCH --no-save ../scripts/plotDists.R
+
+rnieF          <-read.table("genomeMode-rnie.dists",header = F, sep = "\t")
+rnieS          <-read.table("geneMode-rnie.dists",header = F, sep = "\t")
+rnieFS         <-read.table("shuffled-genomeMode-rnie.dists",header = F, sep = "\t")
+rnieSS         <-read.table("shuffled-geneMode-rnie.dists",header = F, sep = "\t")
+
+transterm      <-read.table("transterm.dists",header = F, sep = "\t")
+transtermShuff <-read.table("shuffled-transterm.dists",header = F, sep = "\t")
+
+mx<-ceiling(max(c(rnieF[,2],rnieS[,2],rnieFS[,2],rnieSS[,2],transterm[,2],transtermShuff[,2]))+1)
+mn<-ceiling(min(c(rnieF[,2],rnieS[,2],rnieFS[,2],rnieSS[,2],transterm[,2],transtermShuff[,2]))-1)
+
+breaks <- seq(-2000,2000,by=10)
+breaks <- c(mn, breaks, mx)
+rnieFH<-  hist(rnieF[,2],breaks=breaks,plot=F)
+rnieSH<-  hist(rnieS[,2],breaks=breaks,plot=F)
+rnieFSH<-  hist(rnieFS[,2],breaks=breaks,plot=F)
+rnieSSH<-  hist(rnieSS[,2],breaks=breaks,plot=F)
+
+transtermH     <-    hist(transterm[,2],breaks=breaks,plot=F)
+transtermShuffH<-    hist(transtermShuff[,2],breaks=breaks,plot=F)
+
+totals<-c(
+sum(transtermShuffH$counts), 
+sum(rnieSSH$counts),
+sum(rnieFSH$counts), 
+sum(transtermH$counts), 
+sum(rnieSH$counts), 
+sum(rnieFH$counts)
+)
+totals<-rev(totals)
+
+totalsM<-mat.or.vec(length(totals), length(totals))
+for (i in seq(1,length(totals))){
+    totalsM[i,i]<-log10(totals[i])
+}
+
+pdf(file="geneProximity.pdf")
+
+op<-par(mfrow=c(1,1),cex=1.8,las=1,ylog='TRUE',mai=c(1.02, 1.12, 0.82, 0.42))
+plot(lowess(rnieFH$mids[2:(length( rnieFH$mids)-1)],           log10(rnieFH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/50), 
+				   xlim=c(-650,1000), ylim=c(0,3), type='l', col='black', main='RIT proximity to genic features', 
+				   xlab='Distance to nearest gene terminus (nucs)', ylab='', yaxt="n", lwd=3)
+lines(lowess(rnieFSH$mids[2:(length( rnieFH$mids)-1)],         log10(rnieFSH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/50),col='black',lty=2,lwd=3)
+lines(lowess(rnieSH$mids[2:(length( rnieFH$mids)-1)],          log10(rnieSH$counts[2:(length( rnieFH$mids)-1)]+1),  f = 1/50),col='grey', lty=1,lwd=3)
+lines(lowess(rnieSSH$mids[2:(length( rnieFH$mids)-1)],         log10(rnieSSH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/50),col='grey', lty=2,lwd=3)
+lines(lowess(transtermH$mids[2:(length( rnieFH$mids)-1)],      log10(transtermH$counts[2:(length( rnieFH$mids)-1)]+1),f = 1/50),col='green',lty=1,lwd=3)
+lines(lowess(transtermShuffH$mids[2:(length( rnieFH$mids)-1)], log10(transtermShuffH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/50),col='green', lty=2,lwd=3)
+
+axis(2,at=c(0,log10(5),1,log10(50),2,log10(500),3),labels=c(0,5,10,50,100,500,1000), las=1)
+par(op)
+mtext(side = 2, text = "Frequency", line = 2.5, cex=1.2)
+mtext(side = 1, text = "Distance to nearest gene terminus (nucs)", line = 3.75, cex=1.2)
+
+leg<-legend(-730, 2.9 ,c(
+"A. RNIE (genome)",
+"B. RNIE (gene)",
+"C. TransTermHP",
+"D. RNIE (genome) perm.",
+"E. RNIE (gene) perm.",
+"F. TransTermHP perm."),
+col=c("black","grey","green","black","grey","green"),lty=c(1,1,1,2,2,2),lwd=c(3,3,3,3,3,3),ncol=1,cex=0.9,bty="n")
+lines(c(0,0), c(-500,500),col='black', lty=3)
+
+cols<-c(
+"green",
+"grey",
+"black",
+"green",
+"grey",
+"black"
+)
+densities<-c(50,50,50,1000,1000,1000)
+
+#par(fig=c(0.52,0.93,0.65,0.85),mai=c(0.2,0.1,0.09,0),las=1, new=TRUE,cex=0.6)
+par(fig=c(0.65,0.93,0.41,0.85),mai=c(0.5,0.1,0.29,0),las=1, new=TRUE,cex=0.9)
+
+#fig=c(x1, x2, y1, y2)
+#mai: bottom, left, top, right)
+#pars$mai 1.02 0.82 0.82 0.42
+#barplot(totalsM, xlab="",names.arg=c("F","E","D","C","B","A"), col=cols, density=densities, horiz='TRUE', main="Number of predictions", xaxt="n")
+barplot(totalsM, xlab="",names.arg=rev(c("F","E","D","C","B","A")), col=rev(cols), density=rev(densities), horiz='FALSE', main="Number of predictions", yaxt="n")
+axis(2,at=c(0,log10(5),1,log10(50),2,log10(500),3,log10(5000)),labels=c(0,"",10,"",100,"",1000,5000), las=1)
+
+dev.off()
+
+######################################################################
+
+
+# # AE000511.1   Hpylori    Helicobacter pylori 26695
+# # AE000513.1   Dradiodur  Deinococcus radiodurans R1
+# # AE000516.2   Mtubercul  Mycobacterium tuberculosis CDC1551
+# # AE001363.1   Cpneum	  Chlamydophila pneumoniae CWL029
+# # AE009951.2   Fnucleat	  Fusobacterium nucleatum subsp. nucleatum ATCC 25586
+# # AE014613.1   Styphi	  Salmonella enterica subsp. enterica serovar Typhi str. Ty2
+# # AE015928.1   Bthetaio	  Bacteroides thetaiotaomicron VPI-5482
+# # AE016823.1   Linterr	  Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130
+# # AE017126.1   Pmarinus	  Prochlorococcus marinus subsp. marinus str. CCMP1375
+# # AF222894.1   Uparvum	  Ureaplasma parvum serovar 3 str. ATCC 700970
+# # AL009126.3   Bsubtilis  Bacillus subtilis subsp. subtilis str. 168
+# # AM180355.1   Cdiff	  Clostridium difficile 630
+# # AP009493.1   Sgris	  Streptomyces griseus subsp. griseus NBRC 13350
+# # CP000771.1   Fnodo	  Fervidobacterium nodosum Rt17-B1
+# # CP000975.1   Minfern	  Methylacidiphilum infernorum V4
+# # CP001147.1   Tyellow	  Thermodesulfovibrio yellowstonii DSM 11347
+# # U00096.2     Ecoli	  Escherichia coli str. K-12 substr. MG1655
+
+# * H.pylori         1566, 
+# * D.radiodurans    2579, 
+# * M.tuberculosis   4189, 
+# * C.pneumoniae     1052, 
+# * F.nucleatum      2067, 
+# * S.enterica       4323, 
+# * B.thetaiotaomicron       4778, 
+# * L.interrogans    3394, 
+# * P.marinus        1882, 
+# * U.parvum          611, 
+# * B.subtilis       4245, 
+# * C.difficile      3777, 
+# * F.nodosum        1750, 
+# * S.griseus        7138,
+# * M.infernorum     2472, 
+# * T.yellowstonii   2033, 
+# * E.coli           4321, 
+
+#cd $RNIE/benchmark/genomes
+#grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F, "< $F[2]-genomeMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' > genomeMode-rnie.distsSpecies
+#grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F,   "< $F[2]-geneMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' >   geneMode-rnie.distsSpecies
+
+rnieFS          <-read.table("genomeMode-rnie.distsSpecies",header = F, sep = "\t")
+rnieSS          <-read.table(  "geneMode-rnie.distsSpecies",header = F, sep = "\t")
+transtermSS     <-read.table(      "transterm.distsSpecies",header = F, sep = "\t")
+
+rnieFSS         <-read.table("shuffled-genomeMode-rnie.distsSpecies",header = F, sep = "\t")
+rnieSSS         <-read.table(  "shuffled-geneMode-rnie.distsSpecies",header = F, sep = "\t")
+transtermSSS    <-read.table(      "shuffled-transterm.distsSpecies",header = F, sep = "\t")
+
+species<-c(
+"Hpylori","Dradiodur","Mtubercul","Cpneum","Fnucleat","Styphi","Bthetaio","Linterr","Pmarinus","Uparvum","Bsubtilis","Cdiff","Sgris","Fnodo","Minfern","Tyellow","Ecoli"
+)
+speciesLong<-c(
+"H.pylori", "D.radiodurans", "M.tuberculosis", "C.pneumoniae", "F.nucleatum", "S.enterica", "B.thetaiotaomicron", "L.interrogans", "P.marinus", "U.parvum", "B.subtilis", "C.difficile", "F.nodosum", "S.griseus", "M.infernorum", "T.yellowstonii", "E.coli"
+)
+genomeLengths<-c(
+1566, 2579, 4189, 1052, 2067, 4323, 4778, 3394, 1882, 611, 4245, 3777, 1750, 7138, 2472, 2033, 4321
+)
+
+mx<-ceiling(max(c(rnieFS[,2],rnieSS[,2],transtermSS[,2], rnieFSS[,2],rnieSSS[,2],transtermSSS[,2]))+1)
+mn<-ceiling(min(c(rnieFS[,2],rnieSS[,2],transtermSS[,2], rnieFSS[,2],rnieSSS[,2],transtermSSS[,2]))-1)
+
+breaks <- seq(-2000,2000,by=10)
+breaks <- c(mn, breaks, mx)
+
+p5dist<--50
+p3dist<-500
+
+####
+percentRITGenes<-matrix(0,nrow=length(species),ncol=3,dimnames=list(speciesLong,c("genome","gene","transterm")))
+for(i in 1:length(species)){
+FH<-  hist(rnieFS[ rnieFS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(FH$counts[p5dist<FH$mids & FH$mids<p3dist])
+percentRITGenes[speciesLong[i],"genome"]<-100*sumProx/genomeLengths[i]
+
+SH<-  hist(rnieSS[ rnieSS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(SH$counts[p5dist<SH$mids & SH$mids<p3dist])
+percentRITGenes[speciesLong[i],"gene"]<-100*sumProx/genomeLengths[i]
+
+TH<-  hist(transtermSS[ transtermSS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(TH$counts[p5dist<TH$mids & TH$mids<p3dist])
+percentRITGenes[speciesLong[i],"transterm"]<-100*sumProx/genomeLengths[i]
+}
+
+
+####
+percentRITGenesS<-matrix(0,nrow=length(species),ncol=3,dimnames=list(speciesLong,c("genome","gene","transterm")))
+for(i in 1:length(species)){
+FH<-  hist(rnieFSS[ rnieFSS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(FH$counts[p5dist<FH$mids & FH$mids<p3dist])
+percentRITGenesS[speciesLong[i],"genome"]<-100*sumProx/genomeLengths[i]
+
+SH<-  hist(rnieSSS[ rnieSSS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(SH$counts[p5dist<SH$mids & SH$mids<p3dist])
+percentRITGenesS[speciesLong[i],"gene"]<-100*sumProx/genomeLengths[i]
+
+TH<-  hist(transtermSSS[ transtermSSS[,3]==species[i], 2],breaks=breaks,plot=F)
+sumProx<-sum(TH$counts[p5dist<TH$mids & TH$mids<p3dist])
+percentRITGenesS[speciesLong[i],"transterm"]<-100*sumProx/genomeLengths[i]
+}
+
+percentRITGenes<-t(percentRITGenes)
+percentRITGenesS<-t(percentRITGenesS)
+
+sorted<-sort(percentRITGenes['genome',],decreasing=TRUE,index.return=TRUE)
+
+#Make the plot:
+pdf(file="geneProximitySpeciesBarplot.pdf")
+#op<-par(mfrow=c(2,1),cex=1.00,las=2,mar=c(5.1,4.1,4.1, 2.1))
+op<-par(mfrow=c(2,1),cex=1.15,las=2,mar=c(5.1,4.1,4.1, 2.1))
+cols2<-c("black","grey","green")
+barplot(percentRITGenes[,sorted$ix],names=, col=cols2,beside=TRUE,xlab="",ylab="% RIT genes",main="Native genomes",ylim=c(0,45), xaxt = "n") 
+delta<-3;
+len  <-length(colnames(percentRITGenes));
+ticks<-seq(delta, 4*len-1, length.out=len )
+axis(1, at = ticks, labels=abbreviate(colnames(percentRITGenes[,sorted$ix]), minlength = 13), font=3) 
+legend(ticks[2]-ticks[2]/2,45,c("RNIE (genome)", "RNIE (gene)", "TransTermHP"),fill=cols2,ncol=3,cex=0.95,bty="n")
+lines(c(-delta,4*len),c(10,10),col='black',lty=3,lwd=2)
+op<-par(mar=c(8.5,4.1,4.1, 2.1))
+barplot(percentRITGenesS[,sorted$ix],col=cols2,beside=TRUE,xlab="",ylab="% RIT genes",main="Permuted genomes", xaxt = "n", yaxt = "n")
+axis(1, at = ticks, labels=colnames(percentRITGenes[,sorted$ix]), font=3) 
+axis(2, at = c(0,2,4), labels=c(0,2,4), font=1) 
+dev.off()
+
+
+sum(percentRITGenesS["transterm",])/sum(percentRITGenesS["genome",])
+sum(percentRITGenesS["transterm",])/sum(percentRITGenesS["gene",  ])
+
+(percentRITGenesS["transterm",])/(percentRITGenesS["genome",])
+(percentRITGenesS["transterm",])/(percentRITGenesS["gene",  ])
+
+
+
+
+

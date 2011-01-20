@@ -1,0 +1,140 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0 (January 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    cmsearch --fil-no-hmm -T 18 --tabfile /nfs/team71/pfam/pg5/people/rnie-0.01/rnie-0.01//benchmark/training-test/falseEmbedded.tabfile /nfs/team71/pfam/pg5/people/rnie-0.01/rnie-0.01//models/all.cm /nfs/team71/pfam/pg5/people/rnie-0.01/rnie-0.01//benchmark/training-test/falseEmbedded.fa
+# date:       Mon Apr 19 22:43:46 2010
+# num seqs:   41400
+# dbsize(Mb): 86.290300
+#
+# Pre-search info for CM 1: terminator32-40
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  cyk  loc  1e-07    5708.649     7.46   0.0276  07:18:36.89
+    2   cm  ins  loc  1e-15      19.832    18.00  8.3e-06  01:29:42.49
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+  all    -    -    -      -           -        -        -  08:48:19.38
+#
+
+CM: terminator32-40
+>L12044.1/1999-2037-shuffled-82
+
+  Plus strand results:
+
+ Query = 1 - 36, Target = 998 - 1031
+ Score = 18.10, E = 18.7, P = 1.229e-06, GC =  35
+
+           <<<<<<<<<<<<____>>>>>>>>>>>>::::::::
+         1 AAAAgCCcggcCguaaGgccgGGcUUUUUUuUUUuu 36      
+           AA A: C ::CC  A GG:: G :U UUUUU    U
+       998 AACAAUCUAACC--AGGGUUGGAUUGUUUUUGAAGU 1031    
+
+
+>L19201.1/12884-12927-shuffled-22
+
+  Minus strand results:
+
+ Query = 1 - 36, Target = 1007 - 972
+ Score = 19.19, E = 10.16, P = 6.681e-07, GC =  61
+
+           <<<<<<<<<<<<____>>>>>>>>>>>>::::::::
+         1 AAAAgCCcggcCguaaGgccgGGcUUUUUUuUUUuu 36      
+           A ::GC:C::C:G+++:G::G:GC:: U   UUU  
+      1007 AGGCGCGCAUCAGCUUUGAUGCGCGCCUAGGUUUGG 972     
+
+
+>L19201.1/63111-63151-shuffled-13
+
+  Minus strand results:
+
+ Query = 1 - 36, Target = 140 - 94
+ Score = 18.67, E = 13.64, P = 8.966e-07, GC =  38
+
+           <<<<<<<<<<<<____...........>>>>>>>>>>>>::::::::
+         1 AAAAgCCcggcCguaa...........GgccgGGcUUUUUUuUUUuu 36      
+           AA :GCC::: : + A           : :::GGC: UUUU  U U 
+       140 AAAGGCCGAAAAACCAgcauauacgacUUUUCGGCCAUUUUAAUCUA 94      
+
+
+>L19201.1/63111-63151-shuffled-34
+
+  Minus strand results:
+
+ Query = 1 - 36, Target = 562 - 518
+ Score = 23.05, E = 1.159, P = 7.619e-08, GC =  53
+
+           <<<<<<<<<<<~~~~~~>>>>>>>>>>>::::::::
+         1 AAAAgCCcggc*[ 6]*gccgGGcUUUUUUuUUUuu 36      
+           AAAA::C:::C      G:::G::UUUUUU U    
+       562 AAAACGCACCC*[15]*GGGUGCGUUUUUUGUGCAC 518     
+
+
+>L19201.1/71476-71507-shuffled-65
+
+  Minus strand results:
+
+ Query = 1 - 36, Target = 526 - 488
+ Score = 18.54, E = 14.68, P = 9.649e-07, GC =  59
+
+           <<<<<<<<<<<.<____>>>>>>>>>..>>>::::::::
+         1 AAAAgCCcggc.CguaaGgccgGGcU..UUUUUuUUUuu 36      
+           AAAA:CC:GG: :G AA::CC:GG:U  UUUUU    U 
+       526 AAAAACCGGGGgGGGAACCCCCGGUUcgUUUUUGGGAUG 488     
+
+
+>L19201.1/71476-71507-shuffled-87
+
+  Plus strand results:
+
+ Query = 1 - 36, Target = 500 - 533
+ Score = 18.24, E = 17.36, P = 1.142e-06, GC =  38
+
+           <<<<<<~~~~~~>>>>>>::::::::
+         1 AAAAgC*[16]*GcUUUUUUuUUUuu 36      
+           AAAA:C      G:UUUUUUUUUUU 
+       500 AAAAAC*[14]*GUUUUUUUUUUUUC 533     
+
+
+>M23219.1/2530-2564-shuffled-54
+
+  Plus strand results:
+
+ Query = 1 - 36, Target = 243 - 274
+ Score = 19.18, E = 10.22, P = 6.718e-07, GC =  25
+
+           <<<<<<<<<~~~~~~>>>>>>>>>::::::::
+         1 AAAAgCCcg*[10]*cgGGcUUUUUUuUUUuu 36      
+           AAAA:C C:      :G G:UUUUUUUUUU  
+       243 AAAAACUCU*[ 6]*AGAGUUUUUUUUUUUCC 274     
+
+
+>M55170.1/1827-1862-shuffled-2
+
+  Minus strand results:
+
+ Query = 1 - 36, Target = 393 - 359
+ Score = 18.82, E = 12.48, P = 8.208e-07, GC =  43
+
+           <<<<<<<<<<<<____.>>>>>>>>>>>>::::::::
+         1 AAAAgCCcggcCguaa.GgccgGGcUUUUUUuUUUuu 36      
+           AAAA  CC:G:C+U + G:C:GG  UUUUUUU UUU 
+       393 AAAACUCCAGGCUUCUgGCCUGG--UUUUUUUCUUUC 359     
+
+
+>M83198.1/2647-2677-shuffled-50
+
+  Plus strand results:
+
+ Query = 1 - 36, Target = 499 - 531
+ Score = 18.52, E = 14.77, P = 9.713e-07, GC =  61
+
+           <<<<<<<<<<<<____>>>>>>>>>>>>::::::::
+         1 AAAAgCCcggcCguaaGgccgGGcUUUUUUuUUUuu 36      
+           : A GC::G:CC    GG:C::GC U :UUU UUU 
+       499 GCAGGCGGGCCC---GGGGCCCGCUUUUUUUAUUUA 531     
+
+

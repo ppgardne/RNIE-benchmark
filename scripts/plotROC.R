@@ -1,0 +1,429 @@
+#cd $RNIE/benchmark/training-test
+#R CMD BATCH --no-save ../scripts/plotROC.R
+
+#ls *dat | grep -v Nucs | perl -lane 'print "<-read.table(\42$F[0]\42,header = F, sep = \42\\t\42)"'
+###########
+
+transterm2 <-read.table("Embedded-2features.transterm-accuracy.dat",header = T, sep = "\t")
+transterm4 <-read.table("Embedded-4features.transterm-accuracy.dat",header = T, sep = "\t")
+transterm9 <-read.table("Embedded-9features.transterm-accuracy.dat",header = T, sep = "\t")
+transterm10<-read.table("Embedded-10features.transterm-accuracy.dat",header = T, sep = "\t")
+rnieF      <-read.table("Embedded-genomeMode-rnie.bits-accuracy.dat",header = T, sep = "\t")
+rnieS      <-read.table("Embedded-geneMode-rnie.bits-accuracy.dat",header = T, sep = "\t")
+
+rnallBdG   <-read.table("Embedded.rnall-barrick.dG-accuracy.dat",header = T, sep = "\t")
+rnallBhbG  <-read.table("Embedded.rnall-barrick.hbG-accuracy.dat",header = T, sep = "\t")
+rnallWdG   <-read.table("Embedded.rnall-wan.dG-accuracy.dat",header = T, sep = "\t")
+rnallWhbG  <-read.table("Embedded.rnall-wan.hbG-accuracy.dat",header = T, sep = "\t")
+lesnikdG   <-read.table("Embedded.terminator-lesnik.out.dG_score-accuracy.dat",header = T, sep = "\t")
+lesnikSS   <-read.table("Embedded.terminator-lesnik.out.struct_score-accuracy.dat",header = T, sep = "\t")
+
+######################################################################
+#pre-calculated values:
+maxF<-rnieF[max(rnieF[,3])==rnieF[,3],]
+maxS<-rnieS[max(rnieS[,3])==rnieS[,3],]
+
+threshF<-rnieF[16.000000==rnieF[,5],]
+threshS<-rnieS[14.000000==rnieS[,5],]
+
+##########
+#SPEED: in nucleotides per second:
+numResiduesDiff<-(102243350-1022438)
+rnieFSPEED       <- numResiduesDiff/((2388.94+0.57)-(43.49+0.10))
+rnieSSPEED       <- numResiduesDiff/((104545.83+7.66)-(1066.15+0.14))
+transterm10SPEED <- numResiduesDiff/((1369.52+2.60)-(3.29+0.02))
+transterm9SPEED  <- numResiduesDiff/((1267.27+2.68)-(3.25+0.02))
+transterm4SPEED  <- numResiduesDiff/((792.20+2.39)-(3.22+0.02))
+transterm2SPEED  <- numResiduesDiff/((545.15+1.98)-(3.22+0.01))
+lesnikSPEED      <- numResiduesDiff/((169.72+0.28)-(1.93+0.02))
+
+##Estimating rnall time
+cpuFactor <- (  5508.76/(702.68+0.14) + 99.75/(13.85+0.02)  )/2 #Breaker lab Mac vs Sanger Pfam machine
+rnallWtrueTime   <- 117.54
+rnallWfalseTime  <- 11828.52
+rnallWSPEED      <- numResiduesDiff/( cpuFactor*(rnallWfalseTime-rnallWtrueTime)  )
+rnallBtrueTime   <- 168.34
+rnallBfalseTime  <- 16915.13
+rnallBSPEED      <- numResiduesDiff/( cpuFactor*(rnallBfalseTime-rnallBtrueTime)  )
+
+runTimes<-c(rnieFSPEED, rnieSSPEED, transterm10SPEED, transterm9SPEED, transterm4SPEED, transterm2SPEED, lesnikSPEED, rnallWSPEED, rnallBSPEED)
+runTimesM<-mat.or.vec(length(runTimes), length(runTimes))
+for (i in seq(1,length(runTimes))){
+    runTimesM[i,i]<-log10(runTimes[i])
+}
+
+runTimes<-matrix(runTimesM
+,nrow = 9, ncol = 9, dimnames=list(c("A","B","C","D","E","F","G","H","I"),c("A","B","C","D","E","F","G","H","I")))
+
+##########
+
+#MANUSCRIPT:
+pdf(file="LEGEND.pdf")
+plot.new()
+legend(0, 1 ,c(
+"A. RNIE (genome)",
+"B. RNIE (gene)",
+"C. TransTermHP: 10 fts",
+"D. TransTermHP: 9 fts",
+"E. TransTermHP: 4 fts",
+"F. TransTermHP: 2 fts",
+"G. RNAMotif (struct)",
+"G. RNAMotif (dG)",
+"H. RnaII (dG)",
+"H. RnaII (hbG)", 
+"I. RnaII-Brkr (dG)",
+"I. RnaII-Brkr (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=3,cex=0.6)
+dev.off()
+
+#MANUSCRIPT:
+pdf(file="SPEED2.pdf")
+
+op<-par(mfrow=c(1,1),cex=1.8,las=1)
+barplot(runTimes,col=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "purple", "orange"),xlab="",ylab="Speed (KB/sec)",main="Algorithm speeds",yaxt="n", ylim=c(0,6)) 
+pts<-c(100,1000,10000,100000,1000000)
+axis(2,at=log10(pts),labels=pts/1000, las=1)
+
+dev.off()
+
+
+#MANUSCRIPT:
+pdf(file="Sens_vs_PPV2.pdf")
+
+op<-par(mfrow=c(1,1),cex=1.8,las=1)
+#plot(lowess(rnieF[,2],      rnieF[,1],f=0.1), type='l', lwd=3, col='black', xlab="Positive predictive value",ylab="Sensitivity",main="Sensitivity vs PPV", xlim=c(0.0,1.0), ylim=c(0.0,1.0))
+#lines(lowess(rnieS[,2],    rnieS[,1],f=0.1), col="gray", lwd=3)
+
+plot(rnieF[,2],     rnieF[,1], type='l', lwd=3, col='black', xlab="Positive predictive value",ylab="Sensitivity",main="Sensitivity vs PPV", xlim=c(0.0,1.0), ylim=c(0.0,1.0))
+lines(rnieS[,2],    rnieS[,1], col="gray", lwd=3)
+lines(transterm2[,2],  transterm2[,1],   col="green", lwd=3,lty=2)
+lines(transterm4[,2],  transterm4[,1],   col="lightgreen", lwd=3,lty=2)
+lines(transterm9[,2],  transterm9[,1],   col="turquoise", lwd=3,lty=2)
+lines(transterm10[,2], transterm10[,1],  col="greenyellow", lwd=3,lty=2)
+lines(lesnikdG[,2], lesnikdG[,1], col="blue", lwd=3)
+lines(lesnikSS[,2], lesnikSS[,1], col="lightblue", lwd=3)
+lines(rnallWdG[,2], rnallWdG[,1],   col="purple", lwd=3)
+
+lines(rnallWhbG[,2], rnallWhbG[,1],   col="plum", lwd=3)
+lines(rnallBdG[,2], rnallBdG[,1],   col="orange", lwd=3)
+lines(rnallBhbG[,2], rnallBhbG[,1],   col="orangered", lwd=3)
+lines(c(0,1), c(1,0), col='red',lty=3)
+points(maxF$ppv,maxF$sens, pch='x', col='black',cex = 1)
+points(maxS$ppv,maxS$sens, pch='x', col='gray',cex = 1)
+points(threshF$ppv,threshF$sens, pch='+', col='black')
+points(threshS$ppv,threshS$sens, pch='+', col='gray')
+
+#textF      <-sprintf("maxMCC: %0.2f/%0.2f bits", round(maxF$mcc, digits = 2),    round(maxF$score, digits = 2))
+#textS      <-sprintf("maxMCC: %0.2f/%0.2f bits", round(maxS$mcc, digits = 2),    round(maxS$score, digits = 2))
+#textFthresh<-sprintf("Thresh: %0.2f/%0.2f bits", round(threshF$mcc, digits = 2), round(threshF$score, digits = 2))
+#textSthresh<-sprintf("Thresh: %0.2f/%0.2f bits", round(threshS$mcc, digits = 2), round(threshS$score, digits = 2))
+
+#ptsMF<-c(0.10,1.00)
+#ptsMS<-c(0.10,0.93)
+#ptsTF<-c(0.60,1.00)
+#ptsTS<-c(0.60,0.93)
+#points(ptsMF[1],ptsMF[2], pch='*', col='black')
+#points(ptsMS[1],ptsMS[2], pch='*', col='gray')
+#points(ptsTF[1],ptsTF[2], pch='+', col='black')
+#points(ptsTS[1],ptsTS[2], pch='+', col='gray')
+
+#text(ptsMF[1],ptsMF[2], textF, pos=4, cex=0.55, col='black')
+#text(ptsMS[1],ptsMS[2], textS, pos=4, cex=0.55, col='gray')
+#text(ptsTF[1],ptsTF[2], textFthresh, pos=4, cex=0.55, col='black')
+#text(ptsTS[1],ptsTS[2], textSthresh, pos=4, cex=0.55, col='gray')
+
+dev.off()
+
+#MANUSCRIPT:
+pdf(file="ROC2.pdf")
+
+op<-par(mfrow=c(1,1),cex=1.8,las=1,xlog='TRUE')
+plot(  rnieF[rnieF[,4]!=0,4],    rnieF[rnieF[,4]!=0,1], type='l', lwd=3, col='black', xlab="False positive rate (FPs/KB)",ylab="Sensitivity",main="ROC plot", ylim=c(0.0,1.0),xlim=c(0.00001,2),log="x",xaxt="n")
+pts<-c(10^(-5),10^(-4),10^(-3),10^(-2),10^(-1),1)
+axis(1,at=pts,labels=pts, las=1)
+lines(rnieS[rnieS[,4]!=0,4],    rnieS[rnieS[,4]!=0,1], col="gray",lwd=3)
+lines(transterm2[,4],  transterm2[,1], col="green",lwd=3,lty=2)
+lines(transterm4[,4],  transterm4[,1], col="lightgreen",lwd=3,lty=2)
+lines(transterm9[,4],  transterm9[,1], col="turquoise",lwd=3,lty=2)
+lines(transterm10[,4], transterm10[,1],col="greenyellow",lwd=3,lty=2)
+lines(lesnikdG[,4], lesnikdG[,1],      col="blue",lwd=3)
+lines(lesnikSS[,4], lesnikSS[,1],      col="lightblue",lwd=3)
+lines(rnallWdG[,4], rnallWdG[,1],      col="purple",lwd=3)
+lines(rnallWhbG[,4], rnallWhbG[,1],    col="plum",lwd=3)
+lines(rnallBdG[,4], rnallBdG[,1],      col="orange",lwd=3)
+lines(rnallBhbG[,4], rnallBhbG[,1],    col="orangered",lwd=3)
+
+points(   maxF$fpr.KB,maxF$sens, pch='x', col='black',cex = 1)
+points(   maxS$fpr.KB,maxS$sens, pch='x', col='gray',cex = 1)
+points(threshF$fpr.KB,threshF$sens, pch='+', col='black')
+points(threshS$fpr.KB,threshS$sens, pch='+', col='gray')
+
+textF      <-sprintf("maxMCC: %0.2f/%0.2f bits", round(maxF$mcc, digits = 2),    round(maxF$score, digits = 2))
+textS      <-sprintf("maxMCC: %0.2f/%0.2f bits", round(maxS$mcc, digits = 2),    round(maxS$score, digits = 2))
+textFthresh<-sprintf("Thresh: %0.2f/%0.2f bits", round(threshF$mcc, digits = 2), round(threshF$score, digits = 2))
+textSthresh<-sprintf("Thresh: %0.2f/%0.2f bits", round(threshS$mcc, digits = 2), round(threshS$score, digits = 2))
+
+ptsMF<-c(0.00001,1.00)
+ptsMS<-c(0.00001,0.93)
+ptsTF<-c(0.00001,0.86)
+ptsTS<-c(0.00001,0.79)
+points(ptsMF[1],ptsMF[2], pch='x', col='black')
+points(ptsMS[1],ptsMS[2], pch='x', col='gray')
+points(ptsTF[1],ptsTF[2], pch='+', col='black')
+points(ptsTS[1],ptsTS[2], pch='+', col='gray')
+
+text(ptsMF[1],ptsMF[2], textF, pos=4, cex=0.575, col='black')
+text(ptsMS[1],ptsMS[2], textS, pos=4, cex=0.575, col='gray')
+text(ptsTF[1],ptsTF[2], textFthresh, pos=4, cex=0.575, col='black')
+text(ptsTS[1],ptsTS[2], textSthresh, pos=4, cex=0.575, col='gray')
+
+
+#text(10^(-5),1.1,"speed (nts/sec)",srt=90,cex=0.95,po=2)
+#par(fig=c(0.175,0.55,0.65,0.9),las=1, new=TRUE,cex=0.85,mai=c(0.15,0.2,0.09,0))#c(bottom, left, top, right)
+#barplot(runTimes,col=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "purple", "orange"),xlab="",ylab="",main="",yaxt="n", ylim=c(2.5,6)) 
+#pts<-c(500,1000,5000,10000 ,50000,100000 ,500000,1000000,5000000)
+#axis(2,at=log10(pts),labels=pts, las=1)
+
+dev.off()
+
+
+
+#####
+
+pdf(file="Sens_vs_PPV.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=2)
+plot(rnieF[,2],      rnieF[,1],pch='x', col='black', xlab="Positive predictive value",ylab="Sensitivity",main="Sensitivity vs PPV", xlim=c(0.0,1.2), ylim=c(0.0,1.2))
+points(rnieS[,2],    rnieS[,1],pch='x', col="gray")
+#points(0.783516,0.740395,pch='o', col="red")
+#points(0.696015,0.779855,pch='o', col="red")
+points(transterm2[,2],  transterm2[,1],  pch='x', col="green")
+points(transterm4[,2],  transterm4[,1],  pch='x', col="lightgreen")
+points(transterm9[,2],  transterm9[,1],  pch='x', col="turquoise")
+points(transterm10[,2], transterm10[,1], pch='x', col="greenyellow")
+points(lesnikdG[,2], lesnikdG[,1],pch='x', col="blue")
+points(lesnikSS[,2], lesnikSS[,1],pch='x', col="lightblue")
+points(rnallWdG[,2], rnallWdG[,1],  pch='x', col="purple")
+points(rnallWhbG[,2], rnallWhbG[,1],  pch='x', col="plum")
+points(rnallBdG[,2], rnallBdG[,1],  pch='x', col="orange")
+points(rnallBhbG[,2], rnallBhbG[,1],  pch='x', col="orangered")
+legend(0.75, 1.2 ,c("RNIE (genome)","RNIE (gene)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII (dG)","RnaII (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=1)
+lines(c(0,1), c(1,0), col='red')
+
+dev.off()
+
+
+
+pdf(file="ROC.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=1,xlog='TRUE')
+plot(  rnieF[rnieF[,4]!=0,4],    rnieF[rnieF[,4]!=0,1],pch='x', col='black', xlab="False positive rate (FP/KB)",ylab="Sensitivity",main="ROC plot", ylim=c(0.0,1.1),xlim=c(0.00001,2),log="x")
+points(rnieS[rnieS[,4]!=0,4],    rnieS[rnieS[,4]!=0,1],pch='x', col="gray")
+points(transterm2[,4],  transterm2[,1],  pch='x', col="green")
+points(transterm4[,4],  transterm4[,1],  pch='x', col="lightgreen")
+points(transterm9[,4],  transterm9[,1],  pch='x', col="turquoise")
+points(transterm10[,4], transterm10[,1], pch='x', col="greenyellow")
+points(lesnikdG[,4], lesnikdG[,1],pch='x', col="blue")
+points(lesnikSS[,4], lesnikSS[,1],pch='x', col="lightblue")
+points(rnallWdG[,4], rnallWdG[,1],  pch='x', col="purple")
+points(rnallWhbG[,4], rnallWhbG[,1],  pch='x', col="plum")
+points(rnallBdG[,4], rnallBdG[,1],  pch='x', col="orange")
+points(rnallBhbG[,4], rnallBhbG[,1],  pch='x', col="orangered")
+legend(0.00001, 1.1 ,c("RNIE (genome)","RNIE (gene)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII-Wan (dG)","RnaII-Wan (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=1)
+
+dev.off()
+
+
+############
+
+transterm2 <-read.table("Embedded-2features.transterm-accuracyNucs.dat",header = T, sep = "\t")
+transterm4 <-read.table("Embedded-4features.transterm-accuracyNucs.dat",header = T, sep = "\t")
+transterm9 <-read.table("Embedded-9features.transterm-accuracyNucs.dat",header = T, sep = "\t")
+transterm10<-read.table("Embedded-10features.transterm-accuracyNucs.dat",header = T, sep = "\t")
+rnieF      <-read.table("Embedded-genomeMode-rnie.bits-accuracyNucs.dat",header = T, sep = "\t")
+rnieS      <-read.table("Embedded-geneMode-rnie.bits-accuracyNucs.dat",header = T, sep = "\t")
+
+rnallBdG   <-read.table("Embedded.rnall-barrick.dG-accuracyNucs.dat",header = T, sep = "\t")
+rnallBhbG  <-read.table("Embedded.rnall-barrick.hbG-accuracyNucs.dat",header = T, sep = "\t")
+rnallWdG   <-read.table("Embedded.rnall-wan.dG-accuracyNucs.dat",header = T, sep = "\t")
+rnallWhbG  <-read.table("Embedded.rnall-wan.hbG-accuracyNucs.dat",header = T, sep = "\t")
+lesnikdG   <-read.table("Embedded.terminator-lesnik.out.dG_score-accuracyNucs.dat",header = T, sep = "\t")
+lesnikSS   <-read.table("Embedded.terminator-lesnik.out.struct_score-accuracyNucs.dat",header = T, sep = "\t")
+
+pdf(file="Sens_vs_PPVNucs.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=2)
+plot(rnieF[,2],      rnieF[,1],pch='x', col='black', xlab="Positive predictive value (nucs)",ylab="Sensitivity (nucs)",main="Nucleotide Sensitivity vs PPV", xlim=c(0.0,1.1), ylim=c(0.0,1.1))
+points(rnieS[,2],    rnieS[,1],pch='x', col="gray")
+#points(0.783516,0.740395,pch='o', col="red")
+#points(0.696015,0.779855,pch='o', col="red")
+points(transterm2[,2],  transterm2[,1],  pch='x', col="green")
+points(transterm4[,2],  transterm4[,1],  pch='x', col="lightgreen")
+points(transterm9[,2],  transterm9[,1],  pch='x', col="turquoise")
+points(transterm10[,2], transterm10[,1], pch='x', col="greenyellow")
+points(lesnikdG[,2], lesnikdG[,1],pch='x', col="blue")
+points(lesnikSS[,2], lesnikSS[,1],pch='x', col="lightblue")
+points(rnallWdG[,2], rnallWdG[,1],  pch='x', col="purple")
+points(rnallWhbG[,2], rnallWhbG[,1],  pch='x', col="plum")
+points(rnallBdG[,2], rnallBdG[,1],  pch='x', col="orange")
+points(rnallBhbG[,2], rnallBhbG[,1],  pch='x', col="orangered")
+legend(0.7, 1.1 ,c("RNIE (genome)","RNIE (gene)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII (dG)","RnaII (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=1)
+lines(c(0,1), c(1,0), col='red')
+
+dev.off()
+
+pdf(file="Sens_vs_PPVNucs2.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=2)
+plot(lowess(rnieF[,2],      rnieF[,1],f=0.1), type='l', lwd=3, col='black', xlab="Positive predictive value (nucs)",ylab="Sensitivity (nucs)",main="Nucleotide Sensitivity vs PPV", xlim=c(0.0,1.0), ylim=c(0.0,1.1))
+lines(lowess(rnieS[,2],    rnieS[,1],f=0.1), col="gray",lwd=3)
+lines(lowess(transterm2[,2],  transterm2[,1],  f=0.1), col="green",lwd=3)
+lines(lowess(transterm4[,2],  transterm4[,1],  f=0.1), col="lightgreen",lwd=3)
+lines(lowess(transterm9[,2],  transterm9[,1],  f=0.1), col="turquoise",lwd=3)
+lines(lowess(transterm10[,2], transterm10[,1], f=0.1), col="greenyellow",lwd=3)
+lines(lowess(lesnikdG[,2], lesnikdG[,1],f=0.1), col="blue",lwd=3)
+lines(lowess(lesnikSS[,2], lesnikSS[,1],f=0.1), col="lightblue",lwd=3)
+lines(lowess(rnallWdG[,2], rnallWdG[,1],  f=0.1), col="purple",lwd=3)
+lines(lowess(rnallWhbG[,2], rnallWhbG[,1],  f=0.1), col="plum",lwd=3)
+lines(lowess(rnallBdG[,2], rnallBdG[,1],  f=0.1), col="orange",lwd=3)
+lines(lowess(rnallBhbG[,2], rnallBhbG[,1],  f=0.1), col="orangered",lwd=3)
+
+legend(0.1, 1.1 ,c("RNIE (genome)","RNIE (gene)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII (dG)","RnaII (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=2)
+
+lines(c(0,1), c(1,0), col='red', lty=3)
+
+dev.off()
+
+
+pdf(file="ROCNucs.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=1,xlog='TRUE')
+plot(rnieF[rnieF[,4]!=0,4],      rnieF[rnieF[,4]!=0,1],pch='x', col='black', xlab="False positive rate (FP.nucs/KB)",ylab="Sensitivity",main="Nucleotide ROC plot", ylim=c(0.0,1.1),xlim=c(0.0008,39),log="x")
+points(rnieS[rnieS[,4]!=0,4],    rnieS[rnieS[,4]!=0,1],pch='x', col="gray")
+points(transterm2[,4],  transterm2[,1],  pch='x', col="green")
+points(transterm4[,4],  transterm4[,1],  pch='x', col="lightgreen")
+points(transterm9[,4],  transterm9[,1],  pch='x', col="turquoise")
+points(transterm10[,4], transterm10[,1], pch='x', col="greenyellow")
+points(lesnikdG[,4], lesnikdG[,1],pch='x', col="blue")
+points(lesnikSS[,4], lesnikSS[,1],pch='x', col="lightblue")
+points(rnallWdG[,4], rnallWdG[,1],  pch='x', col="purple")
+points(rnallWhbG[,4], rnallWhbG[,1],  pch='x', col="plum")
+points(rnallBdG[,4], rnallBdG[,1],  pch='x', col="orange")
+points(rnallBhbG[,4], rnallBhbG[,1],  pch='x', col="orangered")
+
+legend(0.0008, 1.1 ,c("RNIE (gene)","RNIE (genome)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII-Wan (dG)","RnaII-Wan (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=1)
+
+dev.off()
+
+pdf(file="ROCNucs2.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=1,xlog='TRUE')
+plot(lowess(rnieF[rnieF[,4]!=0,4],      rnieF[rnieF[,4]!=0,1],f=0.1), type='l', lwd=3, col='black', xlab="False positive rate (FP.nucs/KB)",ylab="Sensitivity",main="Nucleotide ROC plot", ylim=c(0.0,1.1),xlim=c(0.0008,39),log="x")
+lines(lowess(rnieS[rnieS[,4]!=0,4],    rnieS[rnieS[,4]!=0,1],f=0.1), col="gray",lwd=3)
+lines(lowess(transterm2[,4],  transterm2[,1],  f=0.1), col="green",lwd=3)
+lines(lowess(transterm4[,4],  transterm4[,1],  f=0.1), col="lightgreen",lwd=3)
+lines(lowess(transterm9[,4],  transterm9[,1],  f=0.1), col="turquoise",lwd=3)
+lines(lowess(transterm10[,4], transterm10[,1], f=0.1), col="greenyellow",lwd=3)
+lines(lowess(lesnikdG[,4], lesnikdG[,1],f=0.1), col="blue",lwd=3)
+lines(lowess(lesnikSS[,4], lesnikSS[,1],f=0.1), col="lightblue",lwd=3)
+lines(lowess(rnallWdG[,4], rnallWdG[,1],  f=0.1), col="purple",lwd=3)
+lines(lowess(rnallWhbG[,4], rnallWhbG[,1],  f=0.1), col="plum",lwd=3)
+
+lines(lowess(rnallBdG[,4], rnallBdG[,1],  f=0.1), col="orange",lwd=3)
+lines(lowess(rnallBhbG[,4], rnallBhbG[,1],  f=0.1), col="orangered",lwd=3)
+legend(0.0008, 1.1 ,c("RNIE (gene)","RNIE (genome)","TransTermHP: 10 features","TransTermHP: 9 features","TransTermHP: 4 features","TransTermHP: 2 features","Lesnik-RNAMotif (struct_score)","Lesnik-RNAMotif (dG_score)","RnaII-Wan (dG)","RnaII-Wan (hbG)", "RnaII-Breaker (dG)","RnaII-Breaker (hbG)"),fill=c("black","gray","green","greenyellow","lightgreen","turquoise","blue", "lightblue", "purple", "plum", "orange", "orangered"),ncol=1)
+
+dev.off()
+
+###########
+
+rnieB       <-read.table("Embedded-slow-rnie.bits-accuracy.dat",header = T, sep = "\t")
+
+rnieB1      <-read.table("Embedded-slow-rnie.super43-45-seed-1.bits-accuracy.dat",header = T, sep = "\t")
+rnieB2      <-read.table("Embedded-slow-rnie.terminator32-40-1.bits-accuracy.dat",header = T, sep = "\t")
+rnieB3      <-read.table("Embedded-slow-rnie.terminator40-43-1.bits-accuracy.dat",header = T, sep = "\t")
+rnieB4      <-read.table("Embedded-slow-rnie.terminator43-45-1.bits-accuracy.dat",header = T, sep = "\t")
+
+pdf(file="ROCmodels.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=1,xlog='TRUE')
+plot(  rnieB[rnieB[,4]!=0,4],      rnieB[rnieB[,4]!=0,1],  pch='x', col='black', xlab="False positive rate (FP/KB)",ylab="Sensitivity",main="ROC plot", ylim=c(0.0,1.1),xlim=c(0.00001,1),log="x")
+points(rnieB1[rnieB1[,4]!=0,4],    rnieB1[rnieB1[,4]!=0,1],pch='x', col="red")
+points(rnieB2[rnieB2[,4]!=0,4],    rnieB2[rnieB2[,4]!=0,1],pch='x', col="blue")
+points(rnieB3[rnieB3[,4]!=0,4],    rnieB3[rnieB3[,4]!=0,1],pch='x', col="green")
+points(rnieB3[rnieB4[,4]!=0,4],    rnieB3[rnieB4[,4]!=0,1],pch='x', col="purple")
+legend(0.00001, 1 ,c("RNIE (slow)","model 1","model 2","model 3","model 4"),fill=c("black","red","blue","green","purple"),ncol=1)
+
+dev.off()
+
+
+#Sens_vs_PPVmodels.pdf
+pdf(file="Sens_vs_PPVmodels.pdf")
+
+op<-par(mfrow=c(1,1),cex=0.75,las=2)
+plot(rnieB[,2],      rnieB[,1],pch='x', col='black', xlab="Positive predictive value",ylab="Sensitivity",main="Sensitivity vs PPV", xlim=c(0.0,1.0), ylim=c(0.0,1.0))
+points(rnieB1[,2],    rnieB1[,1],pch='x', col="red")
+points(rnieB2[,2],    rnieB2[,1],pch='x', col="blue")
+points(rnieB3[,2],    rnieB3[,1],pch='x', col="green")
+points(rnieB4[,2],    rnieB4[,1],pch='x', col="purple")
+legend(0.8, 1.0 ,c("RNIE","model 1","model 2","model 3","model 4"),fill=c("black","red","blue","green","purple"),ncol=1)
+lines(c(0,1), c(1,0), col='red')
+
+dev.off()
+
+#rnieModels.pdf
+pdf(file="rnieModels.pdf")
+
+op<-par(mfrow=c(2,2),cex=0.75,las=2)
+plot(   rnieB[,5],    rnieB[,3], pch='x', col='black', xlab="Score (bits)",ylab="MCC",main="MCC", xlim=c(10,40), ylim=c(0.0,1.0))
+points(rnieB1[,5],    rnieB1[,3],pch='x', col="red")
+points(rnieB2[,5],    rnieB2[,3],pch='x', col="blue")
+points(rnieB3[,5],    rnieB3[,3],pch='x', col="green")
+points(rnieB4[,5],    rnieB4[,3],pch='x', col="purple")
+lines(c(18,18), c(1,0), col='red')
+
+plot(  rnieB[,5],     rnieB[,1],  pch='x', col='black', xlab="Score (bits)",ylab="Sensitivity",main="Sensitivity", xlim=c(10,40), ylim=c(0.0,1.0))
+points(rnieB1[,5],    rnieB1[,1],pch='x', col="red")
+points(rnieB2[,5],    rnieB2[,1],pch='x', col="blue")
+points(rnieB3[,5],    rnieB3[,1],pch='x', col="green")
+points(rnieB4[,5],    rnieB4[,1],pch='x', col="purple")
+legend(27, 1.0 ,c("RNIE","model 1","model 2","model 3","model 4"),fill=c("black","red","blue","green","purple"),ncol=1)
+lines(c(18,18), c(1,0), col='red')
+
+plot(  rnieB[,5], rnieB[,2],  pch='x', col='black', xlab="Score (bits)",ylab="PPV",main="Positive predictive value", xlim=c(10,40), ylim=c(0.0,1.0))
+points(rnieB1[,5],    rnieB1[,2],pch='x', col="red")
+points(rnieB2[,5],    rnieB2[,2],pch='x', col="blue")
+points(rnieB3[,5],    rnieB3[,2],pch='x', col="green")
+points(rnieB4[,5],    rnieB4[,2],pch='x', col="purple")
+lines(c(18,18), c(1,0), col='red')
+
+op<-par(ylog='TRUE')
+plot(  rnieB[rnieB[,4]!=0,5],      rnieB[rnieB[,4]!=0,4],  pch='x', col='black', xlab="Score (bits)",ylab="FPR (FP/MB)",main="False positive rate", xlim=c(10,40), ylim=c(0.00001,2),log="y")
+points(rnieB1[rnieB1[,4]!=0,5],    rnieB1[rnieB1[,4]!=0,4],pch='x', col="red")
+points(rnieB2[rnieB2[,4]!=0,5],    rnieB2[rnieB2[,4]!=0,4],pch='x', col="blue")
+points(rnieB3[rnieB3[,4]!=0,5],    rnieB3[rnieB3[,4]!=0,4],pch='x', col="green")
+points(rnieB4[rnieB4[,4]!=0,5],    rnieB4[rnieB4[,4]!=0,4],pch='x', col="purple")
+lines(c(18,18), c(0.00001,2), col='red')
+
+dev.off()
+
+#Venn diagram:
+#cat trueEmbedded-rnie.bits.gff | perl -lane 'if($F[6] =~ /\+/ && $F[3]>495 && $F[3]<530 && /cmsearch\,(\S+)/){$str=$1; @m=qw(terminator32-40 terminator40-43 terminator43-45); $m=""; foreach $mod (@m){if($str=~/$mod/){$m.=$mod}}  printf "$m\n";}' | sort -d | uniq -c 
+# model1<-5
+# model1model2<-8
+# model1model2model3<-324
+# model1model3<-6
+# model2<-6
+# model2model3<-14
+# model3<-4
+
+# missed<-414-(model1+model1model2+model1model2model3+model1model3+model2+model2model3+model3)
+# library(Vennerable) 
+# V <- Venn(SetNames = c("Model 1", 
+#  "Model 2", "Model 3"), 
+#  Weight = c(missed, model1, model2, model1model2, 
+#  model3, model1model3, model2model3, model1model2model3)) 
+# pdf(file="rnieVenn.pdf")
+# plot(V, doWeights = FALSE) 
+# dev.off()
+
+######################################################################

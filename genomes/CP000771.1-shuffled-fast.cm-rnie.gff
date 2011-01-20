@@ -1,0 +1,3 @@
+CP000771;-shuffled	RNIE	terminator	1431742	1431787	20.99	+	.	ID=terminator10000;E_value=1.09e-01;Bits=20.99;sumBits=20.99;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=20.99
+CP000771;-shuffled	RNIE	terminator	1053717	1053755	20.25	+	.	ID=terminator10001;E_value=1.55e-01;Bits=20.25;sumBits=20.25;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=20.25
+CP000771;-shuffled	RNIE	terminator	720015	720056	19.36	-	.	ID=terminator10002;E_value=2.38e-01;Bits=19.36;sumBits=19.36;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=19.36

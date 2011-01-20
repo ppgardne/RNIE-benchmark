@@ -1,0 +1,8 @@
+AE000511;	RNIE	terminator	1449827	1449866	32.92	+	.	ID=terminator10000;E_value=2.96e-04;Bits=32.92;sumBits=32.92;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=32.92
+AE000511;	RNIE	terminator	1263235	1263272	22.64	+	.	ID=terminator10001;E_value=4.18e-02;Bits=22.64;sumBits=22.64;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=22.64
+AE000511;	RNIE	terminator	1621426	1621463	20.60	+	.	ID=terminator10002;E_value=1.12e-01;Bits=20.60;sumBits=20.60;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=20.60
+AE000511;	RNIE	terminator	1449817	1449856	29.96	-	.	ID=terminator10003;E_value=1.23e-03;Bits=29.96;sumBits=29.96;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=29.96
+AE000511;	RNIE	terminator	1263225	1263262	23.73	-	.	ID=terminator10004;E_value=2.47e-02;Bits=23.73;sumBits=23.73;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=23.73
+AE000511;	RNIE	terminator	863819	863864	20.35	-	.	ID=terminator10005;E_value=1.26e-01;Bits=20.35;sumBits=20.35;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=20.35
+AE000511;	RNIE	terminator	583496	583540	20.15	-	.	ID=terminator10006;E_value=1.39e-01;Bits=20.15;sumBits=20.15;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=20.15
+AE000511;	RNIE	terminator	1517225	1517263	18.97	-	.	ID=terminator10007;E_value=2.46e-01;Bits=18.97;sumBits=18.97;Note=Predicted Rho independent terminator using cmsearch,super43-45-seed=18.97

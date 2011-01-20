@@ -1,0 +1,6 @@
+AE014613;-shuffled	RNIE	terminator	4086360	4086397	21.19	+	.	ID=terminator10000;E_value=4.71e-01;Bits=21.19;sumBits=40.08;Note=Predicted Rho independent terminator using cmsearch,terminator32-40=18.89,terminator43-45=21.19
+AE014613;-shuffled	RNIE	terminator	525535	525583	18.41	+	.	ID=terminator10001;E_value=1.75e+00;Bits=18.41;sumBits=18.41;Note=Predicted Rho independent terminator using cmsearch,terminator32-40=18.41
+AE014613;-shuffled	RNIE	terminator	4086386	4086353	19.22	-	.	ID=terminator10002;E_value=1.11e+00;Bits=19.22;sumBits=19.22;Note=Predicted Rho independent terminator using cmsearch,terminator32-40=19.22
+AE014613;-shuffled	RNIE	terminator	853271	853306	21.71	+	.	ID=terminator10003;E_value=3.55e-01;Bits=21.71;sumBits=40.08;Note=Predicted Rho independent terminator using cmsearch,terminator40-43=18.37,terminator43-45=21.71
+AE014613;-shuffled	RNIE	terminator	871040	871138	18.00	+	.	ID=terminator10004;E_value=4.91e+00;Bits=18.00;sumBits=18.00;Note=Predicted Rho independent terminator using cmsearch,terminator40-43=18.00
+AE014613;-shuffled	RNIE	terminator	1296053	1296002	18.04	-	.	ID=terminator10005;E_value=2.66e+00;Bits=18.04;sumBits=18.04;Note=Predicted Rho independent terminator using cmsearch,terminator43-45=18.04

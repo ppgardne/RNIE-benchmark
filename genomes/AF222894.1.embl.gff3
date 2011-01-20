@@ -1,0 +1,1300 @@
+AF222894	EMBL	gene	1	1374	.	+	.	Name=dnaA
+AF222894	EMBL	CDS	1	1374	.	+	.	Name=dnaA;Product="chromosomal replication initiator protein"
+AF222894	EMBL	gene	1515	1802	.	+	.	Name=rpL31
+AF222894	EMBL	CDS	1515	1802	.	+	.	Name=rpL31;Product="ribosomal protein L31"
+AF222894	EMBL	gene	1935	3014	.	+	.	Name=prfA
+AF222894	EMBL	CDS	1935	3014	.	+	.	Name=prfA;Product="peptide chain release factor 1"
+AF222894	EMBL	gene	3014	4427	.	+	.	Name=hemK
+AF222894	EMBL	gene	4431	4895	.	+	.	Name=lacA
+AF222894	EMBL	CDS	4431	4895	.	+	.	Name=lacA;Product="galactoside O-acetyltransferase"
+AF222894	EMBL	gene	4991	5551	.	+	.	
+AF222894	EMBL	CDS	4991	5551	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	5554	6030	.	+	.	
+AF222894	EMBL	CDS	5554	6030	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	6175	7797	.	+	.	Name=mgtE
+AF222894	EMBL	CDS	6175	7797	.	+	.	Name=mgtE;Product="Mg2+ ion transporter"
+AF222894	EMBL	gene	7954	8454	.	+	.	Name=rpL10
+AF222894	EMBL	CDS	7954	8454	.	+	.	Name=rpL10;Product="ribosomal protein L10"
+AF222894	EMBL	gene	8479	8844	.	+	.	Name=rpL7/L12
+AF222894	EMBL	CDS	8479	8844	.	+	.	Name=rpL7/L12;Product="ribosomal protein L7/L12"
+AF222894	EMBL	gene	9069	10619	.	-	.	
+AF222894	EMBL	CDS	9069	10619	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	11005	11934	.	-	.	Name=rbsC-2
+AF222894	EMBL	CDS	11005	11934	.	-	.	Name=rbsC-2;Product="ribose/galactose ABC transporter"
+AF222894	EMBL	gene	11934	14144	.	-	.	Name=rbsC-1
+AF222894	EMBL	CDS	11934	14144	.	-	.	Name=rbsC-1;Product="ribose/galactose ABC transporter (N-term domain)"
+AF222894	EMBL	gene	14147	15754	.	-	.	Name=mglA
+AF222894	EMBL	CDS	14147	15754	.	-	.	Name=mglA;Product="methylgalactoside permease ATP-binding protein"
+AF222894	EMBL	gene	15810	17384	.	-	.	
+AF222894	EMBL	CDS	15810	17384	.	-	.	Product="hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	17555	18352	.	-	.	
+AF222894	EMBL	CDS	17555	18352	.	-	.	Product="hypothetical"
+AF222894	EMBL	gene	18354	19670	.	-	.	Name=thdF
+AF222894	EMBL	CDS	18354	19670	.	-	.	Name=thdF;Product="GTP-binding protein in thiophene and furan"
+AF222894	EMBL	gene	19673	20467	.	-	.	Name=dnaH
+AF222894	EMBL	CDS	19673	20467	.	-	.	Name=dnaH;Product="DNA polymerase III delta subunit"
+AF222894	EMBL	gene	20468	21169	.	-	.	Name=tmk
+AF222894	EMBL	CDS	20468	21169	.	-	.	Name=tmk;Product="thymidylate kinase"
+AF222894	EMBL	gene	21141	22010	.	-	.	Name=lip3
+AF222894	EMBL	CDS	21141	22010	.	-	.	Name=lip3;Product="triacylglycerol lipase"
+AF222894	EMBL	gene	22110	23132	.	-	.	Name=fatC-1
+AF222894	EMBL	CDS	22110	23132	.	-	.	Name=fatC-1;Product="ferrichrome ABC transporter"
+AF222894	EMBL	gene	23133	24158	.	-	.	Name=fatD-1
+AF222894	EMBL	CDS	23133	24158	.	-	.	Name=fatD-1;Product="ferrichrome ABC transporter"
+AF222894	EMBL	gene	24175	25587	.	-	.	Name=ABCsbp-1
+AF222894	EMBL	CDS	24175	25587	.	-	.	Name=ABCsbp-1;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	25611	26714	.	-	.	Name=fecC
+AF222894	EMBL	CDS	25611	26714	.	-	.	Name=fecC;Product="ferrichrome ABC transporter"
+AF222894	EMBL	gene	26879	27928	.	-	.	Name=rpS2
+AF222894	EMBL	CDS	26879	27928	.	-	.	Name=rpS2;Product="ribosomal protein S2"
+AF222894	EMBL	gene	28028	28999	.	-	.	Name=ABCsbp-2
+AF222894	EMBL	CDS	28028	28999	.	-	.	Name=ABCsbp-2;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	29014	29760	.	-	.	Name=ABCsbp-3
+AF222894	EMBL	CDS	29014	29760	.	-	.	Name=ABCsbp-3;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	29766	31886	.	-	.	
+AF222894	EMBL	CDS	29766	31886	.	-	.	Product="hypothetical"
+AF222894	EMBL	gene	31996	34239	.	+	.	
+AF222894	EMBL	CDS	31996	34239	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	34634	35398	.	+	.	
+AF222894	EMBL	CDS	34634	35398	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	35490	36017	.	-	.	
+AF222894	EMBL	CDS	35490	36017	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	36025	36498	.	-	.	
+AF222894	EMBL	CDS	36025	36498	.	-	.	Product="hypothetical"
+AF222894	EMBL	gene	36548	37615	.	-	.	
+AF222894	EMBL	CDS	36548	37615	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	37719	38477	.	-	.	
+AF222894	EMBL	CDS	37719	38477	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	38712	39545	.	-	.	
+AF222894	EMBL	CDS	38712	39545	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	39640	39906	.	-	.	
+AF222894	EMBL	CDS	39640	39906	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	40330	41721	.	+	.	
+AF222894	EMBL	CDS	40330	41721	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	41797	43641	.	+	.	Name=gidA
+AF222894	EMBL	CDS	41797	43641	.	+	.	Name=gidA;Product="glucose inhibited division protein"
+AF222894	EMBL	gene	43700	44344	.	+	.	Name=gidB
+AF222894	EMBL	CDS	43700	44344	.	+	.	Name=gidB;Product="glucose inhibited division protein B"
+AF222894	EMBL	gene	44367	44729	.	+	.	
+AF222894	EMBL	CDS	44367	44729	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	44729	45145	.	+	.	
+AF222894	EMBL	CDS	44729	45145	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	45312	47828	.	+	.	
+AF222894	EMBL	CDS	45312	47828	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	47851	50199	.	+	.	
+AF222894	EMBL	CDS	47851	50199	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	50230	52734	.	+	.	
+AF222894	EMBL	CDS	50230	52734	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	52771	55146	.	+	.	
+AF222894	EMBL	CDS	52771	55146	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	55161	57764	.	+	.	
+AF222894	EMBL	CDS	55161	57764	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	57794	59284	.	+	.	
+AF222894	EMBL	CDS	57794	59284	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	59271	59786	.	+	.	
+AF222894	EMBL	CDS	59271	59786	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	59789	60703	.	+	.	
+AF222894	EMBL	CDS	59789	60703	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	60660	61172	.	+	.	
+AF222894	EMBL	CDS	60660	61172	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	61162	63327	.	+	.	
+AF222894	EMBL	CDS	61162	63327	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	63343	64878	.	+	.	Name=atpA-1
+AF222894	EMBL	CDS	63343	64878	.	+	.	Name=atpA-1;Product="ATP synthase alpha chain"
+AF222894	EMBL	gene	64878	66242	.	+	.	Name=atpD-1
+AF222894	EMBL	CDS	64878	66242	.	+	.	Name=atpD-1;Product="ATP synthase beta chain"
+AF222894	EMBL	gene	66507	69923	.	+	.	Name=mnuA-1
+AF222894	EMBL	CDS	66507	69923	.	+	.	Name=mnuA-1;Product="membrane nuclease A-hypothetical"
+AF222894	EMBL	gene	70018	70242	.	+	.	
+AF222894	EMBL	CDS	70018	70242	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	70243	72408	.	+	.	Name=vacB
+AF222894	EMBL	CDS	70243	72408	.	+	.	Name=vacB;Product="virulence associated protein-Exoribonuclease"
+AF222894	EMBL	gene	72608	73033	.	+	.	Name=smpB
+AF222894	EMBL	CDS	72608	73033	.	+	.	Name=smpB;Product="small protein B"
+AF222894	EMBL	gene	73014	74792	.	+	.	Name=msbA-1
+AF222894	EMBL	CDS	73014	74792	.	+	.	Name=msbA-1;Product="transport ATP-binding protein"
+AF222894	EMBL	gene	74767	76563	.	+	.	Name=msbA-2
+AF222894	EMBL	CDS	74767	76563	.	+	.	Name=msbA-2;Product="transport ATP-binding protein"
+AF222894	EMBL	gene	76623	77417	.	+	.	
+AF222894	EMBL	CDS	76623	77417	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	77527	79008	.	+	.	Name=lysS
+AF222894	EMBL	CDS	77527	79008	.	+	.	Name=lysS;Product="lysyl-tRNA synthetase"
+AF222894	EMBL	gene	79296	79772	.	-	.	
+AF222894	EMBL	CDS	79296	79772	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	79940	80206	.	-	.	
+AF222894	EMBL	CDS	79940	80206	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	80231	82057	.	-	.	Name=pepF-1
+AF222894	EMBL	CDS	80231	82057	.	-	.	Name=pepF-1;Product="oligoendopeptidase F-zinc metalloprotease"
+AF222894	EMBL	gene	82145	83026	.	+	.	Name=pta
+AF222894	EMBL	CDS	82145	83026	.	+	.	Name=pta;Product="phosphotransacetylase"
+AF222894	EMBL	gene	83073	83687	.	-	.	
+AF222894	EMBL	CDS	83073	83687	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	83725	84381	.	-	.	
+AF222894	EMBL	CDS	83725	84381	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	84472	85347	.	-	.	Name=fecE
+AF222894	EMBL	CDS	84472	85347	.	-	.	Name=fecE;Product="iron(III) dicitrate transport ATP-binding"
+AF222894	EMBL	gene	85352	86422	.	-	.	Name=hmuU-1
+AF222894	EMBL	CDS	85352	86422	.	-	.	Name=hmuU-1;Product="hemin transport system permease"
+AF222894	EMBL	gene	86441	88408	.	-	.	Name=ABCsbp-4
+AF222894	EMBL	CDS	86441	88408	.	-	.	Name=ABCsbp-4;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	88641	89969	.	+	.	Name=hlyC
+AF222894	EMBL	CDS	88641	89969	.	+	.	Name=hlyC;Product="hemolysin"
+AF222894	EMBL	gene	89987	90979	.	-	.	
+AF222894	EMBL	CDS	89987	90979	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	90945	91874	.	-	.	Name=trxB
+AF222894	EMBL	CDS	90945	91874	.	-	.	Name=trxB;Product="thioredoxin reductase"
+AF222894	EMBL	gene	91893	92900	.	-	.	Name=lgt
+AF222894	EMBL	CDS	91893	92900	.	-	.	Name=lgt;Product="prolipoprotein diacylglyceryl transferase"
+AF222894	EMBL	gene	92901	93827	.	-	.	Name=hprK
+AF222894	EMBL	CDS	92901	93827	.	-	.	Name=hprK;Product="hpr serine/threonine protein kinase"
+AF222894	EMBL	gene	93842	94843	.	-	.	
+AF222894	EMBL	CDS	93842	94843	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	94806	95366	.	-	.	Name=pth
+AF222894	EMBL	CDS	94806	95366	.	-	.	Name=pth;Product="peptidyl-tRNA hydrolase"
+AF222894	EMBL	gene	95588	96727	.	+	.	Name=dnaN
+AF222894	EMBL	CDS	95588	96727	.	+	.	Name=dnaN;Product="DNA pol III beta chain"
+AF222894	EMBL	gene	96865	97083	.	+	.	
+AF222894	EMBL	CDS	96865	97083	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	97095	99047	.	+	.	Name=gyrB
+AF222894	EMBL	CDS	97095	99047	.	+	.	Name=gyrB;Product="DNA topoisomerase-DNA gyrase subunit B"
+AF222894	EMBL	gene	99069	101591	.	+	.	Name=gyrA
+AF222894	EMBL	CDS	99069	101591	.	+	.	Name=gyrA;Product="DNA topoisomerase chain A-DNA gyrase A subunit"
+AF222894	EMBL	gene	101699	102169	.	+	.	
+AF222894	EMBL	CDS	101699	102169	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	102208	103212	.	+	.	Name=recA
+AF222894	EMBL	CDS	102208	103212	.	+	.	Name=recA;Product="recombination protein"
+AF222894	EMBL	gene	103244	104665	.	+	.	
+AF222894	EMBL	CDS	103244	104665	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	104864	105562	.	-	.	Name=dgk
+AF222894	EMBL	CDS	104864	105562	.	-	.	Name=dgk;Product="deoxyguanosine kinase"
+AF222894	EMBL	gene	105760	107553	.	+	.	Name=dnaX
+AF222894	EMBL	CDS	105760	107553	.	+	.	Name=dnaX;Product="DNA polymerase III gamma-tau subunit"
+AF222894	EMBL	gene	107561	107860	.	+	.	
+AF222894	EMBL	CDS	107561	107860	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	107869	108474	.	+	.	Name=recR
+AF222894	EMBL	CDS	107869	108474	.	+	.	Name=recR;Product="recombinational DNA repair protein"
+AF222894	EMBL	gene	108529	108798	.	+	.	
+AF222894	EMBL	CDS	108529	108798	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	108844	110598	.	+	.	
+AF222894	EMBL	CDS	108844	110598	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	111214	112560	.	+	.	Name=ffh
+AF222894	EMBL	CDS	111214	112560	.	+	.	Name=ffh;Product="signal recognition particle"
+AF222894	EMBL	gene	112772	114559	.	+	.	
+AF222894	EMBL	CDS	112772	114559	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	114559	115269	.	+	.	Name=bcrA
+AF222894	EMBL	CDS	114559	115269	.	+	.	Name=bcrA;Product="ABC transporter"
+AF222894	EMBL	gene	115391	118555	.	+	.	
+AF222894	EMBL	CDS	115391	118555	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	120158	123295	.	-	.	Name=hsdR
+AF222894	EMBL	CDS	120158	123295	.	-	.	Name=hsdR;Product="type I restriction enzyme R protein"
+AF222894	EMBL	gene	123316	123837	.	-	.	Name=hsdS-1
+AF222894	EMBL	CDS	123316	123837	.	-	.	Name=hsdS-1;Product="type I restriction enzyme S protein (fragment)"
+AF222894	EMBL	gene	123975	124184	.	-	.	Name=hsdS-2
+AF222894	EMBL	CDS	123975	124184	.	-	.	Name=hsdS-2;Product="type I restriction enzyme S protein (fragment)"
+AF222894	EMBL	gene	124317	125363	.	+	.	Name=hsdM-1
+AF222894	EMBL	CDS	124317	125363	.	+	.	Name=hsdM-1;Product="type I restriction enzyme M protein (fragment)"
+AF222894	EMBL	gene	125367	126272	.	+	.	Name=hsdS-3
+AF222894	EMBL	CDS	125367	126272	.	+	.	Name=hsdS-3;Product="type I restriction enzyme S protein (fragment)"
+AF222894	EMBL	gene	126311	126874	.	+	.	Name=hsdM-2
+AF222894	EMBL	CDS	126311	126874	.	+	.	Name=hsdM-2;Product="type I restriction enzyme M protein (fragment)"
+AF222894	EMBL	gene	126912	127478	.	-	.	
+AF222894	EMBL	CDS	126912	127478	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	127704	130535	.	+	.	Name=uvrA
+AF222894	EMBL	CDS	127704	130535	.	+	.	Name=uvrA;Product="excinuclease ABC sununit A"
+AF222894	EMBL	gene	130540	132204	.	+	.	
+AF222894	EMBL	CDS	130540	132204	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	132231	132851	.	+	.	Name=hpt
+AF222894	EMBL	CDS	132231	132851	.	+	.	Name=hpt;Product="hypoxanthine-guanine phosphoribosyltransferase"
+AF222894	EMBL	gene	132856	135021	.	+	.	Name=ftsH
+AF222894	EMBL	CDS	132856	135021	.	+	.	Name=ftsH;Product="ATP-dependent zinc metallopeptidase-cell division"
+AF222894	EMBL	gene	135132	136388	.	+	.	Name=serS
+AF222894	EMBL	CDS	135132	136388	.	+	.	Name=serS;Product="seryl-tRNA synthetase"
+AF222894	EMBL	gene	136791	138350	.	+	.	Name=potA
+AF222894	EMBL	CDS	136791	138350	.	+	.	Name=potA;Product="spermidine/putrescine transport ATP-binding"
+AF222894	EMBL	gene	138334	139341	.	+	.	Name=potB
+AF222894	EMBL	CDS	138334	139341	.	+	.	Name=potB;Product="spermidine/putrescine transport system permease"
+AF222894	EMBL	gene	139328	140182	.	+	.	Name=potC
+AF222894	EMBL	CDS	139328	140182	.	+	.	Name=potC;Product="spermidine/putrescine transport system permease"
+AF222894	EMBL	gene	140186	142222	.	+	.	
+AF222894	EMBL	CDS	140186	142222	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	142320	142922	.	+	.	
+AF222894	EMBL	CDS	142320	142922	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	142985	144112	.	+	.	
+AF222894	EMBL	CDS	142985	144112	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	144136	145083	.	+	.	Name=sfhB
+AF222894	EMBL	CDS	144136	145083	.	+	.	Name=sfhB;Product="pseudouridine synthase (uracil hydrolase)"
+AF222894	EMBL	gene	145338	146803	.	+	.	
+AF222894	EMBL	rRNA	145338	146803	.	+	.	Product="16S ribosomal RNA"
+AF222894	EMBL	gene	147151	150053	.	+	.	
+AF222894	EMBL	rRNA	147151	150053	.	+	.	Product="23S ribosomal RNA"
+AF222894	EMBL	gene	150125	150234	.	+	.	
+AF222894	EMBL	rRNA	150125	150234	.	+	.	Product="5S ribosomal RNA"
+AF222894	EMBL	gene	150369	150839	.	+	.	Name=folA
+AF222894	EMBL	CDS	150369	150839	.	+	.	Name=folA;Product="dihyrofolate reductase"
+AF222894	EMBL	gene	150787	151527	.	+	.	Name=gph
+AF222894	EMBL	CDS	150787	151527	.	+	.	Name=gph;Product="phosphoglycolate phosphatase"
+AF222894	EMBL	gene	151584	151657	.	+	.	
+AF222894	EMBL	tRNA	151584	151657	.	+	.	Product="tRNA-Gly"
+AF222894	EMBL	gene	151722	152345	.	-	.	Name=upp
+AF222894	EMBL	CDS	151722	152345	.	-	.	Name=upp;Product="uracil phosphoribosyltransferase"
+AF222894	EMBL	gene	152470	152570	.	-	.	Name=srp
+AF222894	EMBL	ncRNA	152470	152570	.	-	.	Name=srp;Product="4.5S signal recognition particle"
+AF222894	EMBL	gene	152590	153837	.	-	.	Name=tyrS
+AF222894	EMBL	CDS	152590	153837	.	-	.	Name=tyrS;Product="tyrosyl tRNA synthetase"
+AF222894	EMBL	gene	153976	154878	.	+	.	Name=ABC-1
+AF222894	EMBL	CDS	153976	154878	.	+	.	Name=ABC-1;Product="ABC Transporter"
+AF222894	EMBL	gene	154895	157408	.	+	.	Name=secA
+AF222894	EMBL	CDS	154895	157408	.	+	.	Name=secA;Product="preprotein translocase"
+AF222894	EMBL	gene	157411	159411	.	+	.	Name=uvrB
+AF222894	EMBL	CDS	157411	159411	.	+	.	Name=uvrB;Product="excinuclease ABC subunit B"
+AF222894	EMBL	gene	159495	161516	.	+	.	Name=lig
+AF222894	EMBL	CDS	159495	161516	.	+	.	Name=lig;Product="DNA ligase"
+AF222894	EMBL	gene	161867	162448	.	+	.	
+AF222894	EMBL	CDS	161867	162448	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	162462	163772	.	+	.	Name=cysS
+AF222894	EMBL	CDS	162462	163772	.	+	.	Name=cysS;Product="cysteinyl-tRNA synthetase"
+AF222894	EMBL	gene	163774	164493	.	+	.	Name=spoU-1
+AF222894	EMBL	CDS	163774	164493	.	+	.	Name=spoU-1;Product="rRNA methylase"
+AF222894	EMBL	gene	164502	165686	.	-	.	
+AF222894	EMBL	CDS	164502	165686	.	-	.	Product="hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	165698	168952	.	-	.	
+AF222894	EMBL	CDS	165698	168952	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	169079	169384	.	-	.	
+AF222894	EMBL	CDS	169079	169384	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	169527	169937	.	-	.	Name=atpC
+AF222894	EMBL	CDS	169527	169937	.	-	.	Name=atpC;Product="ATP synthase epsilon chain"
+AF222894	EMBL	gene	169937	171331	.	-	.	Name=atpD-2
+AF222894	EMBL	CDS	169937	171331	.	-	.	Name=atpD-2;Product="ATP synthase beta chain"
+AF222894	EMBL	gene	171358	172218	.	-	.	Name=atpG
+AF222894	EMBL	CDS	171358	172218	.	-	.	Name=atpG;Product="ATP synthase gamma chain"
+AF222894	EMBL	gene	172220	173026	.	-	.	
+AF222894	EMBL	CDS	172220	173026	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	173026	175425	.	-	.	Name=atpA-2
+AF222894	EMBL	CDS	173026	175425	.	-	.	Name=atpA-2;Product="ATP synthase alpha chain"
+AF222894	EMBL	gene	175428	175727	.	-	.	Name=atpH-1
+AF222894	EMBL	CDS	175428	175727	.	-	.	Name=atpH-1;Product="ATP synthase delta chain C-term"
+AF222894	EMBL	gene	175737	176276	.	-	.	Name=atpH-2
+AF222894	EMBL	CDS	175737	176276	.	-	.	Name=atpH-2;Product="ATP synthase delta chain N-term"
+AF222894	EMBL	gene	176280	176897	.	-	.	Name=atpF
+AF222894	EMBL	CDS	176280	176897	.	-	.	Name=atpF;Product="ATP synthase B chain"
+AF222894	EMBL	gene	176966	177295	.	-	.	Name=atpE
+AF222894	EMBL	CDS	176966	177295	.	-	.	Name=atpE;Product="ATP synthase C chain"
+AF222894	EMBL	gene	177344	178171	.	-	.	Name=atpB
+AF222894	EMBL	CDS	177344	178171	.	-	.	Name=atpB;Product="ATP synthase A chain"
+AF222894	EMBL	gene	178197	178652	.	-	.	
+AF222894	EMBL	CDS	178197	178652	.	-	.	Product="conserved hypothetical-cytochrome b"
+AF222894	EMBL	gene	178869	179579	.	+	.	
+AF222894	EMBL	CDS	178869	179579	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	179641	182586	.	+	.	Name=p115
+AF222894	EMBL	CDS	179641	182586	.	+	.	Name=p115;Product="p115 protein"
+AF222894	EMBL	gene	182589	183644	.	+	.	Name=ftsY
+AF222894	EMBL	CDS	182589	183644	.	+	.	Name=ftsY;Product="SRP family of GTP-binding proteins-cell division"
+AF222894	EMBL	gene	183634	183933	.	+	.	
+AF222894	EMBL	CDS	183634	183933	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	184037	187855	.	-	.	
+AF222894	EMBL	CDS	184037	187855	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	188044	188120	.	+	.	
+AF222894	EMBL	tRNA	188044	188120	.	+	.	Product="tRNA-Ile"
+AF222894	EMBL	gene	188124	188199	.	+	.	
+AF222894	EMBL	tRNA	188124	188199	.	+	.	Product="tRNA-Ala"
+AF222894	EMBL	gene	188298	189029	.	-	.	
+AF222894	EMBL	CDS	188298	189029	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	189018	189800	.	+	.	Name=ripX
+AF222894	EMBL	CDS	189018	189800	.	+	.	Name=ripX;Product="integrase-recombinase protein"
+AF222894	EMBL	gene	189790	190416	.	+	.	
+AF222894	EMBL	CDS	189790	190416	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	190400	190573	.	+	.	
+AF222894	EMBL	CDS	190400	190573	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	190575	190916	.	+	.	
+AF222894	EMBL	CDS	190575	190916	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	190922	191218	.	+	.	
+AF222894	EMBL	CDS	190922	191218	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	191225	191461	.	+	.	
+AF222894	EMBL	CDS	191225	191461	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	191418	191600	.	+	.	
+AF222894	EMBL	CDS	191418	191600	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	191566	191829	.	+	.	
+AF222894	EMBL	CDS	191566	191829	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	191819	192154	.	+	.	
+AF222894	EMBL	CDS	191819	192154	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	192154	192810	.	+	.	
+AF222894	EMBL	CDS	192154	192810	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	192800	193489	.	+	.	
+AF222894	EMBL	CDS	192800	193489	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	193479	193940	.	+	.	
+AF222894	EMBL	CDS	193479	193940	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	193922	194599	.	+	.	
+AF222894	EMBL	CDS	193922	194599	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	195503	195946	.	-	.	
+AF222894	EMBL	CDS	195503	195946	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	195915	196463	.	-	.	
+AF222894	EMBL	CDS	195915	196463	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	196450	196896	.	-	.	
+AF222894	EMBL	CDS	196450	196896	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	196901	197236	.	-	.	
+AF222894	EMBL	CDS	196901	197236	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	197766	199139	.	-	.	
+AF222894	EMBL	CDS	197766	199139	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	199139	199921	.	-	.	
+AF222894	EMBL	CDS	199139	199921	.	-	.	Product="unique hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	199977	201164	.	-	.	
+AF222894	EMBL	CDS	199977	201164	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	201180	201506	.	-	.	
+AF222894	EMBL	CDS	201180	201506	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	201509	201877	.	-	.	
+AF222894	EMBL	CDS	201509	201877	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	202550	205384	.	-	.	
+AF222894	EMBL	CDS	202550	205384	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	205362	205721	.	-	.	
+AF222894	EMBL	CDS	205362	205721	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	205712	206725	.	-	.	
+AF222894	EMBL	CDS	205712	206725	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	206715	208160	.	-	.	
+AF222894	EMBL	CDS	206715	208160	.	-	.	Product="unique hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	208517	208960	.	-	.	
+AF222894	EMBL	CDS	208517	208960	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	209404	210003	.	-	.	
+AF222894	EMBL	CDS	209404	210003	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	210378	211877	.	+	.	
+AF222894	EMBL	CDS	210378	211877	.	+	.	Product="MBA N-terminal paralog"
+AF222894	EMBL	gene	211932	214004	.	-	.	
+AF222894	EMBL	CDS	211932	214004	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	214080	214955	.	-	.	
+AF222894	EMBL	CDS	214080	214955	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	214981	215982	.	-	.	Name=trpS
+AF222894	EMBL	CDS	214981	215982	.	-	.	Name=trpS;Product="tryptophanyl-tRNA synthetase"
+AF222894	EMBL	gene	216107	216493	.	+	.	
+AF222894	EMBL	CDS	216107	216493	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	216483	217295	.	+	.	
+AF222894	EMBL	CDS	216483	217295	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	217298	217678	.	+	.	
+AF222894	EMBL	CDS	217298	217678	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	217759	217980	.	+	.	
+AF222894	EMBL	CDS	217759	217980	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	217982	218461	.	-	.	
+AF222894	EMBL	CDS	217982	218461	.	-	.	Product="hypothetical"
+AF222894	EMBL	gene	218524	219240	.	+	.	Name=tpiA
+AF222894	EMBL	CDS	218524	219240	.	+	.	Name=tpiA;Product="triosephosphate isomerase"
+AF222894	EMBL	gene	219257	220765	.	+	.	Name=pgm
+AF222894	EMBL	CDS	219257	220765	.	+	.	Name=pgm;Product="phosphoglycerate mutase"
+AF222894	EMBL	gene	220812	221687	.	+	.	
+AF222894	EMBL	CDS	220812	221687	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	221790	223112	.	+	.	Name=eno
+AF222894	EMBL	CDS	221790	223112	.	+	.	Name=eno;Product="enolase"
+AF222894	EMBL	gene	223081	224046	.	+	.	Name=pfkA
+AF222894	EMBL	CDS	223081	224046	.	+	.	Name=pfkA;Product="6-phosphofructokinase"
+AF222894	EMBL	gene	224058	225482	.	+	.	Name=pyk
+AF222894	EMBL	CDS	224058	225482	.	+	.	Name=pyk;Product="pyruvate kinase"
+AF222894	EMBL	gene	225605	229909	.	+	.	Name=rpoB
+AF222894	EMBL	CDS	225605	229909	.	+	.	Name=rpoB;Product="DNA-directed RNA polymerase beta subunit"
+AF222894	EMBL	gene	229931	233848	.	+	.	Name=rpoC
+AF222894	EMBL	CDS	229931	233848	.	+	.	Name=rpoC;Product="DNA-directed RNA polymerase beta' chain"
+AF222894	EMBL	gene	233971	234492	.	+	.	
+AF222894	EMBL	CDS	233971	234492	.	+	.	Product="MBA N-terminal paralog"
+AF222894	EMBL	gene	234566	235216	.	-	.	
+AF222894	EMBL	CDS	234566	235216	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	235285	235422	.	-	.	
+AF222894	EMBL	CDS	235285	235422	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	235567	236160	.	+	.	
+AF222894	EMBL	CDS	235567	236160	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	236180	237172	.	+	.	Name=prsA
+AF222894	EMBL	CDS	236180	237172	.	+	.	Name=prsA;Product="phosphoribosylpyrophosphate synthetase"
+AF222894	EMBL	gene	237179	237718	.	+	.	
+AF222894	EMBL	CDS	237179	237718	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	237722	238561	.	+	.	
+AF222894	EMBL	CDS	237722	238561	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	238563	239789	.	+	.	
+AF222894	EMBL	CDS	238563	239789	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	239809	241374	.	+	.	Name=metS
+AF222894	EMBL	CDS	239809	241374	.	+	.	Name=metS;Product="methionyl-tRNA synthetase"
+AF222894	EMBL	gene	241462	242634	.	+	.	
+AF222894	EMBL	CDS	241462	242634	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	242634	244829	.	+	.	Name=pstA
+AF222894	EMBL	CDS	242634	244829	.	+	.	Name=pstA;Product="phosphate transport system permease"
+AF222894	EMBL	gene	244834	245823	.	+	.	Name=pstB
+AF222894	EMBL	CDS	244834	245823	.	+	.	Name=pstB;Product="phosphate transport ATP-binding protein B"
+AF222894	EMBL	gene	245847	246503	.	+	.	
+AF222894	EMBL	CDS	245847	246503	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	246663	246887	.	+	.	
+AF222894	EMBL	CDS	246663	246887	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	246891	249020	.	+	.	Name=copA
+AF222894	EMBL	CDS	246891	249020	.	+	.	Name=copA;Product="copper-transporting P-type ATPase"
+AF222894	EMBL	gene	249363	249632	.	-	.	Name=rps15
+AF222894	EMBL	CDS	249363	249632	.	-	.	Name=rps15;Product="ribosomal protein S15"
+AF222894	EMBL	gene	249743	250453	.	-	.	Name=rnc
+AF222894	EMBL	CDS	249743	250453	.	-	.	Name=rnc;Product="ribonuclease III"
+AF222894	EMBL	gene	250443	251438	.	-	.	Name=plsX
+AF222894	EMBL	CDS	250443	251438	.	-	.	Name=plsX;Product="fatty acid/phospholipid synthesis protein"
+AF222894	EMBL	gene	251443	253137	.	-	.	
+AF222894	EMBL	CDS	251443	253137	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	253152	253418	.	-	.	
+AF222894	EMBL	CDS	253152	253418	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	253523	254161	.	-	.	
+AF222894	EMBL	CDS	253523	254161	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	254259	254453	.	+	.	Name=rpL28
+AF222894	EMBL	CDS	254259	254453	.	+	.	Name=rpL28;Product="ribosomal protein L28"
+AF222894	EMBL	gene	254876	255178	.	-	.	Name=rpL27
+AF222894	EMBL	CDS	254876	255178	.	-	.	Name=rpL27;Product="ribosomal protein L27"
+AF222894	EMBL	gene	255184	255492	.	-	.	
+AF222894	EMBL	CDS	255184	255492	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	255498	255800	.	-	.	Name=rpL21
+AF222894	EMBL	CDS	255498	255800	.	-	.	Name=rpL21;Product="ribosomal protein L21"
+AF222894	EMBL	gene	256118	256693	.	+	.	Name=gmk
+AF222894	EMBL	CDS	256118	256693	.	+	.	Name=gmk;Product="guanylate kinase"
+AF222894	EMBL	gene	256674	257684	.	+	.	
+AF222894	EMBL	CDS	256674	257684	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	257688	258431	.	+	.	Name=ptc1
+AF222894	EMBL	CDS	257688	258431	.	+	.	Name=ptc1;Product="protein phosphatase"
+AF222894	EMBL	gene	258437	259597	.	+	.	Name=pkn
+AF222894	EMBL	CDS	258437	259597	.	+	.	Name=pkn;Product="serine/threonine kinase"
+AF222894	EMBL	gene	259723	260511	.	+	.	
+AF222894	EMBL	CDS	259723	260511	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	260648	262180	.	+	.	Name=amt-1
+AF222894	EMBL	CDS	260648	262180	.	+	.	Name=amt-1;Product="ammonium transporter"
+AF222894	EMBL	gene	262345	263910	.	+	.	Name=amt-2
+AF222894	EMBL	CDS	262345	263910	.	+	.	Name=amt-2;Product="ammonium transporter"
+AF222894	EMBL	gene	264020	265306	.	+	.	
+AF222894	EMBL	CDS	264020	265306	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	265321	266886	.	+	.	Name=fthS
+AF222894	EMBL	CDS	265321	266886	.	+	.	Name=fthS;Product="formate-tetrahydrofolate ligase"
+AF222894	EMBL	gene	267016	267768	.	+	.	Name=xerC
+AF222894	EMBL	CDS	267016	267768	.	+	.	Name=xerC;Product="integrase-recombinase protein"
+AF222894	EMBL	gene	268049	270328	.	+	.	Name=xasA
+AF222894	EMBL	CDS	268049	270328	.	+	.	Name=xasA;Product="amino acid antiporter"
+AF222894	EMBL	gene	270506	271654	.	+	.	
+AF222894	EMBL	CDS	270506	271654	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	271711	272028	.	+	.	
+AF222894	EMBL	CDS	271711	272028	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	272143	272481	.	+	.	
+AF222894	EMBL	CDS	272143	272481	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	272632	274209	.	+	.	
+AF222894	EMBL	CDS	272632	274209	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	274434	274970	.	+	.	Name=infC
+AF222894	EMBL	CDS	274434	274970	.	+	.	Name=infC;Product="translation initiation factor IF3"
+AF222894	EMBL	gene	274985	275179	.	+	.	Name=rpL35
+AF222894	EMBL	CDS	274985	275179	.	+	.	Name=rpL35;Product="ribosomal protein L35"
+AF222894	EMBL	gene	275234	275596	.	+	.	Name=rpL20
+AF222894	EMBL	CDS	275234	275596	.	+	.	Name=rpL20;Product="ribosomal protein L20"
+AF222894	EMBL	gene	275815	276120	.	+	.	Name=rpS10
+AF222894	EMBL	CDS	275815	276120	.	+	.	Name=rpS10;Product="ribosomal protein S10"
+AF222894	EMBL	gene	276145	276846	.	+	.	Name=rpL3
+AF222894	EMBL	CDS	276145	276846	.	+	.	Name=rpL3;Product="ribosomal protein L3"
+AF222894	EMBL	gene	276857	277492	.	+	.	Name=rpL4
+AF222894	EMBL	CDS	276857	277492	.	+	.	Name=rpL4;Product="ribosomal protein L4"
+AF222894	EMBL	gene	277495	277812	.	+	.	Name=rpL23
+AF222894	EMBL	CDS	277495	277812	.	+	.	Name=rpL23;Product="ribosomal protein L23"
+AF222894	EMBL	gene	277866	278705	.	+	.	Name=rpL2
+AF222894	EMBL	CDS	277866	278705	.	+	.	Name=rpL2;Product="ribosomal protein L2"
+AF222894	EMBL	gene	278726	278992	.	+	.	Name=rpS19
+AF222894	EMBL	CDS	278726	278992	.	+	.	Name=rpS19;Product="ribosomal protein S19"
+AF222894	EMBL	gene	279014	279949	.	+	.	Name=rpL22
+AF222894	EMBL	CDS	279014	279949	.	+	.	Name=rpL22;Product="ribosomal protein L22"
+AF222894	EMBL	gene	279969	280742	.	+	.	Name=rpS3
+AF222894	EMBL	CDS	279969	280742	.	+	.	Name=rpS3;Product="ribosomal protein S3"
+AF222894	EMBL	gene	280757	281173	.	+	.	Name=rpL16
+AF222894	EMBL	CDS	280757	281173	.	+	.	Name=rpL16;Product="ribosomal protein L16"
+AF222894	EMBL	gene	281173	281400	.	+	.	Name=rpL29
+AF222894	EMBL	CDS	281173	281400	.	+	.	Name=rpL29;Product="ribosomal protein L29"
+AF222894	EMBL	gene	281400	281654	.	+	.	Name=rpS17
+AF222894	EMBL	CDS	281400	281654	.	+	.	Name=rpS17;Product="ribosomal protein S17"
+AF222894	EMBL	gene	281674	282042	.	+	.	Name=rpL14
+AF222894	EMBL	CDS	281674	282042	.	+	.	Name=rpL14;Product="ribosomal protein L14"
+AF222894	EMBL	gene	282057	282389	.	+	.	Name=rpL24
+AF222894	EMBL	CDS	282057	282389	.	+	.	Name=rpL24;Product="ribosomal protein L24"
+AF222894	EMBL	gene	282406	282960	.	+	.	Name=rpL5
+AF222894	EMBL	CDS	282406	282960	.	+	.	Name=rpL5;Product="ribosomal protein L5"
+AF222894	EMBL	gene	282964	283149	.	+	.	Name=rpS14
+AF222894	EMBL	CDS	282964	283149	.	+	.	Name=rpS14;Product="ribosomal protein S14"
+AF222894	EMBL	gene	283160	283558	.	+	.	Name=rpS8
+AF222894	EMBL	CDS	283160	283558	.	+	.	Name=rpS8;Product="ribosomal protein S8"
+AF222894	EMBL	gene	283567	284115	.	+	.	Name=rpL6
+AF222894	EMBL	CDS	283567	284115	.	+	.	Name=rpL6;Product="ribosomal protein L6"
+AF222894	EMBL	gene	284134	284499	.	+	.	Name=rpL18
+AF222894	EMBL	CDS	284134	284499	.	+	.	Name=rpL18;Product="ribosomal protein L18"
+AF222894	EMBL	gene	284517	285128	.	+	.	Name=rpS5
+AF222894	EMBL	CDS	284517	285128	.	+	.	Name=rpS5;Product="ribosomal protein S5"
+AF222894	EMBL	gene	285145	285591	.	+	.	Name=rpL15
+AF222894	EMBL	CDS	285145	285591	.	+	.	Name=rpL15;Product="ribosomal protein L15"
+AF222894	EMBL	gene	285644	287059	.	+	.	Name=secY
+AF222894	EMBL	CDS	285644	287059	.	+	.	Name=secY;Product="preprotein translocase"
+AF222894	EMBL	gene	287068	287709	.	+	.	Name=adk
+AF222894	EMBL	CDS	287068	287709	.	+	.	Name=adk;Product="adenylate kinase"
+AF222894	EMBL	gene	287734	288483	.	+	.	Name=map
+AF222894	EMBL	CDS	287734	288483	.	+	.	Name=map;Product="methionine aminopeptidase (map)"
+AF222894	EMBL	gene	288511	288735	.	+	.	Name=infA
+AF222894	EMBL	CDS	288511	288735	.	+	.	Name=infA;Product="translation initiation factor IF-1"
+AF222894	EMBL	gene	288759	288872	.	+	.	Name=rpL36
+AF222894	EMBL	CDS	288759	288872	.	+	.	Name=rpL36;Product="ribosomal protein L36"
+AF222894	EMBL	gene	288897	289295	.	+	.	Name=rpS13
+AF222894	EMBL	CDS	288897	289295	.	+	.	Name=rpS13;Product="ribosomal protein S13"
+AF222894	EMBL	gene	289317	289682	.	+	.	Name=rpS11
+AF222894	EMBL	CDS	289317	289682	.	+	.	Name=rpS11;Product="ribosomal protein S11"
+AF222894	EMBL	gene	289719	290702	.	+	.	Name=rpoA
+AF222894	EMBL	CDS	289719	290702	.	+	.	Name=rpoA;Product="DNA-directed RNA polymerase alpha chain"
+AF222894	EMBL	gene	290730	291089	.	+	.	Name=rpL17
+AF222894	EMBL	CDS	290730	291089	.	+	.	Name=rpL17;Product="ribosomal protein L17"
+AF222894	EMBL	gene	291356	293221	.	+	.	
+AF222894	EMBL	CDS	291356	293221	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	293228	294523	.	+	.	
+AF222894	EMBL	CDS	293228	294523	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	294590	294997	.	+	.	
+AF222894	EMBL	CDS	294590	294997	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	294987	295574	.	+	.	
+AF222894	EMBL	CDS	294987	295574	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	295582	297366	.	-	.	
+AF222894	EMBL	CDS	295582	297366	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	297577	300525	.	-	.	Name=pacL
+AF222894	EMBL	CDS	297577	300525	.	-	.	Name=pacL;Product="cation-transporting P-type ATPase"
+AF222894	EMBL	gene	300712	301041	.	+	.	
+AF222894	EMBL	CDS	300712	301041	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	301046	301672	.	+	.	
+AF222894	EMBL	CDS	301046	301672	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	301653	304277	.	+	.	Name=valS
+AF222894	EMBL	CDS	301653	304277	.	+	.	Name=valS;Product="valyl-tRNA synthetase"
+AF222894	EMBL	gene	304282	304800	.	+	.	Name=spoU-2
+AF222894	EMBL	CDS	304282	304800	.	+	.	Name=spoU-2;Product="rRNA methylase"
+AF222894	EMBL	gene	304806	305480	.	+	.	
+AF222894	EMBL	CDS	304806	305480	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	305518	305596	.	+	.	
+AF222894	EMBL	tRNA	305518	305596	.	+	.	Product="tRNA-His"
+AF222894	EMBL	gene	305728	306399	.	+	.	
+AF222894	EMBL	CDS	305728	306399	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	306447	307820	.	+	.	
+AF222894	EMBL	CDS	306447	307820	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	307798	308256	.	+	.	Name=hit
+AF222894	EMBL	CDS	307798	308256	.	+	.	Name=hit;Product="probable HIT protein"
+AF222894	EMBL	gene	308266	309021	.	+	.	
+AF222894	EMBL	CDS	308266	309021	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	309018	310082	.	-	.	Name=hemN
+AF222894	EMBL	CDS	309018	310082	.	-	.	Name=hemN;Product="oxygen-independent coproporphyrinogen III"
+AF222894	EMBL	gene	310489	311034	.	+	.	
+AF222894	EMBL	CDS	310489	311034	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	311037	312128	.	+	.	
+AF222894	EMBL	CDS	311037	312128	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	312204	312371	.	+	.	Name=rpS21
+AF222894	EMBL	CDS	312204	312371	.	+	.	Name=rpS21;Product="ribosomal protein S21"
+AF222894	EMBL	gene	312495	314147	.	+	.	Name=argS
+AF222894	EMBL	CDS	312495	314147	.	+	.	Name=argS;Product="arginyl tRNA synthetase"
+AF222894	EMBL	gene	314150	315418	.	+	.	Name=pgk
+AF222894	EMBL	CDS	314150	315418	.	+	.	Name=pgk;Product="phosphoglycerate kinase"
+AF222894	EMBL	gene	315422	316513	.	+	.	Name=celM
+AF222894	EMBL	CDS	315422	316513	.	+	.	Name=celM;Product="Endo-1,4-beta-glucanase"
+AF222894	EMBL	gene	316587	317306	.	+	.	Name=deoD
+AF222894	EMBL	CDS	316587	317306	.	+	.	Name=deoD;Product="purine-nucleoside phosphorylase"
+AF222894	EMBL	gene	317402	317794	.	+	.	Name=hupA
+AF222894	EMBL	CDS	317402	317794	.	+	.	Name=hupA;Product="DNA-binding protein Hu-alpha (HU-2)"
+AF222894	EMBL	gene	317894	320050	.	+	.	Name=spoT/relA
+AF222894	EMBL	CDS	317894	320050	.	+	.	Name=spoT/relA;Product="ppGpp 3'-pyrophosphohydrolase"
+AF222894	EMBL	gene	320035	321663	.	+	.	Name=pyrG
+AF222894	EMBL	CDS	320035	321663	.	+	.	Name=pyrG;Product="CTP synthetase"
+AF222894	EMBL	gene	321667	322929	.	+	.	Name=hisS
+AF222894	EMBL	CDS	321667	322929	.	+	.	Name=hisS;Product="histidyl-tRNA synthetase"
+AF222894	EMBL	gene	322935	324671	.	+	.	Name=aspS
+AF222894	EMBL	CDS	322935	324671	.	+	.	Name=aspS;Product="aspartyl-tRNA synthetase"
+AF222894	EMBL	gene	324664	325269	.	+	.	
+AF222894	EMBL	CDS	324664	325269	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	325346	325501	.	+	.	
+AF222894	EMBL	CDS	325346	325501	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	325542	326039	.	+	.	Name=msrA
+AF222894	EMBL	CDS	325542	326039	.	+	.	Name=msrA;Product="peptide methionine sulfoxide reductase"
+AF222894	EMBL	gene	326075	326665	.	-	.	
+AF222894	EMBL	CDS	326075	326665	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	326672	327160	.	-	.	Name=bsaA
+AF222894	EMBL	CDS	326672	327160	.	-	.	Name=bsaA;Product="glutathione peroxidase"
+AF222894	EMBL	gene	327482	332974	.	+	.	
+AF222894	EMBL	CDS	327482	332974	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	333303	337646	.	+	.	
+AF222894	EMBL	CDS	333303	337646	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	338037	338642	.	+	.	
+AF222894	EMBL	CDS	338037	338642	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	338652	339362	.	+	.	
+AF222894	EMBL	CDS	338652	339362	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	339329	340069	.	+	.	
+AF222894	EMBL	CDS	339329	340069	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	340066	340578	.	-	.	
+AF222894	EMBL	CDS	340066	340578	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	340721	341287	.	+	.	Name=efp
+AF222894	EMBL	CDS	340721	341287	.	+	.	Name=efp;Product="translation elongation factor P"
+AF222894	EMBL	gene	341290	341592	.	+	.	
+AF222894	EMBL	CDS	341290	341592	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	341595	341978	.	+	.	Name=nusB
+AF222894	EMBL	CDS	341595	341978	.	+	.	Name=nusB;Product="transcription termination factor"
+AF222894	EMBL	gene	341984	342688	.	+	.	
+AF222894	EMBL	CDS	341984	342688	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	342715	343077	.	+	.	
+AF222894	EMBL	CDS	342715	343077	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	343161	343661	.	+	.	
+AF222894	EMBL	CDS	343161	343661	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	343924	345389	.	+	.	
+AF222894	EMBL	rRNA	343924	345389	.	+	.	Product="16S ribosomal RNA"
+AF222894	EMBL	gene	345737	348639	.	+	.	
+AF222894	EMBL	rRNA	345737	348639	.	+	.	Product="23S ribosomal RNA"
+AF222894	EMBL	gene	348711	348821	.	+	.	
+AF222894	EMBL	rRNA	348711	348821	.	+	.	Product="5S ribosomal RNA"
+AF222894	EMBL	gene	348924	349394	.	+	.	Name=greA
+AF222894	EMBL	CDS	348924	349394	.	+	.	Name=greA;Product="transcription elongation factor"
+AF222894	EMBL	gene	349474	349557	.	+	.	
+AF222894	EMBL	tRNA	349474	349557	.	+	.	Product="tRNA-Tyr"
+AF222894	EMBL	gene	349563	349637	.	+	.	
+AF222894	EMBL	tRNA	349563	349637	.	+	.	Product="tRNA-Gln"
+AF222894	EMBL	gene	349705	349779	.	+	.	
+AF222894	EMBL	tRNA	349705	349779	.	+	.	Product="tRNA-Lys"
+AF222894	EMBL	gene	349840	349925	.	+	.	
+AF222894	EMBL	tRNA	349840	349925	.	+	.	Product="tRNA-Leu"
+AF222894	EMBL	gene	349929	350002	.	+	.	
+AF222894	EMBL	tRNA	349929	350002	.	+	.	Product="tRNA-Gly"
+AF222894	EMBL	gene	350065	350832	.	+	.	
+AF222894	EMBL	CDS	350065	350832	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	350885	351796	.	+	.	Name=nfo
+AF222894	EMBL	CDS	350885	351796	.	+	.	Name=nfo;Product="endonuclease IV"
+AF222894	EMBL	gene	352030	352980	.	-	.	
+AF222894	EMBL	CDS	352030	352980	.	-	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	352983	354128	.	-	.	
+AF222894	EMBL	CDS	352983	354128	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	354465	355025	.	+	.	
+AF222894	EMBL	CDS	354465	355025	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	355093	355347	.	-	.	Name=rpS20
+AF222894	EMBL	CDS	355093	355347	.	-	.	Name=rpS20;Product="ribosomal protein S20"
+AF222894	EMBL	gene	355537	355853	.	+	.	Name=rnpB
+AF222894	EMBL	ncRNA	355537	355853	.	+	.	Name=rnpB;Product="ribonuclease P"
+AF222894	EMBL	gene	355936	356376	.	-	.	Name=ard1
+AF222894	EMBL	CDS	355936	356376	.	-	.	Name=ard1;Product="N-acetyltransferase complex, probable ribosomal"
+AF222894	EMBL	gene	356354	356929	.	-	.	
+AF222894	EMBL	CDS	356354	356929	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	356922	357821	.	-	.	Name=rluD
+AF222894	EMBL	CDS	356922	357821	.	-	.	Name=rluD;Product="pseudouridine synthase (uracil hydrolase)"
+AF222894	EMBL	gene	357824	358615	.	-	.	Name=lspA
+AF222894	EMBL	CDS	357824	358615	.	-	.	Name=lspA;Product="conserved hypothetical protein (possible signal"
+AF222894	EMBL	gene	358615	359160	.	-	.	Name=ppa
+AF222894	EMBL	CDS	358615	359160	.	-	.	Name=ppa;Product="inorganic pyrophosphatase"
+AF222894	EMBL	gene	359326	359706	.	+	.	
+AF222894	EMBL	CDS	359326	359706	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	359915	364642	.	+	.	
+AF222894	EMBL	CDS	359915	364642	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	364755	366131	.	+	.	Name=nusA
+AF222894	EMBL	CDS	364755	366131	.	+	.	Name=nusA;Product="N-utilization substance protein a"
+AF222894	EMBL	gene	366142	366393	.	+	.	
+AF222894	EMBL	CDS	366142	366393	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	366428	368272	.	+	.	Name=infB
+AF222894	EMBL	CDS	366428	368272	.	+	.	Name=infB;Product="translation initiation factor IF-2"
+AF222894	EMBL	gene	368280	368630	.	+	.	Name=rbfA
+AF222894	EMBL	CDS	368280	368630	.	+	.	Name=rbfA;Product="ribosome binding factor A"
+AF222894	EMBL	gene	368578	369048	.	+	.	
+AF222894	EMBL	CDS	368578	369048	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	369128	369823	.	-	.	
+AF222894	EMBL	CDS	369128	369823	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	369836	371635	.	-	.	Name=lepA
+AF222894	EMBL	CDS	369836	371635	.	-	.	Name=lepA;Product="GTP-binding membrane protein"
+AF222894	EMBL	gene	371753	372412	.	-	.	
+AF222894	EMBL	CDS	371753	372412	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	372558	372917	.	+	.	
+AF222894	EMBL	CDS	372558	372917	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	372921	373694	.	+	.	Name=spoU-3
+AF222894	EMBL	CDS	372921	373694	.	+	.	Name=spoU-3;Product="rRNA methylase"
+AF222894	EMBL	gene	373678	374622	.	+	.	
+AF222894	EMBL	CDS	373678	374622	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	374779	376047	.	+	.	
+AF222894	EMBL	CDS	374779	376047	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	376048	377031	.	+	.	
+AF222894	EMBL	CDS	376048	377031	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	377760	378062	.	-	.	
+AF222894	EMBL	CDS	377760	378062	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	378091	378714	.	-	.	Name=udk
+AF222894	EMBL	CDS	378091	378714	.	-	.	Name=udk;Product="uridine kinase"
+AF222894	EMBL	gene	378900	379073	.	+	.	Name=rpL32
+AF222894	EMBL	CDS	378900	379073	.	+	.	Name=rpL32;Product="ribosomal protein L32"
+AF222894	EMBL	gene	379079	379339	.	+	.	
+AF222894	EMBL	CDS	379079	379339	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	379425	381467	.	+	.	
+AF222894	EMBL	CDS	379425	381467	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	381491	382798	.	+	.	
+AF222894	EMBL	CDS	381491	382798	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	382856	383665	.	+	.	Name=folD
+AF222894	EMBL	CDS	382856	383665	.	+	.	Name=folD;Product="methylenetetrahydrofolate dehydrogenase"
+AF222894	EMBL	gene	383742	385628	.	+	.	
+AF222894	EMBL	CDS	383742	385628	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	385804	387615	.	+	.	Name=dnaK
+AF222894	EMBL	CDS	385804	387615	.	+	.	Name=dnaK;Product="heat shock protein 70 (hsp70)"
+AF222894	EMBL	gene	387667	388833	.	+	.	
+AF222894	EMBL	CDS	387667	388833	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	388870	389445	.	+	.	
+AF222894	EMBL	CDS	388870	389445	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	389445	390119	.	+	.	Name=cmk
+AF222894	EMBL	CDS	389445	390119	.	+	.	Name=cmk;Product="cytidylate kinase"
+AF222894	EMBL	gene	390196	390483	.	+	.	
+AF222894	EMBL	CDS	390196	390483	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	390535	391329	.	+	.	Name=plsC
+AF222894	EMBL	CDS	390535	391329	.	+	.	Name=plsC;Product="1-acyl-sn-glycerol-3-phosphate acyltransferase"
+AF222894	EMBL	gene	391461	392345	.	+	.	
+AF222894	EMBL	CDS	391461	392345	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	392338	393432	.	+	.	
+AF222894	EMBL	CDS	392338	393432	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	393527	394876	.	+	.	Name=tig
+AF222894	EMBL	CDS	393527	394876	.	+	.	Name=tig;Product="FKBP-type peptidyl-prolyl cis-trans isomerase"
+AF222894	EMBL	gene	395023	397398	.	+	.	Name=lon
+AF222894	EMBL	CDS	395023	397398	.	+	.	Name=lon;Product="ATP-dependent protease"
+AF222894	EMBL	gene	397484	398830	.	+	.	Name=rpoD
+AF222894	EMBL	CDS	397484	398830	.	+	.	Name=rpoD;Product="RNA polymerase sigma factor"
+AF222894	EMBL	gene	398814	399479	.	+	.	
+AF222894	EMBL	CDS	398814	399479	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	399460	400248	.	+	.	
+AF222894	EMBL	CDS	399460	400248	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	400278	400607	.	-	.	
+AF222894	EMBL	CDS	400278	400607	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	400834	401748	.	-	.	
+AF222894	EMBL	CDS	400834	401748	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	401965	402648	.	+	.	Name=truB
+AF222894	EMBL	CDS	401965	402648	.	+	.	Name=truB;Product="tRNA pseudouridine 55 synthase"
+AF222894	EMBL	gene	402614	403465	.	+	.	Name=ribF
+AF222894	EMBL	CDS	402614	403465	.	+	.	Name=ribF;Product="riboflavin kinase/FAD synthetase"
+AF222894	EMBL	gene	403539	405275	.	+	.	
+AF222894	EMBL	CDS	403539	405275	.	+	.	Product="unique hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	405290	406360	.	+	.	Name=fecD
+AF222894	EMBL	CDS	405290	406360	.	+	.	Name=fecD;Product="citrate-dependent iron transport, membrane-bound"
+AF222894	EMBL	gene	406366	407469	.	+	.	Name=fatC-2
+AF222894	EMBL	CDS	406366	407469	.	+	.	Name=fatC-2;Product="ferrichrome ABC transporter"
+AF222894	EMBL	gene	407618	409252	.	+	.	Name=ABCsbp-5
+AF222894	EMBL	CDS	407618	409252	.	+	.	Name=ABCsbp-5;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	409345	410979	.	+	.	Name=ABCsbp-6
+AF222894	EMBL	CDS	409345	410979	.	+	.	Name=ABCsbp-6;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	411137	411661	.	+	.	
+AF222894	EMBL	CDS	411137	411661	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	411703	413130	.	-	.	Name=gapN
+AF222894	EMBL	CDS	411703	413130	.	-	.	Name=gapN;Product="NADP-dependent glyceraldehyde-3-phosphate"
+AF222894	EMBL	gene	413162	414151	.	-	.	Name=asnA
+AF222894	EMBL	CDS	413162	414151	.	-	.	Name=asnA;Product="aspartate-ammonia ligase"
+AF222894	EMBL	gene	414129	414785	.	-	.	Name=psgA
+AF222894	EMBL	CDS	414129	414785	.	-	.	Name=psgA;Product="phosphatidylglycerophosphate synthase"
+AF222894	EMBL	gene	414766	416130	.	-	.	Name=asnS
+AF222894	EMBL	CDS	414766	416130	.	-	.	Name=asnS;Product="asparaginyl-tRNA synthetase"
+AF222894	EMBL	gene	416224	416859	.	-	.	
+AF222894	EMBL	CDS	416224	416859	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	416987	418510	.	-	.	
+AF222894	EMBL	CDS	416987	418510	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	418752	420053	.	+	.	Name=deoA
+AF222894	EMBL	CDS	418752	420053	.	+	.	Name=deoA;Product="thymidine phosphorylase"
+AF222894	EMBL	gene	420084	422804	.	+	.	Name=alaS
+AF222894	EMBL	CDS	420084	422804	.	+	.	Name=alaS;Product="alanyl-tRNA synthetase"
+AF222894	EMBL	gene	422797	423240	.	+	.	
+AF222894	EMBL	CDS	422797	423240	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	423256	425676	.	+	.	Name=leuS
+AF222894	EMBL	CDS	423256	425676	.	+	.	Name=leuS;Product="leucyl-tRNA synthetase"
+AF222894	EMBL	gene	425870	426493	.	-	.	Name=tnp-1
+AF222894	EMBL	CDS	425870	426493	.	-	.	Name=tnp-1;Product="integrase-recombinase protein"
+AF222894	EMBL	gene	426713	426817	.	-	.	
+AF222894	EMBL	CDS	426713	426817	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	426887	427114	.	-	.	
+AF222894	EMBL	CDS	426887	427114	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	427313	428560	.	-	.	Name=MBA
+AF222894	EMBL	CDS	427313	428560	.	-	.	Name=MBA;Product="multiple banded antigen"
+AF222894	EMBL	gene	429225	429953	.	-	.	
+AF222894	EMBL	CDS	429225	429953	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	430144	434472	.	+	.	Name=polC
+AF222894	EMBL	CDS	430144	434472	.	+	.	Name=polC;Product="DNA polymerase III alpha chain 1"
+AF222894	EMBL	gene	434587	436227	.	+	.	
+AF222894	EMBL	CDS	434587	436227	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	436307	436858	.	-	.	
+AF222894	EMBL	CDS	436307	436858	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	436833	437111	.	-	.	
+AF222894	EMBL	CDS	436833	437111	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	437111	437617	.	-	.	
+AF222894	EMBL	CDS	437111	437617	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	437785	439539	.	-	.	Name=uvrC
+AF222894	EMBL	CDS	437785	439539	.	-	.	Name=uvrC;Product="excinuclease ABC subunit c"
+AF222894	EMBL	gene	439539	440513	.	-	.	Name=gpsA
+AF222894	EMBL	CDS	439539	440513	.	-	.	Name=gpsA;Product="NAD+ dependent glycerol-3-phosphate"
+AF222894	EMBL	gene	440521	441849	.	-	.	
+AF222894	EMBL	CDS	440521	441849	.	-	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	441985	443082	.	+	.	
+AF222894	EMBL	CDS	441985	443082	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	443158	443595	.	+	.	
+AF222894	EMBL	CDS	443158	443595	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	443585	444511	.	+	.	
+AF222894	EMBL	CDS	443585	444511	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	444530	445711	.	+	.	
+AF222894	EMBL	CDS	444530	445711	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	445807	446682	.	+	.	
+AF222894	EMBL	CDS	445807	446682	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	446687	450541	.	+	.	
+AF222894	EMBL	CDS	446687	450541	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	450602	451417	.	+	.	
+AF222894	EMBL	CDS	450602	451417	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	451524	453638	.	+	.	Name=clpB
+AF222894	EMBL	CDS	451524	453638	.	+	.	Name=clpB;Product="ATP-dependent serine proteinase-heat shock"
+AF222894	EMBL	gene	453792	455576	.	+	.	
+AF222894	EMBL	CDS	453792	455576	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	455606	455953	.	-	.	Name=acpS
+AF222894	EMBL	CDS	455606	455953	.	-	.	Name=acpS;Product="holo-acyl carrier protein synthase"
+AF222894	EMBL	gene	455958	456257	.	-	.	
+AF222894	EMBL	CDS	455958	456257	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	456308	456589	.	-	.	
+AF222894	EMBL	CDS	456308	456589	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	456591	456869	.	-	.	
+AF222894	EMBL	CDS	456591	456869	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	456919	457869	.	-	.	Name=rnhB
+AF222894	EMBL	CDS	456919	457869	.	-	.	Name=rnhB;Product="ribonuclease HII"
+AF222894	EMBL	gene	457969	458574	.	+	.	
+AF222894	EMBL	CDS	457969	458574	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	458667	459713	.	-	.	Name=hmuU-2
+AF222894	EMBL	CDS	458667	459713	.	-	.	Name=hmuU-2;Product="hemin permease"
+AF222894	EMBL	gene	459716	460735	.	-	.	Name=fatD-2
+AF222894	EMBL	CDS	459716	460735	.	-	.	Name=fatD-2;Product="ferrichrome ABC transporter (permease)"
+AF222894	EMBL	gene	460746	462251	.	-	.	Name=ABCsbp-7
+AF222894	EMBL	CDS	460746	462251	.	-	.	Name=ABCsbp-7;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	462275	463432	.	-	.	Name=trmU
+AF222894	EMBL	CDS	462275	463432	.	-	.	Name=trmU;Product="tRNA-(5-methylaminomethyl-2-thiouridylate)"
+AF222894	EMBL	gene	463541	464437	.	+	.	
+AF222894	EMBL	CDS	463541	464437	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	464668	465474	.	-	.	Name=tnp-2
+AF222894	EMBL	CDS	464668	465474	.	-	.	Name=tnp-2;Product="integrase-recombinase protein"
+AF222894	EMBL	gene	465534	466307	.	-	.	
+AF222894	EMBL	CDS	465534	466307	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	466522	467718	.	+	.	
+AF222894	EMBL	CDS	466522	467718	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	467811	468467	.	-	.	Name=grpE
+AF222894	EMBL	CDS	467811	468467	.	-	.	Name=grpE;Product="heat shock protein"
+AF222894	EMBL	gene	468467	469594	.	-	.	Name=dnaJ
+AF222894	EMBL	CDS	468467	469594	.	-	.	Name=dnaJ;Product="heat shock protein"
+AF222894	EMBL	gene	469722	470171	.	-	.	
+AF222894	EMBL	CDS	469722	470171	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	470152	471072	.	-	.	
+AF222894	EMBL	CDS	470152	471072	.	-	.	Product="hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	471224	473926	.	+	.	Name=ileS
+AF222894	EMBL	CDS	471224	473926	.	+	.	Name=ileS;Product="isoleucyl-tRNA synthetase"
+AF222894	EMBL	gene	473930	474892	.	+	.	Name=gcp
+AF222894	EMBL	CDS	473930	474892	.	+	.	Name=gcp;Product="sialoglycoprotease"
+AF222894	EMBL	gene	474916	476046	.	+	.	Name=metK
+AF222894	EMBL	CDS	474916	476046	.	+	.	Name=metK;Product="S-adenosylmethionine synthetase"
+AF222894	EMBL	gene	476104	476185	.	-	.	
+AF222894	EMBL	tRNA	476104	476185	.	-	.	Product="tRNA-Leu"
+AF222894	EMBL	gene	476249	477076	.	-	.	Name=fpg
+AF222894	EMBL	CDS	476249	477076	.	-	.	Name=fpg;Product="formamidopyrimidine-DNA glycosylase"
+AF222894	EMBL	gene	477118	477987	.	-	.	Name=polA
+AF222894	EMBL	CDS	477118	477987	.	-	.	Name=polA;Product="DNA polymerase I: 5'-3' exonuclease domain"
+AF222894	EMBL	gene	477991	480900	.	-	.	Name=dnaE
+AF222894	EMBL	CDS	477991	480900	.	-	.	Name=dnaE;Product="DNA polymerase III alpha chain 2"
+AF222894	EMBL	gene	480900	481112	.	-	.	
+AF222894	EMBL	CDS	480900	481112	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	481197	482162	.	-	.	
+AF222894	EMBL	CDS	481197	482162	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	482180	483352	.	-	.	Name=thiI
+AF222894	EMBL	CDS	482180	483352	.	-	.	Name=thiI;Product="thiamin biosynthesis protein"
+AF222894	EMBL	gene	483330	484196	.	-	.	
+AF222894	EMBL	CDS	483330	484196	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	484311	485057	.	+	.	
+AF222894	EMBL	CDS	484311	485057	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	485044	486117	.	+	.	Name=hrcA
+AF222894	EMBL	CDS	485044	486117	.	+	.	Name=hrcA;Product="heat-inducible transcription repressor"
+AF222894	EMBL	gene	486107	486610	.	+	.	
+AF222894	EMBL	CDS	486107	486610	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	486622	487332	.	+	.	
+AF222894	EMBL	CDS	486622	487332	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	487280	488089	.	+	.	
+AF222894	EMBL	CDS	487280	488089	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	488247	488522	.	-	.	
+AF222894	EMBL	CDS	488247	488522	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	488695	489372	.	+	.	
+AF222894	EMBL	CDS	488695	489372	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	489429	489980	.	+	.	
+AF222894	EMBL	CDS	489429	489980	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	490192	490704	.	-	.	
+AF222894	EMBL	CDS	490192	490704	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	490811	491674	.	-	.	Name=ureD
+AF222894	EMBL	CDS	490811	491674	.	-	.	Name=ureD;Product="urease complex component"
+AF222894	EMBL	gene	491684	492304	.	-	.	Name=ureG
+AF222894	EMBL	CDS	491684	492304	.	-	.	Name=ureG;Product="urease complex component"
+AF222894	EMBL	gene	492386	493138	.	-	.	Name=ureF
+AF222894	EMBL	CDS	492386	493138	.	-	.	Name=ureF;Product="urease complex component"
+AF222894	EMBL	gene	493080	493529	.	-	.	Name=ureE
+AF222894	EMBL	CDS	493080	493529	.	-	.	Name=ureE;Product="urease complex component"
+AF222894	EMBL	gene	493594	495390	.	-	.	Name=ureC
+AF222894	EMBL	CDS	493594	495390	.	-	.	Name=ureC;Product="urease complex component"
+AF222894	EMBL	gene	495436	495810	.	-	.	Name=ureB
+AF222894	EMBL	CDS	495436	495810	.	-	.	Name=ureB;Product="urease complex component"
+AF222894	EMBL	gene	495857	496162	.	-	.	Name=ureA
+AF222894	EMBL	CDS	495857	496162	.	-	.	Name=ureA;Product="urease complex component"
+AF222894	EMBL	gene	496464	497627	.	+	.	Name=fhuC
+AF222894	EMBL	CDS	496464	497627	.	+	.	Name=fhuC;Product="ferrichrome transport ATP-binding protein"
+AF222894	EMBL	gene	497710	498453	.	+	.	Name=hlyA
+AF222894	EMBL	CDS	497710	498453	.	+	.	Name=hlyA;Product="hemolysin"
+AF222894	EMBL	gene	498470	499525	.	+	.	
+AF222894	EMBL	CDS	498470	499525	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	499537	499866	.	-	.	Name=ruvB-1
+AF222894	EMBL	CDS	499537	499866	.	-	.	Name=ruvB-1;Product="holliday junction DNA helicase (fragment)"
+AF222894	EMBL	gene	499980	500231	.	+	.	
+AF222894	EMBL	CDS	499980	500231	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	500313	501812	.	-	.	
+AF222894	EMBL	CDS	500313	501812	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	501760	503112	.	-	.	
+AF222894	EMBL	CDS	501760	503112	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	503066	504316	.	-	.	
+AF222894	EMBL	CDS	503066	504316	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	504656	506542	.	-	.	
+AF222894	EMBL	CDS	504656	506542	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	506698	506874	.	-	.	
+AF222894	EMBL	CDS	506698	506874	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	507066	507491	.	-	.	
+AF222894	EMBL	CDS	507066	507491	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	507775	508224	.	+	.	Name=hsdS-4
+AF222894	EMBL	CDS	507775	508224	.	+	.	Name=hsdS-4;Product="type I restriction enzyme S protein (fragment)"
+AF222894	EMBL	gene	508300	508674	.	+	.	Name=hsdS-5
+AF222894	EMBL	CDS	508300	508674	.	+	.	Name=hsdS-5;Product="type I restriction enzyme S protein (fragment)"
+AF222894	EMBL	gene	508750	509688	.	-	.	Name=ruvB-2
+AF222894	EMBL	CDS	508750	509688	.	-	.	Name=ruvB-2;Product="holliday junction DNA helicase"
+AF222894	EMBL	gene	509678	510265	.	-	.	Name=ruvA
+AF222894	EMBL	CDS	509678	510265	.	-	.	Name=ruvA;Product="holliday-junction binding protein"
+AF222894	EMBL	gene	510307	511470	.	-	.	
+AF222894	EMBL	CDS	510307	511470	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	511550	512566	.	-	.	
+AF222894	EMBL	CDS	511550	512566	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	512663	514081	.	-	.	Name=proS
+AF222894	EMBL	CDS	512663	514081	.	-	.	Name=proS;Product="prolyl aminoacyl-tRNA synthetase"
+AF222894	EMBL	gene	514107	514574	.	-	.	
+AF222894	EMBL	CDS	514107	514574	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	514561	515769	.	-	.	Name=nifS
+AF222894	EMBL	CDS	514561	515769	.	-	.	Name=nifS;Product="nitrogen fixation protein-class-V"
+AF222894	EMBL	gene	515969	519367	.	+	.	
+AF222894	EMBL	CDS	515969	519367	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	519367	520026	.	+	.	Name=rpe
+AF222894	EMBL	CDS	519367	520026	.	+	.	Name=rpe;Product="d-ribulose-5-phosphate 3 epimerase"
+AF222894	EMBL	gene	520153	522471	.	-	.	Name=pheT
+AF222894	EMBL	CDS	520153	522471	.	-	.	Name=pheT;Product="phenylalanine-tRNA synthetase beta chain"
+AF222894	EMBL	gene	522503	523504	.	-	.	Name=pheS
+AF222894	EMBL	CDS	522503	523504	.	-	.	Name=pheS;Product="phenylalanine-tRNA synthetase alpha chain"
+AF222894	EMBL	gene	523511	523981	.	-	.	
+AF222894	EMBL	CDS	523511	523981	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	523974	524741	.	-	.	Name=nadE
+AF222894	EMBL	CDS	523974	524741	.	-	.	Name=nadE;Product="NH(3)-dependent NAD(+) synthetase"
+AF222894	EMBL	gene	524749	526056	.	-	.	Name=obg
+AF222894	EMBL	CDS	524749	526056	.	-	.	Name=obg;Product="GTP-binding protein"
+AF222894	EMBL	gene	526059	526877	.	-	.	
+AF222894	EMBL	CDS	526059	526877	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	526944	527861	.	-	.	Name=fmt
+AF222894	EMBL	CDS	526944	527861	.	-	.	Name=fmt;Product="methionyl-tRNA formyltransferase"
+AF222894	EMBL	gene	527935	528660	.	-	.	
+AF222894	EMBL	CDS	527935	528660	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	528910	529506	.	+	.	Name=def
+AF222894	EMBL	CDS	528910	529506	.	+	.	Name=def;Product="polypeptide deformylase"
+AF222894	EMBL	gene	529513	531441	.	+	.	Name=parE/gyrB
+AF222894	EMBL	CDS	529513	531441	.	+	.	Name=parE/gyrB;Product="topoisomerase IV subunit B"
+AF222894	EMBL	gene	531447	533999	.	+	.	Name=parC/gyrA
+AF222894	EMBL	CDS	531447	533999	.	+	.	Name=parC/gyrA;Product="topoisomerase IV subunit A"
+AF222894	EMBL	gene	533999	535084	.	+	.	
+AF222894	EMBL	CDS	533999	535084	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	535111	536289	.	+	.	
+AF222894	EMBL	CDS	535111	536289	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	536299	536655	.	+	.	Name=pfs
+AF222894	EMBL	CDS	536299	536655	.	+	.	Name=pfs;Product="purine nucleoside phosphorylase"
+AF222894	EMBL	gene	536799	536990	.	+	.	
+AF222894	EMBL	CDS	536799	536990	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	537097	537348	.	+	.	
+AF222894	EMBL	CDS	537097	537348	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	537638	539965	.	+	.	
+AF222894	EMBL	CDS	537638	539965	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	540008	543949	.	+	.	
+AF222894	EMBL	CDS	540008	543949	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	544036	545886	.	-	.	
+AF222894	EMBL	CDS	544036	545886	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	546042	548519	.	-	.	
+AF222894	EMBL	CDS	546042	548519	.	-	.	Product="unique hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	548525	549607	.	-	.	Name=mod
+AF222894	EMBL	CDS	548525	549607	.	-	.	Name=mod;Product="adenine specific DNA methyltransferase"
+AF222894	EMBL	gene	549762	550112	.	-	.	
+AF222894	EMBL	CDS	549762	550112	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	550266	553343	.	-	.	
+AF222894	EMBL	CDS	550266	553343	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	553654	555273	.	+	.	
+AF222894	EMBL	CDS	553654	555273	.	+	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	555605	558271	.	-	.	
+AF222894	EMBL	CDS	555605	558271	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	558804	572870	.	-	.	
+AF222894	EMBL	CDS	558804	572870	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	573097	576408	.	-	.	
+AF222894	EMBL	CDS	573097	576408	.	-	.	Product="MBA N-terminal paralog"
+AF222894	EMBL	gene	576679	577842	.	+	.	Name=ackA
+AF222894	EMBL	CDS	576679	577842	.	+	.	Name=ackA;Product="acetate kinase"
+AF222894	EMBL	gene	577846	579963	.	-	.	
+AF222894	EMBL	CDS	577846	579963	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	580148	581452	.	-	.	Name=mnuA-2
+AF222894	EMBL	CDS	580148	581452	.	-	.	Name=mnuA-2;Product="membrane nuclease A-hypothetical"
+AF222894	EMBL	gene	581604	584345	.	-	.	
+AF222894	EMBL	CDS	581604	584345	.	-	.	Product="MBA N-terminal paralog"
+AF222894	EMBL	gene	584559	585080	.	-	.	Name=apt
+AF222894	EMBL	CDS	584559	585080	.	-	.	Name=apt;Product="adenine phosphoribosyltransferase"
+AF222894	EMBL	gene	585101	588112	.	-	.	
+AF222894	EMBL	CDS	585101	588112	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	588434	588901	.	+	.	
+AF222894	EMBL	CDS	588434	588901	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	588882	589796	.	+	.	Name=era
+AF222894	EMBL	CDS	588882	589796	.	+	.	Name=era;Product="GTP-binding protein"
+AF222894	EMBL	gene	589796	590512	.	+	.	
+AF222894	EMBL	CDS	589796	590512	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	590546	591967	.	+	.	Name=glyS
+AF222894	EMBL	CDS	590546	591967	.	+	.	Name=glyS;Product="glycyl-tRNA synthetase"
+AF222894	EMBL	gene	591955	593880	.	+	.	Name=dnaG
+AF222894	EMBL	CDS	591955	593880	.	+	.	Name=dnaG;Product="DNA primase"
+AF222894	EMBL	gene	593959	608976	.	-	.	
+AF222894	EMBL	CDS	593959	608976	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	608954	611371	.	-	.	
+AF222894	EMBL	CDS	608954	611371	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	611599	612732	.	+	.	
+AF222894	EMBL	CDS	611599	612732	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	612832	613440	.	-	.	Name=rpS4
+AF222894	EMBL	CDS	612832	613440	.	-	.	Name=rpS4;Product="ribosomal protein S4"
+AF222894	EMBL	gene	613706	615397	.	+	.	
+AF222894	EMBL	CDS	613706	615397	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	615445	615520	.	-	.	
+AF222894	EMBL	tRNA	615445	615520	.	-	.	Product="tRNA-Phe"
+AF222894	EMBL	gene	615522	615597	.	-	.	
+AF222894	EMBL	tRNA	615522	615597	.	-	.	Product="tRNA-Asp"
+AF222894	EMBL	gene	615600	615676	.	-	.	
+AF222894	EMBL	tRNA	615600	615676	.	-	.	Product="tRNA-Met"
+AF222894	EMBL	gene	615734	615826	.	-	.	
+AF222894	EMBL	tRNA	615734	615826	.	-	.	Product="tRNA-Ser"
+AF222894	EMBL	gene	615895	615972	.	-	.	
+AF222894	EMBL	tRNA	615895	615972	.	-	.	Product="tRNA-Met"
+AF222894	EMBL	gene	615975	616051	.	-	.	
+AF222894	EMBL	tRNA	615975	616051	.	-	.	Product="tRNA-Met"
+AF222894	EMBL	gene	616056	616132	.	-	.	
+AF222894	EMBL	tRNA	616056	616132	.	-	.	Product="tRNA-Pro"
+AF222894	EMBL	gene	616180	616256	.	-	.	
+AF222894	EMBL	tRNA	616180	616256	.	-	.	Product="tRNA-Arg"
+AF222894	EMBL	gene	616260	616334	.	-	.	
+AF222894	EMBL	tRNA	616260	616334	.	-	.	Product="tRNA-Cys"
+AF222894	EMBL	gene	616455	617246	.	-	.	
+AF222894	EMBL	CDS	616455	617246	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	617250	619481	.	-	.	Name=uvrD
+AF222894	EMBL	CDS	617250	619481	.	-	.	Name=uvrD;Product="DNA helicase II"
+AF222894	EMBL	gene	619506	620327	.	-	.	
+AF222894	EMBL	CDS	619506	620327	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	620328	621266	.	-	.	Name=epsG
+AF222894	EMBL	CDS	620328	621266	.	-	.	Name=epsG;Product="glycosyltransferase"
+AF222894	EMBL	gene	621353	621429	.	-	.	
+AF222894	EMBL	tRNA	621353	621429	.	-	.	Product="tRNA-Arg"
+AF222894	EMBL	gene	621507	621583	.	-	.	
+AF222894	EMBL	tRNA	621507	621583	.	-	.	Product="tRNA-Arg"
+AF222894	EMBL	gene	621853	623016	.	+	.	
+AF222894	EMBL	CDS	621853	623016	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	622988	623848	.	+	.	
+AF222894	EMBL	CDS	622988	623848	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	623865	624098	.	+	.	Name=acpP
+AF222894	EMBL	CDS	623865	624098	.	+	.	Name=acpP;Product="acyl carrier protein"
+AF222894	EMBL	gene	624162	624236	.	+	.	
+AF222894	EMBL	tRNA	624162	624236	.	+	.	Product="tRNA-Trp"
+AF222894	EMBL	gene	625203	626570	.	-	.	Name=ampL
+AF222894	EMBL	CDS	625203	626570	.	-	.	Name=ampL;Product="cytosol aminopeptidase (leucine aminopeptidase)"
+AF222894	EMBL	gene	626683	628986	.	-	.	Name=ftsK
+AF222894	EMBL	CDS	626683	628986	.	-	.	Name=ftsK;Product="cell division protein"
+AF222894	EMBL	gene	629003	630673	.	-	.	
+AF222894	EMBL	CDS	629003	630673	.	-	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	630813	632789	.	+	.	Name=ABC-2
+AF222894	EMBL	CDS	630813	632789	.	+	.	Name=ABC-2;Product="ABC Transporter"
+AF222894	EMBL	gene	632764	633129	.	+	.	
+AF222894	EMBL	CDS	632764	633129	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	633118	634254	.	-	.	Name=cdsA
+AF222894	EMBL	CDS	633118	634254	.	-	.	Name=cdsA;Product="CDP-diglyceride synthetase"
+AF222894	EMBL	gene	634265	634816	.	-	.	Name=frr
+AF222894	EMBL	CDS	634265	634816	.	-	.	Name=frr;Product="ribosome releasing factor"
+AF222894	EMBL	gene	634834	635541	.	-	.	Name=pyrH
+AF222894	EMBL	CDS	634834	635541	.	-	.	Name=pyrH;Product="uridylate kinase"
+AF222894	EMBL	gene	635625	636500	.	-	.	Name=tsf
+AF222894	EMBL	CDS	635625	636500	.	-	.	Name=tsf;Product="protein chain elongation factor EF-ts"
+AF222894	EMBL	gene	636648	636731	.	-	.	
+AF222894	EMBL	tRNA	636648	636731	.	-	.	Product="tRNA-Leu"
+AF222894	EMBL	gene	636736	636811	.	-	.	
+AF222894	EMBL	tRNA	636736	636811	.	-	.	Product="tRNA-Lys"
+AF222894	EMBL	gene	636883	636958	.	-	.	
+AF222894	EMBL	tRNA	636883	636958	.	-	.	Product="tRNA-Thr"
+AF222894	EMBL	gene	636960	637035	.	-	.	
+AF222894	EMBL	tRNA	636960	637035	.	-	.	Product="tRNA-Val"
+AF222894	EMBL	gene	637082	637158	.	-	.	
+AF222894	EMBL	tRNA	637082	637158	.	-	.	Product="tRNA-Glu"
+AF222894	EMBL	gene	637160	637234	.	-	.	
+AF222894	EMBL	tRNA	637160	637234	.	-	.	Product="tRNA-Asn"
+AF222894	EMBL	gene	637428	638483	.	+	.	Name=ABC-3
+AF222894	EMBL	CDS	637428	638483	.	+	.	Name=ABC-3;Product="hypothetical ferrichrome ABC transporter"
+AF222894	EMBL	gene	638485	639510	.	+	.	Name=fatC-3
+AF222894	EMBL	CDS	638485	639510	.	+	.	Name=fatC-3;Product="ferric anguibactin transport system permerase"
+AF222894	EMBL	gene	639550	641160	.	+	.	Name=ABCsbp-8
+AF222894	EMBL	CDS	639550	641160	.	+	.	Name=ABCsbp-8;Product="putative ABC substrate-binding protein-iron"
+AF222894	EMBL	gene	641232	641450	.	+	.	
+AF222894	EMBL	CDS	641232	641450	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	641564	643357	.	-	.	
+AF222894	EMBL	CDS	641564	643357	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	643446	645281	.	-	.	
+AF222894	EMBL	CDS	643446	645281	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	645311	647146	.	-	.	Name=pepF-2
+AF222894	EMBL	CDS	645311	647146	.	-	.	Name=pepF-2;Product="oligoendopeptidase F-zinc metalloprotease"
+AF222894	EMBL	gene	647241	648425	.	-	.	Name=tuf
+AF222894	EMBL	CDS	647241	648425	.	-	.	Name=tuf;Product="translation elongation factor tu (EF-tu)"
+AF222894	EMBL	gene	648562	650628	.	-	.	Name=fusA
+AF222894	EMBL	CDS	648562	650628	.	-	.	Name=fusA;Product="translation elongation factor G"
+AF222894	EMBL	gene	650655	651122	.	-	.	Name=rpS7
+AF222894	EMBL	CDS	650655	651122	.	-	.	Name=rpS7;Product="ribosomal protein S7"
+AF222894	EMBL	gene	651150	651575	.	-	.	Name=rpS12
+AF222894	EMBL	CDS	651150	651575	.	-	.	Name=rpS12;Product="ribosomal protein S12"
+AF222894	EMBL	gene	651761	653272	.	-	.	
+AF222894	EMBL	CDS	651761	653272	.	-	.	Product="MBA N-terminal paralog"
+AF222894	EMBL	gene	653483	656398	.	-	.	
+AF222894	EMBL	CDS	653483	656398	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	656402	657301	.	-	.	Name=dcm
+AF222894	EMBL	CDS	656402	657301	.	-	.	Name=dcm;Product="cytosine-specific methyltransferase"
+AF222894	EMBL	gene	657864	658619	.	+	.	Name=codV
+AF222894	EMBL	CDS	657864	658619	.	+	.	Name=codV;Product="integrase-recombinase protein"
+AF222894	EMBL	gene	658749	660407	.	-	.	Name=cpsG
+AF222894	EMBL	CDS	658749	660407	.	-	.	Name=cpsG;Product="phosphomannomutase"
+AF222894	EMBL	gene	660442	660837	.	-	.	Name=cdd
+AF222894	EMBL	CDS	660442	660837	.	-	.	Name=cdd;Product="cytidine deaminase"
+AF222894	EMBL	gene	660962	661037	.	-	.	
+AF222894	EMBL	tRNA	660962	661037	.	-	.	Product="tRNA-Trp"
+AF222894	EMBL	gene	661048	662121	.	-	.	Name=pepP
+AF222894	EMBL	CDS	661048	662121	.	-	.	Name=pepP;Product="XAA-PRO aminopeptidase"
+AF222894	EMBL	gene	662132	662293	.	-	.	Name=rpL33
+AF222894	EMBL	CDS	662132	662293	.	-	.	Name=rpL33;Product="ribosomal protein L33"
+AF222894	EMBL	gene	662354	664096	.	-	.	Name=thrS
+AF222894	EMBL	CDS	662354	664096	.	-	.	Name=thrS;Product="threonyl-tRNA synthetase"
+AF222894	EMBL	gene	664249	665145	.	+	.	
+AF222894	EMBL	CDS	664249	665145	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	665142	665867	.	-	.	Name=hisT
+AF222894	EMBL	CDS	665142	665867	.	-	.	Name=hisT;Product="pseudouridylate synthase I"
+AF222894	EMBL	gene	665929	667245	.	-	.	
+AF222894	EMBL	CDS	665929	667245	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	667246	668547	.	-	.	Name=ABC-4
+AF222894	EMBL	CDS	667246	668547	.	-	.	Name=ABC-4;Product="ABC Transporter"
+AF222894	EMBL	gene	668535	669419	.	-	.	Name=ABC-5
+AF222894	EMBL	CDS	668535	669419	.	-	.	Name=ABC-5;Product="ABC transporter"
+AF222894	EMBL	gene	669559	670248	.	-	.	Name=rpL1
+AF222894	EMBL	CDS	669559	670248	.	-	.	Name=rpL1;Product="ribosomal protein L1"
+AF222894	EMBL	gene	670251	670703	.	-	.	Name=rpL11
+AF222894	EMBL	CDS	670251	670703	.	-	.	Name=rpL11;Product="ribosomal protein L11"
+AF222894	EMBL	gene	670982	673408	.	+	.	
+AF222894	EMBL	CDS	670982	673408	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	673532	677773	.	+	.	
+AF222894	EMBL	CDS	673532	677773	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	677822	679255	.	-	.	Name=gatB
+AF222894	EMBL	CDS	677822	679255	.	-	.	Name=gatB;Product="glutamyl-tRNA amidotransferase subunit B"
+AF222894	EMBL	gene	679258	680691	.	-	.	Name=gatA
+AF222894	EMBL	CDS	679258	680691	.	-	.	Name=gatA;Product="glutamyl-tRNA amidotransferase subunit A"
+AF222894	EMBL	gene	680681	680965	.	-	.	
+AF222894	EMBL	CDS	680681	680965	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	680986	682002	.	-	.	
+AF222894	EMBL	CDS	680986	682002	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	682041	682679	.	-	.	Name=ung
+AF222894	EMBL	CDS	682041	682679	.	-	.	Name=ung;Product="uracil-DNA glycosylase"
+AF222894	EMBL	gene	682658	684424	.	-	.	
+AF222894	EMBL	CDS	682658	684424	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	684427	685887	.	-	.	Name=dnaB
+AF222894	EMBL	CDS	684427	685887	.	-	.	Name=dnaB;Product="replicative DNA helicase"
+AF222894	EMBL	gene	685893	686330	.	-	.	Name=rpL9
+AF222894	EMBL	CDS	685893	686330	.	-	.	Name=rpL9;Product="ribosomal protein L9"
+AF222894	EMBL	gene	686414	686653	.	-	.	Name=rpS18
+AF222894	EMBL	CDS	686414	686653	.	-	.	Name=rpS18;Product="ribosomal protein S18"
+AF222894	EMBL	gene	686662	687162	.	-	.	Name=ssb
+AF222894	EMBL	CDS	686662	687162	.	-	.	Name=ssb;Product="single-strand binding protein"
+AF222894	EMBL	gene	687207	687689	.	-	.	Name=rpS6
+AF222894	EMBL	CDS	687207	687689	.	-	.	Name=rpS6;Product="ribosomal protein S6"
+AF222894	EMBL	gene	687858	688367	.	+	.	
+AF222894	EMBL	CDS	687858	688367	.	+	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	688472	688884	.	-	.	Name=ssrA
+AF222894	EMBL	tmRNA	688472	688884	.	-	.	Name=ssrA;Product="ssrA"
+AF222894	EMBL	gene	689213	689701	.	-	.	
+AF222894	EMBL	CDS	689213	689701	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	689710	693105	.	-	.	
+AF222894	EMBL	CDS	689710	693105	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	693124	698775	.	-	.	
+AF222894	EMBL	CDS	693124	698775	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	698794	700113	.	-	.	Name=oppF
+AF222894	EMBL	CDS	698794	700113	.	-	.	Name=oppF;Product="oligopeptide transport system permease protein"
+AF222894	EMBL	gene	700134	701654	.	-	.	Name=oppD
+AF222894	EMBL	CDS	700134	701654	.	-	.	Name=oppD;Product="oligopeptide transport system permease protein"
+AF222894	EMBL	gene	701658	702656	.	-	.	Name=oppC
+AF222894	EMBL	CDS	701658	702656	.	-	.	Name=oppC;Product="oligopeptide transport system permease protein"
+AF222894	EMBL	gene	702661	703794	.	-	.	Name=oppB
+AF222894	EMBL	CDS	702661	703794	.	-	.	Name=oppB;Product="oligopeptide transport system permease protein"
+AF222894	EMBL	gene	703809	704249	.	-	.	
+AF222894	EMBL	CDS	703809	704249	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	704284	705477	.	-	.	
+AF222894	EMBL	CDS	704284	705477	.	-	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	705450	705710	.	+	.	
+AF222894	EMBL	CDS	705450	705710	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	705907	707391	.	-	.	
+AF222894	EMBL	CDS	705907	707391	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	707526	707897	.	-	.	Name=rpL19
+AF222894	EMBL	CDS	707526	707897	.	-	.	Name=rpL19;Product="ribosomal protein L19"
+AF222894	EMBL	gene	707907	708593	.	-	.	Name=trmD
+AF222894	EMBL	CDS	707907	708593	.	-	.	Name=trmD;Product="tRNA (guanine-N1)-methyltransferase"
+AF222894	EMBL	gene	708606	708911	.	-	.	Name=rpS16
+AF222894	EMBL	CDS	708606	708911	.	-	.	Name=rpS16;Product="ribosomal protein S16"
+AF222894	EMBL	gene	708998	709831	.	-	.	
+AF222894	EMBL	CDS	708998	709831	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	709862	711652	.	-	.	
+AF222894	EMBL	CDS	709862	711652	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	711892	715995	.	-	.	
+AF222894	EMBL	CDS	711892	715995	.	-	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	716191	717927	.	+	.	
+AF222894	EMBL	CDS	716191	717927	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	717992	719278	.	+	.	Name=kch
+AF222894	EMBL	CDS	717992	719278	.	+	.	Name=kch;Product="potassium channel protein"
+AF222894	EMBL	gene	719316	720233	.	-	.	
+AF222894	EMBL	CDS	719316	720233	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	720239	721192	.	-	.	
+AF222894	EMBL	CDS	720239	721192	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	721262	721663	.	-	.	Name=rpS9
+AF222894	EMBL	CDS	721262	721663	.	-	.	Name=rpS9;Product="ribosomal protein S9"
+AF222894	EMBL	gene	721683	722129	.	-	.	Name=rpL13
+AF222894	EMBL	CDS	721683	722129	.	-	.	Name=rpL13;Product="ribosomal protein L13"
+AF222894	EMBL	gene	722443	724023	.	+	.	
+AF222894	EMBL	CDS	722443	724023	.	+	.	Product="unique hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	724218	725831	.	+	.	
+AF222894	EMBL	CDS	724218	725831	.	+	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	726028	726528	.	+	.	
+AF222894	EMBL	CDS	726028	726528	.	+	.	Product="unique hypothetical"
+AF222894	EMBL	gene	726554	727330	.	+	.	Name=nusG
+AF222894	EMBL	CDS	726554	727330	.	+	.	Name=nusG;Product="transcription antitermination factor"
+AF222894	EMBL	gene	727817	729148	.	-	.	Name=deaD
+AF222894	EMBL	CDS	727817	729148	.	-	.	Name=deaD;Product="ATP-dependent RNA helicase"
+AF222894	EMBL	gene	729149	730753	.	-	.	Name=dinF-1
+AF222894	EMBL	CDS	729149	730753	.	-	.	Name=dinF-1;Product="DNA damage inducible protein-MATE transporter"
+AF222894	EMBL	gene	731227	732789	.	-	.	Name=dinF-2
+AF222894	EMBL	CDS	731227	732789	.	-	.	Name=dinF-2;Product="DNA damage inducible protein-MATE transporter"
+AF222894	EMBL	gene	732938	733585	.	-	.	Name=deoC
+AF222894	EMBL	CDS	732938	733585	.	-	.	Name=deoC;Product="deoxyribose-phosphate aldolase"
+AF222894	EMBL	gene	733597	735558	.	-	.	Name=tktA
+AF222894	EMBL	CDS	733597	735558	.	-	.	Name=tktA;Product="transketolase I"
+AF222894	EMBL	gene	735588	735851	.	-	.	Name=ptsH
+AF222894	EMBL	CDS	735588	735851	.	-	.	Name=ptsH;Product="phosphohistidinoprotein-hexose"
+AF222894	EMBL	gene	735951	737549	.	-	.	Name=cls
+AF222894	EMBL	CDS	735951	737549	.	-	.	Name=cls;Product="cardiolipin synthase"
+AF222894	EMBL	gene	737628	737716	.	-	.	
+AF222894	EMBL	tRNA	737628	737716	.	-	.	Product="tRNA-Ser"
+AF222894	EMBL	gene	737806	738126	.	-	.	Name=trx
+AF222894	EMBL	CDS	737806	738126	.	-	.	Name=trx;Product="thioredoxin"
+AF222894	EMBL	gene	738155	740188	.	-	.	Name=topA
+AF222894	EMBL	CDS	738155	740188	.	-	.	Name=topA;Product="DNA topoisomerase I"
+AF222894	EMBL	gene	740263	740982	.	-	.	
+AF222894	EMBL	CDS	740263	740982	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	741024	741845	.	-	.	
+AF222894	EMBL	CDS	741024	741845	.	-	.	Product="conserved hypothetical ATP/GTP-binding protein"
+AF222894	EMBL	gene	741857	742297	.	-	.	
+AF222894	EMBL	CDS	741857	742297	.	-	.	Product="unique hypothetical"
+AF222894	EMBL	gene	742334	743005	.	-	.	Name=tdk
+AF222894	EMBL	CDS	742334	743005	.	-	.	Name=tdk;Product="thymidine kinase"
+AF222894	EMBL	gene	743012	744118	.	-	.	Name=gtp1
+AF222894	EMBL	CDS	743012	744118	.	-	.	Name=gtp1;Product="GTP-binding protein"
+AF222894	EMBL	gene	744129	745001	.	-	.	Name=tsr
+AF222894	EMBL	CDS	744129	745001	.	-	.	Name=tsr;Product="fructose-bisphosphate aldolase"
+AF222894	EMBL	gene	745006	745488	.	-	.	Name=rpoE
+AF222894	EMBL	CDS	745006	745488	.	-	.	Name=rpoE;Product="DNA-directed RNA polymerase delta subunit"
+AF222894	EMBL	gene	745536	746753	.	-	.	
+AF222894	EMBL	CDS	745536	746753	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	746762	748210	.	-	.	Name=gltX
+AF222894	EMBL	CDS	746762	748210	.	-	.	Name=gltX;Product="glutamyl-tRNA synthetase"
+AF222894	EMBL	gene	748200	748997	.	-	.	
+AF222894	EMBL	CDS	748200	748997	.	-	.	Product="conserved hypothetical"
+AF222894	EMBL	gene	749031	749804	.	-	.	Name=ksgA
+AF222894	EMBL	CDS	749031	749804	.	-	.	Name=ksgA;Product="dimethyladenosine transferase"
+AF222894	EMBL	gene	749866	751017	.	-	.	
+AF222894	EMBL	CDS	749866	751017	.	-	.	Product="conserved hypothetical membrane lipoprotein"
+AF222894	EMBL	gene	751056	751397	.	-	.	Name=rnpA
+AF222894	EMBL	CDS	751056	751397	.	-	.	Name=rnpA;Product="ribonuclease p-protein component"
+AF222894	EMBL	gene	751403	751549	.	-	.	Name=rpL34

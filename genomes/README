@@ -1,0 +1,201 @@
+######SET PATHS:
+
+setenv RNIE /path/to/rnie/directory
+setenv TRANSTERM /path/to/transterm_hp_v2.06/directory
+setenv PARADIR /path/to/working/directory/on/the/cluster
+
+######################################################################
+#ALGORITHM NOTES
+######################################################################
+cd $RNIE/benchmark/genomes/
+ls *embl | perl -lane '$a=$F[0]; $a=$F[0]; $a=~s/embl/fasta/; print "sreformat -u fasta $F[0] > \$PARADIR/$a";' | sh
+
+#Fetch the Rfam gff annotations:
+ls *embl | perl -lane '$a=$F[0]; $a=~s/\.embl//; print "cp ~/data/rfam/rfam10/genomes/genome_gff/$a\.gff3 $a\.rfam10.gff3";' | sh
+#Convert EMBL annotations to GFF:
+ls *embl | perl -lane '$a=$F[0]; $a=~s/\.embl//; print "embl2gff.pl $F[0] > $a\.embl.gff3";' | sh
+#Collapse completely overlapping entries into entry & merge Rfam and EMBL annotations:
+ls *embl | perl -lane '$F[0]=~s/\.embl$//; print "../scripts/collapseGffs.pl -g $F[0].embl.gff3 -g $F[0].rfam10.gff3 > $F[0]\.merged.gff3"'
+
+#Make the shuffled genomes:
+cd $PARADIR
+ls *.fasta | perl -lane '$a=$F[0]; $a=~s/\.fasta/-shuffled.fasta/; print "esl-shuffle -d -N 1 $F[0] > $a";' | sh
+
+######################################################################
+#1. RNIE
+
+#Run RNIE on genomes:
+cd $PARADIR
+ls *.fasta | awk '{print "bsub -q long -n1 -R \42span[hosts=1] && select[type==X86_64]\42 -J\42"$1"\42 -o $PARADIR/"$1".err \47$RNIE/rnie.pl -f $PARADIR/"$1" --genome\47"}' | sh
+ls *.fasta | awk '{print "bsub -q long -n1 -R \42span[hosts=1] && select[type==X86_64]\42 -J\42"$1"\42 -o $PARADIR/"$1".err \47$RNIE/rnie.pl -f $PARADIR/"$1" --gene\47"}' | sh
+
+cp $PARADIR/*gen*Mode*rnie.gff $RNIE/benchmark/genomes/
+
+#Build data files:
+cd $RNIE/benchmark/genomes
+
+#Compute distances from known genes:                                     
+ls *.merged.gff3 | perl -lane '($rnieF,$rnieS)=($F[0],$F[0]); $rnieF=~s/\.merged/-genomeMode-rnie/;           $rnieS=~s/\.merged/-geneMode-rnie/;         $rnieF=~s/gff3/gff/; $rnieS=~s/gff3/gff/; ($utF,$utS)=($rnieF,$rnieS); $utF=~s/gff/dists/; $utS=~s/gff/dists/; print $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $rnieF > $utF;\n" . $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $rnieS > $utS; "' | sh
+ls *.merged.gff3 | perl -lane '($rnieF,$rnieS)=($F[0],$F[0]); $rnieF=~s/\.merged/-shuffled-genomeMode-rnie/; $rnieS=~s/\.merged/-shuffled-geneMode-rnie/; $rnieF=~s/gff3/gff/; $rnieS=~s/gff3/gff/; ($utF,$utS)=($rnieF,$rnieS); $utF=~s/gff/dists/; $utS=~s/gff/dists/; print $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $rnieF > $utF;\n" . $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $rnieS > $utS; "' | sh
+
+ls *-genomeMode-rnie.dists | egrep -v 'AL009126|U00096' | grep -v shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n >          genomeMode-rnie.dists
+ls *-geneMode-rnie.dists   | egrep -v 'AL009126|U00096' | grep -v shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n >          geneMode-rnie.dists
+ls *-genomeMode-rnie.dists | egrep -v 'AL009126|U00096' | grep    shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n > shuffled-genomeMode-rnie.dists
+ls *-geneMode-rnie.dists   | egrep -v 'AL009126|U00096' | grep    shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n > shuffled-geneMode-rnie.dists
+
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F, "< $F[2]-genomeMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' > genomeMode-rnie.distsSpecies
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F,   "< $F[2]-geneMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' >   geneMode-rnie.distsSpecies
+
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F, "< $F[2]-shuffled-genomeMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' > shuffled-genomeMode-rnie.distsSpecies
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F,   "< $F[2]-shuffled-geneMode-rnie.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' >   shuffled-geneMode-rnie.distsSpecies
+
+R CMD BATCH --no-save ../scripts/plotDists.R
+
+######################################################################
+#2. TransTermHP
+#usage: transterm [options] *.fasta *.coords
+# *.coords file format:
+# gene_name  start  end  chrom_id
+
+cd $PARADIR
+ls -1 *.merged.gff3 > blah1;
+ls -1 *.merged.gff3 | perl -lane 's/\./\-/g; s/\-gff3/\.coords/; print' > blah2
+paste blah1 blah2 | awk '{print "cat "$1" | perl -lane \47($s,$e)=($F[3],$F[4]); ($s,$e)=($F[4],$F[3]) if ($F[6]=~/\\-/); $F[0]=~s/\\.\\d+$//; $g++; print \42gene$g\\t$s\\t$e\\t$F[0];\42;\47 > "$2}' | sh
+
+cd $TRANSTERM
+ls -1 $PARADIR/*-merged.coords > blah1;
+ls -1 $PARADIR/*fasta | grep -v shuffled > blah2
+#Run transterm
+paste blah2 blah1 | perl -lane '$a=$F[0]; $a=~s/fasta/transterm/; print "/usr/bin/time transterm -p expterm.dat $F[0] $F[1] > $a";' | sh
+
+#Gen. shuffled coords:
+cd $PARADIR
+ls -1 *.merged.gff3 > blah1;
+ls -1 *.merged.gff3 | perl -lane 's/\./\-/g; s/\-gff3/-shuffled\.coords/; print' > blah2
+paste blah1 blah2 | awk '{print "cat "$1" | perl -lane \47($s,$e)=($F[3],$F[4]); ($s,$e)=($F[4],$F[3]) if ($F[6]=~/\\-/); $F[0]=~s/\\.\\d+$//; $g++; print \42gene$g\\t$s\\t$e\\t$F[0];-shuffled\42;\47 > "$2}' | sh
+
+#Run transterm on shuffled genomes:
+cd $TRANSTERM
+ls -1 $PARADIR/*-merged-shuffled.coords > blah3;
+ls -1 $PARADIR/*fasta | grep    shuffled > blah4
+paste blah4 blah3 | perl -lane '$a=$F[0]; $a=~s/fasta/transterm/; print "/usr/bin/time transterm -p expterm.dat $F[0] $F[1] > $a";' | sh
+
+#Convert transterm output to gff:
+cd $PARADIR
+ls -1 $PARADIR/*transterm | perl -lane 'print "\$RNIE/benchmark/scripts/transtermHP2gff.pl -t $F[0]";' | sh
+
+#Build data files:
+cd $RNIE/benchmark/genomes
+ls *.merged.gff3                       > blah0
+ls *.transterm.gff  | grep -v shuffled > blah1
+ls *.transterm.gff  | grep    shuffled > blah2
+
+paste blah0 blah1 | perl -lane '$ut=$F[1]; $ut=~s/gff/dists/; print $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $F[1] > $ut "' | sh
+paste blah0 blah2 | perl -lane '$ut=$F[1]; $ut=~s/gff/dists/; print $ENV{"RNIE"} . "/benchmark/scripts/terminatorDistances.pl -g $F[0] -t $F[1] > $ut "' | sh
+
+ls *.transterm.dists   | egrep -v 'AL009126|U00096|^ALL|^SOME' | grep -v shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n >          transterm.dists
+ls *.transterm.dists   | egrep -v 'AL009126|U00096|^ALL|^SOME' | grep    shuffled | tr "\n" " " | perl -lane 'print "cat $_"' | sh | sort -k2n > shuffled-transterm.dists
+
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F, "< $F[2].transterm.dists");          while($f=<F>){chomp($f); print "$f\t$F[3]"}' >          transterm.distsSpecies
+grep ^"# #" ../scripts/plotDists.R | perl -lane 'open(F, "< $F[2]-shuffled.transterm.dists"); while($f=<F>){chomp($f); print "$f\t$F[3]"}' > shuffled-transterm.distsSpecies
+
+######################################################################
+#Plot:
+R CMD BATCH --no-save ../scripts/plotDists.R
+
+######################################################################
+#TIMES:
+
+##############
+#TRANSTERMHP
+# Seq: AE000511; (length 1667867, 1643 genes) 
+
+# Wall clock time = 14 seconds.
+# 13.87user 0.06system 0:14.06elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+6455minor)pagefaults 0swaps
+# Seq: AE000513; (length 2648638, 2703 genes) 
+
+# Wall clock time = 12 seconds.
+# 11.26user 0.19system 0:11.95elapsed 95%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+12315minor)pagefaults 0swaps
+# Seq: AE000516; (length 4403837, 4305 genes) 
+
+# Wall clock time = 20 seconds.
+# 20.10user 0.24system 0:20.68elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+22089minor)pagefaults 0swaps
+# Seq: AE001363; (length 1230230, 1163 genes) 
+
+# Wall clock time = 10 seconds.
+# 10.16user 0.06system 0:10.35elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+5733minor)pagefaults 0swaps
+# Seq: AE009951; (length 2174500, 2205 genes) 
+
+# Wall clock time = 20 seconds.
+# 19.82user 0.12system 0:20.03elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+10109minor)pagefaults 0swaps
+# Seq: AE014613; (length 4791961, 4876 genes) 
+
+# Wall clock time = 34 seconds.
+# 33.61user 0.35system 0:34.26elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+24112minor)pagefaults 0swaps
+# Seq: AE015928; (length 6260361, 4920 genes) 
+
+# Wall clock time = 51 seconds.
+# 50.17user 0.51system 0:50.85elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+24555minor)pagefaults 0swaps
+# Seq: AE016823; (length 4277185, 3526 genes) 
+
+# Wall clock time = 38 seconds.
+# 37.31user 0.43system 0:38.01elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+20441minor)pagefaults 0swaps
+# Seq: AE017126; (length 1751080, 1945 genes) 
+
+# Wall clock time = 16 seconds.
+# 15.11user 0.08system 0:15.58elapsed 97%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+6656minor)pagefaults 0swaps
+# Seq: AF222894; (length 751719, 690 genes) 
+
+# Wall clock time = 7 seconds.
+# 6.95user 0.03system 0:07.24elapsed 96%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+3506minor)pagefaults 0swaps
+
+# Wall clock time = 7 seconds.
+# 6.95user 0.03system 0:07.24elapsed 96%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+3506minor)pagefaults 0swaps
+# Seq: AL009126; (length 4215606, 4542 genes)
+
+# Wall clock time = 34 seconds.
+# 33.55user 0.25system 0:33.98elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+20407minor)pagefaults 0swaps
+# Seq: AM180355; (length 4290252, 10911 genes)
+
+# Wall clock time = 40 seconds.
+# 39.05user 0.62system 0:39.83elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+20472minor)pagefaults 0swaps
+# Seq: AP009493; (length 8545929, 7267 genes)
+
+# Wall clock time = 25 seconds.
+# 24.21user 0.39system 0:24.75elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+27670minor)pagefaults 0swaps
+# Seq: CP000771; (length 1948941, 2086 genes)
+
+# Wall clock time = 17 seconds.
+# 16.86user 0.12system 0:17.64elapsed 96%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+6772minor)pagefaults 0swaps
+# Seq: CP000975; (length 2287145, 2545 genes)
+
+# Wall clock time = 18 seconds.
+# 17.57user 0.16system 0:17.81elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+10708minor)pagefaults 0swaps
+# Seq: CP001147; (length 2003803, 2167 genes)
+
+# Wall clock time = 17 seconds.
+# 17.45user 0.06system 0:17.70elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+7147minor)pagefaults 0swaps
+# Seq: U00096; (length 4639675, 5569 genes)
+
+# Wall clock time = 34 seconds.
+# 33.38user 0.32system 0:33.94elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+# 0inputs+0outputs (0major+23262minor)pagefaults 0swaps
+
+

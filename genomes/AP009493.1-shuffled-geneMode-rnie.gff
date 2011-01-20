@@ -1,0 +1,2 @@
+AP009493;-shuffled	RNIE	terminator	4678390	4678426	14.46	+	.	ID=terminator10000;E_value=1.11e+01;Bits=14.46;sumBits=14.46;Note=Predicted Rho independent terminator using cmsearch,seed-a-14=14.46,seed-b-14=14.86
+AP009493;-shuffled	RNIE	terminator	5808983	5809011	14.01	-	.	ID=terminator10001;E_value=4.47e+01;Bits=14.01;sumBits=14.01;Note=Predicted Rho independent terminator using cmsearch,seed-b-14=14.01

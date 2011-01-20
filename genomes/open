@@ -1,0 +1,136 @@
+
+R version 2.10.1 (2009-12-14)
+Copyright (C) 2009 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #cd $RNIE/benchmark/genomes
+> #R CMD BATCH --no-save ../scripts/plotDists.R
+> 
+> # # AE000511.1   Hpylori    Helicobacter pylori 26695
+> # # AE000513.1   Dradiodur  Deinococcus radiodurans R1
+> # # AE000516.2   Mtubercul  Mycobacterium tuberculosis CDC1551
+> # # AE001363.1   Cpneum	  Chlamydophila pneumoniae CWL029
+> # # AE009951.2   Fnucleat	  Fusobacterium nucleatum subsp. nucleatum ATCC 25586
+> # # AE014613.1   Styphi	  Salmonella enterica subsp. enterica serovar Typhi str. Ty2
+> # # AE015928.1   Bthetaio	  Bacteroides thetaiotaomicron VPI-5482
+> # # AE016823.1   Linterr	  Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130
+> # # AE017126.1   Pmarinus	  Prochlorococcus marinus subsp. marinus str. CCMP1375
+> # # AF222894.1   Uparvum	  Ureaplasma parvum serovar 3 str. ATCC 700970
+> # # AL009126.3   Bsubtilis  Bacillus subtilis subsp. subtilis str. 168
+> # # AM180355.1   Cdiff	  Clostridium difficile 630
+> # # AP009493.1   Sgris	  Streptomyces griseus subsp. griseus NBRC 13350
+> # # CP000771.1   Fnodo	  Fervidobacterium nodosum Rt17-B1
+> # # CP000975.1   Minfern	  Methylacidiphilum infernorum V4
+> # # CP001147.1   Tyellow	  Thermodesulfovibrio yellowstonii DSM 11347
+> # # U00096.2     Ecoli	  Escherichia coli str. K-12 substr. MG1655
+> 
+> rnieF          <-read.table("fast.cm-rnie.dists",header = F, sep = "\t")
+> rnieS          <-read.table("slow.cm-rnie.dists",header = F, sep = "\t")
+> rnieFS         <-read.table("shuffled-fast.cm-rnie.dists",header = F, sep = "\t")
+> rnieSS         <-read.table("shuffled-slow.cm-rnie.dists",header = F, sep = "\t")
+> 
+> transterm      <-read.table("SOME.transterm.dists",header = F, sep = "\t")
+> transtermShuff <-read.table("SOME-shuffled.transterm.dists",header = F, sep = "\t")
+> 
+> mx<-ceiling(max(c(rnieF[,2],rnieS[,2],rnieFS[,2],rnieSS[,2],transterm[,2],transtermShuff[,2]))+1)
+> mn<-ceiling(min(c(rnieF[,2],rnieS[,2],rnieFS[,2],rnieSS[,2],transterm[,2],transtermShuff[,2]))-1)
+> 
+> breaks <- seq(-2000,2000,by=6)
+> breaks <- c(mn, breaks, mx)
+> rnieFH<-  hist(rnieF[,2],breaks=breaks,plot=F)
+> rnieSH<-  hist(rnieS[,2],breaks=breaks,plot=F)
+> rnieFSH<-  hist(rnieFS[,2],breaks=breaks,plot=F)
+> rnieSSH<-  hist(rnieSS[,2],breaks=breaks,plot=F)
+> 
+> transtermH     <-    hist(transterm[,2],breaks=breaks,plot=F)
+> transtermShuffH<-    hist(transtermShuff[,2],breaks=breaks,plot=F)
+> 
+> totals<-c(
++ sum(transtermShuffH$counts), 
++ sum(rnieSSH$counts),
++ sum(rnieFSH$counts), 
++ sum(transtermH$counts), 
++ sum(rnieSH$counts), 
++ sum(rnieFH$counts)
++ )
+> 
+> totalsM<-mat.or.vec(length(totals), length(totals))
+> for (i in seq(1,length(totals))){
++     totalsM[i,i]<-log10(totals[i])
++ }
+> 
+> pdf(file="geneProximity.pdf")
+> 
+> op<-par(mfrow=c(1,1),cex=0.75,las=1,ylog='TRUE',mai=c(1.02, 0.82, 0.82, 0.42))
+> plot(lowess(rnieFH$mids[2:(length( rnieFH$mids)-1)],log10(rnieFH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/25), xlim=c(-650,1000), ylim=c(0,3), type='l', col='black', main='Terminator proximity to annotated genic features', xlab='Minimum distance from a 3\47 end of all genic features (nucs)', ylab='Frequency', yaxt="n", lwd=3)
+> axis(2,at=c(0,log10(5),1,log10(50),2,log10(500),3),labels=c(0,5,10,50,100,500,1000), las=1)
+> lines(lowess(rnieFSH$mids[2:(length( rnieFH$mids)-1)],      log10(rnieFSH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/25),col='black',lty=2,lwd=3)
+> lines(lowess(rnieSH$mids[2:(length( rnieFH$mids)-1)],       log10(rnieSH$counts[2:(length( rnieFH$mids)-1)]+1),  f = 1/25),col='grey', lty=1,lwd=3)
+> lines(lowess(rnieSSH$mids[2:(length( rnieFH$mids)-1)],      log10(rnieSSH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/25),col='grey', lty=2,lwd=3)
+> 
+> lines(lowess(transtermH$mids[2:(length( rnieFH$mids)-1)], log10(transtermH$counts[2:(length( rnieFH$mids)-1)]+1),f = 1/25),col='green',lty=1,lwd=3)
+> lines(lowess(transtermShuffH$mids[2:(length( rnieFH$mids)-1)], log10(transtermShuffH$counts[2:(length( rnieFH$mids)-1)]+1), f = 1/25),col='green', lty=2,lwd=3)
+> 
+> leg<-legend(123, 3 ,c(
++ "A. RNIE (fast)",
++ "B. RNIE (slow)",
++ "C. TransTermHP",
++ "D. RNIE (fast) on permuted genomes",
++ "E. RNIE (slow) on permuted genomes",
++ "F. TransTermHP on permuted genomes"),
++ col=c("black","grey","green","black","grey","green"),lty=c(1,1,1,2,2,2),lwd=c(3,3,3,3,3,3),ncol=1,cex=0.75)
+> lines(c(0,0), c(-500,500),col='black', lty=3)
+> 
+> cols<-c(
++ "green",
++ "grey",
++ "black",
++ "green",
++ "grey",
++ "black"
++ )
+> densities<-c(50,50,50,1000,1000,1000)
+> par(fig=c(0.47,0.89,0.48,0.70),mai=c(0.2,0.2,0.09,0),las=1, new=TRUE,cex=0.6)
+> #c(x1, x2, y1, y2)
+> #mai: bottom, left, top, right)
+> #pars$mai 1.02 0.82 0.82 0.42
+> barplot(totalsM, xlab="",names.arg=c("F","E","D","C","B","A"), col=cols, density=densities, horiz='TRUE', main="Total number of predictions", xaxt="n")
+> axis(1,at=c(0,log10(5),1,log10(50),2,log10(500),3,log10(5000)),labels=c(0,"",10,"",100,"",1000,""), las=1)
+> 
+> dev.off()
+null device 
+          1 
+> 
+> ######################################################################
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  2.099   0.085   2.352 
